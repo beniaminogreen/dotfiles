@@ -46,21 +46,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/beniamino/stowfiles
-	neovim
-9
-d/home/beniamino/stowfiles/neovim
-	.config
-1
-d/home/beniamino/stowfiles/neovim/.config
-	nvim
-1
-d/home/beniamino/stowfiles/neovim
-	.config
-1
-d/home/beniamino/stowfiles
-	nvim
-9
 d/home/beniamino/stowfiles/nvim
 	.vimrc
 2
@@ -344,8 +329,23 @@ d/home/beniamino/stowfiles
 	fontconfig
 7
 d/home/beniamino
-	stowfiles
+	dotfiles
+7
+d/home/beniamino/dotfiles
+	nvim
 8
+d/home/beniamino/dotfiles/nvim
+	.config
+1
+d/home/beniamino/dotfiles/nvim/.config
+	nvim
+1
+d/home/beniamino/dotfiles/nvim/.config/nvim
+	plugged
+2
+d/home/beniamino/dotfiles/nvim/.config/nvim/plugged
+	..
+0
 d
 
 # Right window history (oldest to newest):
@@ -397,7 +397,19 @@ pnvim
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/beniamino/.local/share/vifm/Trash/000_dotfiles
+""/home/beniamino/.local/share/vifm/Trash/001_Nvim-R
+""/home/beniamino/.local/share/vifm/Trash/001_bats.vim
+""/home/beniamino/.local/share/vifm/Trash/001_goyo.vim
+""/home/beniamino/.local/share/vifm/Trash/001_quick-scope
+""/home/beniamino/.local/share/vifm/Trash/001_rust.vim
+""/home/beniamino/.local/share/vifm/Trash/001_sxhkd-vim
+""/home/beniamino/.local/share/vifm/Trash/001_vifm.vim
+""/home/beniamino/.local/share/vifm/Trash/001_vim-airline
+""/home/beniamino/.local/share/vifm/Trash/001_vim-css-color
+""/home/beniamino/.local/share/vifm/Trash/001_vim-multiple-cursors
+""/home/beniamino/.local/share/vifm/Trash/001_vim-surround
+""/home/beniamino/.local/share/vifm/Trash/001_vim-titlecase
+""/home/beniamino/.local/share/vifm/Trash/001_vimagit
 
 # Directory stack (oldest to newest):
 
@@ -22166,6 +22178,32 @@ t/home/beniamino/.local/share/vifm/Trash/008_wget
 	/home/beniamino/.config/wget
 t/home/beniamino/.local/share/vifm/Trash/000_dotfiles
 	/home/beniamino/dotfiles
+t/home/beniamino/.local/share/vifm/Trash/001_Nvim-R
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/Nvim-R
+t/home/beniamino/.local/share/vifm/Trash/001_bats.vim
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/bats.vim
+t/home/beniamino/.local/share/vifm/Trash/001_goyo.vim
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/goyo.vim
+t/home/beniamino/.local/share/vifm/Trash/001_quick-scope
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/quick-scope
+t/home/beniamino/.local/share/vifm/Trash/001_rust.vim
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/rust.vim
+t/home/beniamino/.local/share/vifm/Trash/001_sxhkd-vim
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/sxhkd-vim
+t/home/beniamino/.local/share/vifm/Trash/001_vifm.vim
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vifm.vim
+t/home/beniamino/.local/share/vifm/Trash/001_vim-airline
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vim-airline
+t/home/beniamino/.local/share/vifm/Trash/001_vim-css-color
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vim-css-color
+t/home/beniamino/.local/share/vifm/Trash/001_vim-multiple-cursors
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vim-multiple-cursors
+t/home/beniamino/.local/share/vifm/Trash/001_vim-surround
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vim-surround
+t/home/beniamino/.local/share/vifm/Trash/001_vim-titlecase
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vim-titlecase
+t/home/beniamino/.local/share/vifm/Trash/001_vimagit
+	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vimagit
 
 # State:
 f
