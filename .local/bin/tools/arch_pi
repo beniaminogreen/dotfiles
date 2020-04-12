@@ -1,0 +1,56 @@
+#!/bin/sh
+
+echo installing arch linux on $1
+DISK_LOCATION=$1
+BOOT_PARTITION="${DISK_LOCATION}1"
+ROOT_PARTITION="${DISK_LOCATION}2"
+
+HOME=~
+BOOT="/mnt/boot"
+ROOT="/mnt/root"
+
+#Todo - make this a for loop
+mountpoint -q -- $BOOT && echo "/mnt/boot is mounted, unmounting" && sudo su -c "umount $BOOT" &&
+mountpoint -q -- $ROOT && echo "/mnt/boot is mounted, unmounting" && sudo su -c "umount $ROOT" &&
+[ ! -d $ROOT ] && sudo mkdir -p $ROOT &&
+[ ! -d $BOOT ] && sudo mkdir -p $BOOT
+
+
+echo mounted, creating partition tables
+sudo wipefs -af $DISK_LOCATION &&
+sudo parted $DISK_LOCATION --script -- mklabel msdos &&
+sudo parted $DISK_LOCATION --script -- mkpart primary fat32 1 128 &&
+sudo parted $DISK_LOCATION --script -- mkpart primary ext4 128 100% &&
+sudo parted $DISK_LOCATION --script -- set 1 boot on &&
+sudo mkfs.vfat -F32 $BOOT_PARTITION &&
+sudo mkfs.ext4 -F $ROOT_PARTITION &&
+sudo mount $BOOT_PARTITION $BOOT && echo Boot mounted
+sudo mount $ROOT_PARTITION $ROOT && echo Root mounted
+
+echo partitions created, dowloading and extracting arch
+
+
+if [ -f ~/Downloads/ArchLinuxARM-rpi-3-latest.tar.gz ]
+then
+	echo "Found an arch installation in ~/Downloads, using this"
+	sudo tar -xf ~/Downloads/ArchLinuxARM-rpi-3-latest.tar.gz -C $ROOT
+else
+	echo "Did not find an arch instalation, downloading with wget"
+wget -O- http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-3-latest.tar.gz |
+   sudo tar -xzf - -C $ROOT
+fi
+
+echo setting up boot sector
+sudo mv ${ROOT}/boot/* $BOOT &&
+
+echo boot sector setup, setting up ssh
+sudo mkdir $ROOT/root/.ssh &&
+sudo su -c "cat ${HOME}/.ssh/id_rsa.pub > ${ROOT}/root/.ssh/authorized_keys" &&
+sudo su -c "chmod +0600 ${ROOT}/root/.ssh/authorized_keys" &&
+sudo su -c "chmod +0700 ${ROOT}/root/.ssh" &&
+sudo su -c "touch ${BOOT}/ssh"
+
+sudo su -c "echo unmouting $BOOT; umount ${BOOT}" &&
+sudo su -c "echo unmouting $ROOT; umount ${ROOT}"
+
+echo done

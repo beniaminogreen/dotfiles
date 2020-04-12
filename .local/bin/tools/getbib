@@ -1,0 +1,18 @@
+#!/bin/sh
+# Adapted From: https://github.com/LukeSmithxyz/voidrice/blob/master/.scripts/tools/getbib
+#A simple script that generates BibTex citations from PDF files or DOIs.
+#It's useful to set an enviroment variable for your bib file so you can
+#call it like this: "getbib *.pdf >> $BIB"
+for var in "$@"
+do
+	if [ -f "${var}" ]; then
+		doi=$(pdfinfo "${var}" | grep -io "10\.[0-9]\{4\}/.*[0-9a-Z]" -m 1) ||
+		doi=$(pdftotext "${var}" 2>/dev/null - |grep -io "10\.[0-9]\{4\}/.*[0-9a-Z]" -m 1) ||
+		continue
+	else
+		doi="${var}"
+	fi
+
+	URL="http://api.crossref.org/works/${doi}/transform/application/x-bibtex"
+	curl -s $URL --fail && echo
+done

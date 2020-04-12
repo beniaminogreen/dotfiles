@@ -1,0 +1,22 @@
+#!/bin/sh
+# A script for those too enligthened to manage their workspaces themselves.
+# Moves all occupied monitors to the first available spots
+moveone (){
+	DESKTOPS=($(bspc wm -g | sed 's/:/\n/g' | egrep "[OofF][VIX]"))
+	for i in ${!DESKTOPS[@]}
+	do
+		if [[ ${DESKTOPS[$i]} =~ [f] ]]
+		then
+			for (( j=i+1; j<=${#DESKTOPS[@]}; j++ ))
+			do
+				if [[ ${DESKTOPS[$j]} =~ [oO] ]]
+				then
+					 bspc desktop ${DESKTOPS[$i]:1} --swap ${DESKTOPS[$j]:1}
+					 moveone
+				fi
+			done
+		fi
+	done
+}
+
+moveone

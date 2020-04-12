@@ -1,0 +1,12 @@
+#!/bin/sh
+#'A tool to sort a bibliography by tags. Modifies file in place
+if [ -f $1 ]
+then
+	awk '/@.*/{if (x)print x;x="";}{x=(!x)?$0:x"<MARKER>"$0;}END{print x;}' $1 |
+		sed "s/\(@[A-z]*{\([A-z0-9]*\)\)/\2\1/" | sort -f -u|
+		sed "s/^[A-z0-9]*@/@/;
+			s/    /\t/g;
+			s/<MARKER>/\n/g;
+			s/}}$/}\n}/" > /tmp/temp_bib
+	mv /tmp/temp_bib "${1}"
+fi

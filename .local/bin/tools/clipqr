@@ -1,0 +1,10 @@
+#!/bin/sh
+# a short script, takes whatever is on the clipboard and
+# full-screens it as a QR code
+
+mkdir /tmp/qrcodes
+LINK=`xclip -selection c -o`
+qrencode -o /tmp/qrcodes/qr.png $LINK
+
+sxiv /tmp/qrcodes/qr.png -z 1000 -f
+rm -rf /tmp/qrcodes

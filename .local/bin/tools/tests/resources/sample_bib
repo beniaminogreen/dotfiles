@@ -1,0 +1,35 @@
+@article{Akhtar_2018,
+	doi = {10.1080/1369183x.2018.1443804},
+	url = {https://doi.org/10.1080%2F1369183x.2018.1443804},
+	year = 2018,
+	month = {mar},
+	publisher = {Informa {UK} Limited},
+	volume = {45},
+	number = {11},
+	pages = {1902--1918},
+	author = {Parveen Akhtar and Timothy Peace},
+	title = {Ethnic minorities in British politics: candidate selection and clan politics in the Labour Party},
+	journal = {Journal of Ethnic and Migration Studies}
+}
+@article{Heffernan_2003,
+	doi = {10.1111/1467-856x.00110},
+	url = {https://doi.org/10.1111%2F1467-856x.00110},
+	year = 2003,
+	month = {aug},
+	publisher = {{SAGE} Publications},
+	volume = {5},
+	number = {3},
+	pages = {347--372},
+	author = {Richard Heffernan},
+	title = {Prime Ministerial Predominance? Core Executive Politics in the {UK}},
+	journal = {The British Journal of Politics and International Relations}
+}
+@book{Zaller_1992,
+	doi = {10.1017/cbo9780511818691},
+	url = {https://doi.org/10.1017%2Fcbo9780511818691},
+	year = 1992,
+	month = {aug},
+	publisher = {Cambridge University Press},
+	author = {John R. Zaller},
+	title = {The Nature and Origins of Mass Opinion}
+}
