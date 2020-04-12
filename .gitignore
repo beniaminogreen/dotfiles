@@ -1,3 +1,2 @@
-autoload/
-plugged/
-plugged/*
+**/autoload
+**/plugged
