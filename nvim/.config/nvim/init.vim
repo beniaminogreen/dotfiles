@@ -308,7 +308,7 @@ set clipboard+=unnamedplus
 
 """ use external terminal emulator for R
 	let R_in_buffer=0
-	let R_term="alacritty"
+	let R_term=$TERMINAL
 	let R_assign=2
 
 """ w!! trick

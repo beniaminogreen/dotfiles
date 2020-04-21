@@ -46,306 +46,306 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/beniamino/stowfiles/nvim
-	.vimrc
-2
-d/home/beniamino/stowfiles
-	.local
-2
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles/.local/bin
-	bspwm
-1
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles/.local/bin
-	..
-0
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	nvim
-1
-d/home/beniamino/stowfiles
-	.local
-2
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles/.local/bin
-	..
-0
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	nvim
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	nvim
-1
-d/home/beniamino/stowfiles/.config/nvim
-	init.vim
-1
-d/home/beniamino/stowfiles/.config
-	nvim
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	aliases
-1
-d/home/beniamino/stowfiles
-	bash
-5
-d/home/beniamino/stowfiles/bash
-	.bash_profile
-1
-d/home/beniamino/stowfiles
-	profile
-12
-d/home/beniamino/stowfiles/profile
-	.profile
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	aliases
-1
-d/home/beniamino/stowfiles
-	profile
-12
-d/home/beniamino/stowfiles/profile
-	.profile
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	..
-0
-d/home/beniamino/stowfiles
-	profile
-12
-d/home/beniamino/stowfiles/profile
-	aliases
-2
-d/home/beniamino/stowfiles
-	profile
-12
-d/home/beniamino/stowfiles/profile
-	.config
-1
-d/home/beniamino/stowfiles/profile/.config
-	aliases
-1
-d/home/beniamino/stowfiles/profile
-	.config
-1
-d/home/beniamino/stowfiles
-	.config
-1
-d/home/beniamino/stowfiles/.config
-	..
-0
-d/home/beniamino/stowfiles
-	.local
-1
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles/.local/bin
-	..
-0
-d/home/beniamino/stowfiles/.local
-	bin
-1
-d/home/beniamino/stowfiles
-	.local
-1
+d/home/beniamino/UCL
+	POLS0010
+7
 d/home/beniamino
-	.config
-4
-d/home/beniamino/.config
-	hide
-13
-d/home/beniamino/.config/hide
-	nvim
-1
-d/home/beniamino/.config
-	hide
-13
+	Downloads
+2
+d/home/beniamino/Downloads
+	Practical Week 3_pols0010.pdf
+14
 d/home/beniamino
-	.config
-4
+	Downloads
+2
 d/home
 	beniamino
 2
 d/home/beniamino
-	.config
-4
-d/home/beniamino/.config
-	hide
-17
-d/home/beniamino/.config/hide
-	bspwm
+	Documents
 1
-d/home/beniamino/.config
-	bspwm
-5
-d/home/beniamino/.config/bspwm
-	..
-0
-d/home/beniamino/.config
-	hide
-7
-d/home/beniamino/.config/hide
-	dunst
-2
-d/home/beniamino/.config
-	hide
-7
-d/home/beniamino
-	.config
-4
-d/home/beniamino/.config
-	hide
-18
-d/home/beniamino/.config/hide
-	sxhkd
-4
-d/home/beniamino/.config
-	aliases
-25
-d/home/beniamino
-	.Xauthority
-11
-d/home
-	beniamino
-2
-d/home/beniamino
-	stowfiles
-8
-d/home/beniamino/stowfiles
-	bash
-4
-d/home/beniamino/stowfiles/bash
-	.bashrc
-2
-d/home/beniamino/stowfiles
-	bash
-4
-d/home/beniamino
-	.config
-4
-d/home/beniamino/.config
-	hide
-18
-d/home/beniamino/.config/hide
-	bspwm
-1
-d/home/beniamino/.config
-	hide
-18
-d/home/beniamino
-	auto-install
-5
-d/home/beniamino/auto-install
-	..
-0
-d/home/beniamino
-	dotfiles
+d/home/beniamino/Documents
+	books
 6
-d/home/beniamino/dotfiles
-	branches
-1
-d/home/beniamino
-	gen
+d/home/beniamino/Documents/books
+	gelman_hill2007_data_analysis_using_regression_and_multilevel-hierarchical_models.pdf
 7
-d/home/beniamino/gen
-	..
-0
+d/home/beniamino/Documents
+	backgrounds
+5
 d/home/beniamino
-	programming
+	UCL
+5
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino/UCL/POLS0010
+	final3
+4
+d/home/beniamino/UCL/POLS0010/final3
+	2020 Essay Part I POLS0010.pdf
+2
+d/home/beniamino/UCL/POLS0010
+	final3
+4
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	POLS0016
 8
-d/home/beniamino/programming
+d/home/beniamino/UCL/POLS0016
 	..
 0
-d/home/beniamino
-	stowfiles
-9
-d/home/beniamino/stowfiles
-	bash
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino/UCL/POLS0010
+	R
+1
+d/home/beniamino/UCL/POLS0010/R
+	week13
+7
+d/home/beniamino/UCL/POLS0010/R/week13
+	script1.R
+3
+d/home/beniamino/UCL/POLS0010/R
+	week13
+7
+d/home/beniamino/UCL/POLS0010
+	R
+1
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino/UCL/POLS0010
+	final3
 4
-d/home/beniamino
-	stowfiles
-9
-d/home/beniamino/stowfiles
-	bash
+d/home/beniamino/UCL/POLS0010/final3
+	data
+1
+d/home/beniamino/UCL/POLS0010/final3/data
+	..
+0
+d/home/beniamino/UCL/POLS0010/final3
+	final.tex
 4
-d/home/beniamino
-	.ssh
+d/home/beniamino/UCL/POLS0010
+	final3
 4
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	week16.r
+29
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	week16.r
+29
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino/UCL/POLS0010
+	final3
+4
+d/home/beniamino/UCL/POLS0010/final3
+	final.pdf
+4
+d/home/beniamino/UCL/POLS0010
+	final3
+4
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino
+	UCL
+5
 d/home
 	beniamino
 2
 d/home/beniamino
-	stowfiles
-15
-d/home/beniamino/stowfiles
-	X
+	Downloads
+2
+d/home/beniamino/Downloads
+	Friedrich_Nietzsche_-_On_Truth_and_Lies_in_a_Nonmoral_Sense[1].pdf
 3
 d/home/beniamino
-	stowfiles
-9
-d/home/beniamino/stowfiles
-	bash
-4
-d/home/beniamino/stowfiles/bash
-	.bash_profile
-1
-d/home/beniamino/stowfiles
-	nvim
-9
-d/home/beniamino/stowfiles/nvim
-	.config
-1
-d/home/beniamino/stowfiles
-	fontconfig
-7
+	Downloads
+2
+d/home/beniamino/Downloads
+	stargazer(1).pdf
+6
+d/home/beniamino
+	Downloads
+2
+d/home
+	beniamino
+2
 d/home/beniamino
 	dotfiles
 7
 d/home/beniamino/dotfiles
-	nvim
-8
-d/home/beniamino/dotfiles/nvim
-	.config
-1
-d/home/beniamino/dotfiles/nvim/.config
-	nvim
-1
-d/home/beniamino/dotfiles/nvim/.config/nvim
-	plugged
-2
-d/home/beniamino/dotfiles/nvim/.config/nvim/plugged
+	bspwm
+4
+d/home/beniamino/dotfiles/bspwm
 	..
 0
+d/home/beniamino/dotfiles
+	bspwm
+4
+d/home/beniamino/dotfiles/bspwm
+	..
+0
+d/home/beniamino/dotfiles
+	bspwm
+4
+d/home/beniamino/dotfiles/bspwm
+	..
+0
+d/home/beniamino/dotfiles
+	bspwm
+4
+d/home/beniamino/dotfiles/bspwm
+	.local
+2
+d/home/beniamino/dotfiles/bspwm/.local
+	bin
+1
+d/home/beniamino/dotfiles/bspwm/.local/bin
+	bspwm
+2
+d/home/beniamino/dotfiles/bspwm/.local
+	bin
+1
+d/home/beniamino/dotfiles/bspwm
+	.local
+2
+d/home/beniamino/dotfiles
+	bspwm
+5
+d/home/beniamino/dotfiles/bspwm
+	.config
+1
+d/home/beniamino/dotfiles/bspwm/.config
+	bspwm
+1
+d/home/beniamino/dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/beniamino/dotfiles/bspwm/.config
+	bspwm
+1
+d/home/beniamino/dotfiles/bspwm
+	.local
+2
+d/home/beniamino/dotfiles/bspwm/.local
+	bin
+1
+d/home/beniamino/dotfiles/bspwm/.local/bin
+	bspwm
+2
+d/home/beniamino/dotfiles/bspwm/.local
+	share
+2
+d/home/beniamino/dotfiles/bspwm/.local/share
+	..
+0
+d/home/beniamino/dotfiles/bspwm/.local
+	bin
+1
+d/home/beniamino/dotfiles/bspwm/.local/bin
+	bspwm
+1
+d/home/beniamino/dotfiles/bspwm/.local
+	bin
+1
+d/home/beniamino/dotfiles/bspwm
+	.local
+2
+d/home/beniamino/dotfiles
+	scripts
+11
+d/home/beniamino/dotfiles/scripts
+	bspwm
+1
+d/home/beniamino/dotfiles/scripts/bspwm
+	bspcfullscreen
+1
+d/home/beniamino/dotfiles/scripts
+	tools
+2
+d/home/beniamino/dotfiles/scripts/tools
+	..
+0
+d/home/beniamino/dotfiles/scripts
+	tools
+2
+d/home/beniamino/dotfiles/scripts/tools
+	tests
+1
+d/home/beniamino/dotfiles/scripts
+	bspwm
+1
+d/home/beniamino/dotfiles
+	scripts
+11
+d/home/beniamino/dotfiles/scripts
+	bspwm
+1
+d/home/beniamino/dotfiles
+	scripts
+11
+d/home/beniamino/dotfiles/scripts
+	bspwm
+1
+d/home/beniamino/dotfiles
+	bspwm
+4
+d/home/beniamino/dotfiles/bspwm
+	.config
+1
+d/home/beniamino/dotfiles
+	scripts
+12
+d/home/beniamino/dotfiles/scripts
+	bspwm
+1
+d/home/beniamino/dotfiles/scripts/bspwm
+	bspcfullscreen
+1
+d/home/beniamino/dotfiles/scripts
+	tools
+2
+d/home/beniamino/dotfiles
+	scripts
+12
+d/home/beniamino/dotfiles/scripts
+	.local
+1
+d/home/beniamino/dotfiles/scripts/.local
+	bin
+1
+d/home/beniamino/dotfiles/scripts
+	.local
+1
+d/home/beniamino/dotfiles/scripts/.local
+	bin
+1
+d/home/beniamino/dotfiles/scripts/.local/bin
+	bspwm
+1
 d
 
 # Right window history (oldest to newest):
@@ -358,9 +358,85 @@ D/home/beniamino/UCL
 D/home/beniamino/UCL/PHIL0068
 	readings
 2
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020/final/readings
+	oxford_genealogy.pdf
+12
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino
+	Downloads
+2
+D/home/beniamino/Downloads
+	..
+0
+D/home/beniamino
+	Music
+3
+D/home/beniamino/Music
+	..
+0
+D/home/beniamino
+	R
+4
+D/home/beniamino/R
+	..
+0
+D/home/beniamino
+	UCL
+5
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino
+	.local
+6
+D/home/beniamino/.local
+	bin
+1
+D/home/beniamino/.local/bin
+	bspwm
+2
+D/home/beniamino/.local/bin/bspwm
+	bspcfullscreen
+1
+D/home/beniamino/.local/bin
+	bspwm
+2
+D/home/beniamino/.local
+	bin
+1
+D/home/beniamino
+	.local
+6
+D/home/beniamino/.local
+	bin
+1
+D/home/beniamino/.local/bin
+	bspwm
+2
+D/home/beniamino/.local
+	bin
+1
 D
 
 # Command line history (oldest to newest):
+:!shell
 :mkdir 
 :mkdir backup
 :mkdir zsh
@@ -385,31 +461,34 @@ D
 :!stow polybar/
 :!stow vifm/
 :!stow wget/
+:!vim script2.R
+:mkdir
+:mkdir readings
+:mkdir .local
+:mkdir bin
 
 # Search history (oldest to newest):
 /.config
 
 # Prompt history (oldest to newest):
+pscript_1.r
+pscript_2.R
+phey.tex
+phey.texjjj
 pthe_one_and_only.mp4
 py
 pnvim
+pA.Electoral votes.csv
+pvotes.csv
+pscript1.R
+phistory_moral_phil.pdf
+pgenealogy_geuss.pdf
+phistorical_individuals.pdf
+poxford_genealogy.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/beniamino/.local/share/vifm/Trash/001_Nvim-R
-""/home/beniamino/.local/share/vifm/Trash/001_bats.vim
-""/home/beniamino/.local/share/vifm/Trash/001_goyo.vim
-""/home/beniamino/.local/share/vifm/Trash/001_quick-scope
-""/home/beniamino/.local/share/vifm/Trash/001_rust.vim
-""/home/beniamino/.local/share/vifm/Trash/001_sxhkd-vim
-""/home/beniamino/.local/share/vifm/Trash/001_vifm.vim
-""/home/beniamino/.local/share/vifm/Trash/001_vim-airline
-""/home/beniamino/.local/share/vifm/Trash/001_vim-css-color
-""/home/beniamino/.local/share/vifm/Trash/001_vim-multiple-cursors
-""/home/beniamino/.local/share/vifm/Trash/001_vim-surround
-""/home/beniamino/.local/share/vifm/Trash/001_vim-titlecase
-""/home/beniamino/.local/share/vifm/Trash/001_vimagit
 
 # Directory stack (oldest to newest):
 
@@ -22204,6 +22283,172 @@ t/home/beniamino/.local/share/vifm/Trash/001_vim-titlecase
 	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vim-titlecase
 t/home/beniamino/.local/share/vifm/Trash/001_vimagit
 	/home/beniamino/dotfiles/nvim/.config/nvim/plugged/vimagit
+t/home/beniamino/.local/share/vifm/Trash/002_.local
+	/home/beniamino/dotfiles/.local
+t/home/beniamino/.local/share/vifm/Trash/000_2020-10_citizens_advice_camden_1_gosh.pdf
+	/home/beniamino/Downloads/2020-10_citizens_advice_camden_1_gosh.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-12_climate_policy_initiative_1_cities.pdf
+	/home/beniamino/Downloads/2020-12_climate_policy_initiative_1_cities.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_41428123.pdf
+	/home/beniamino/Downloads/41428123.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_41428123(1).pdf
+	/home/beniamino/Downloads/41428123(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_shopping.md
+	/home/beniamino/shopping.md
+t/home/beniamino/.local/share/vifm/Trash/000_shopping.pdf
+	/home/beniamino/shopping.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_shopping.txt
+	/home/beniamino/shopping.txt
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200411-2215-10.png
+	/home/beniamino/pic-full-200411-2215-10.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200411-2306-17.png
+	/home/beniamino/pic-selected-200411-2306-17.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200411-2314-27.png
+	/home/beniamino/pic-selected-200411-2314-27.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200411-2314-37.png
+	/home/beniamino/pic-selected-200411-2314-37.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200413-2020-40.png
+	/home/beniamino/pic-selected-200413-2020-40.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200413-2101-23.png
+	/home/beniamino/pic-selected-200413-2101-23.png
+t/home/beniamino/.local/share/vifm/Trash/000_1467-9760.00091(1).pdf
+	/home/beniamino/Downloads/1467-9760.00091(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_FRZZ7(1).pdf
+	/home/beniamino/Downloads/FRZZ7(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_new-story.pdf
+	/home/beniamino/Downloads/new-story.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-13_climate_policy_initiative_2_glcf.pdf
+	/home/beniamino/Downloads/2020-13_climate_policy_initiative_2_glcf.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-14_citizens_advice_camden_2_macmillan_royal_free.pdf
+	/home/beniamino/Downloads/2020-14_citizens_advice_camden_2_macmillan_royal_free.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-15_huq_industries.pdf
+	/home/beniamino/Downloads/2020-15_huq_industries.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-16_bbc_data_analytics.pdf
+	/home/beniamino/Downloads/2020-16_bbc_data_analytics.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-17_bbc_marketing_sciences.pdf
+	/home/beniamino/Downloads/2020-17_bbc_marketing_sciences.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_4467614(2).pdf
+	/home/beniamino/Downloads/4467614(2).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_4467614(1).pdf
+	/home/beniamino/Downloads/4467614(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_4467614.pdf
+	/home/beniamino/Downloads/4467614.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_BICShareholdersLetter50_APR 2020-EN.pdf
+	/home/beniamino/Downloads/BICShareholdersLetter50_APR 2020-EN.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Clifford_ethics.pdf
+	/home/beniamino/Downloads/Clifford_ethics.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Draft-18.04.2020.r
+	/home/beniamino/Downloads/Draft-18.04.2020.r
+t/home/beniamino/.local/share/vifm/Trash/002_FRZZ7.pdf
+	/home/beniamino/Downloads/FRZZ7.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_1467-9760.00091.pdf
+	/home/beniamino/Downloads/1467-9760.00091.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Mark_Zmuda_Personnel_Action.pdf
+	/home/beniamino/Downloads/Mark_Zmuda_Personnel_Action.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_NIHMS524815-supplement-SI.pdf
+	/home/beniamino/Downloads/NIHMS524815-supplement-SI.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_TI Moral als Widernatur(1).pdf
+	/home/beniamino/Downloads/TI Moral als Widernatur(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_jr_enclaves_development.pdf
+	/home/beniamino/Downloads/jr_enclaves_development.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_rust_lang.pdf
+	/home/beniamino/Downloads/rust_lang.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_vermrule_2012.pdf
+	/home/beniamino/Downloads/vermrule_2012.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_types(1).pdf
+	/home/beniamino/Downloads/types(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_types(2).pdf
+	/home/beniamino/Downloads/types(2).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_types.pdf
+	/home/beniamino/Downloads/types.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_pols0010_lec8_2019_extra.pdf
+	/home/beniamino/Downloads/pols0010_lec8_2019_extra.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Practical Week 8_pols0010_sol.pdf
+	/home/beniamino/Downloads/Practical Week 8_pols0010_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_predictions1.tex
+	/home/beniamino/UCL/POLS0010/final3/predictions1.tex
+t/home/beniamino/.local/share/vifm/Trash/000_predictions2.tex
+	/home/beniamino/UCL/POLS0010/final3/predictions2.tex
+t/home/beniamino/.local/share/vifm/Trash/000_predictions.tex
+	/home/beniamino/UCL/POLS0010/final3/predictions.tex
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200417-1513-28.png
+	/home/beniamino/pic-full-200417-1513-28.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200417-1421-46.png
+	/home/beniamino/pic-selected-200417-1421-46.png
+t/home/beniamino/.local/share/vifm/Trash/000_dad.py
+	/home/beniamino/dad.py
+t/home/beniamino/.local/share/vifm/Trash/000_votes.csv
+	/home/beniamino/votes.csv
+t/home/beniamino/.local/share/vifm/Trash/000_hey.tex
+	/home/beniamino/hey.tex
+t/home/beniamino/.local/share/vifm/Trash/001_hey.tex
+	/home/beniamino/UCL/POLS0010/final3/hey.tex
+t/home/beniamino/.local/share/vifm/Trash/000_POLS0010_lec2(1).pdf
+	/home/beniamino/Downloads/POLS0010_lec2(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_POLS0010_lec2.pdf
+	/home/beniamino/Downloads/POLS0010_lec2.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Practical Week 2_pols0010(1).pdf
+	/home/beniamino/Downloads/Practical Week 2_pols0010(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Practical Week 2_pols0010.pdf
+	/home/beniamino/Downloads/Practical Week 2_pols0010.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Practical Week 6_pols0010_2020.pdf
+	/home/beniamino/Downloads/Practical Week 6_pols0010_2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Practical Week 6_pols0010_2020_sol.pdf
+	/home/beniamino/Downloads/Practical Week 6_pols0010_2020_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_glm.pdf
+	/home/beniamino/Downloads/glm.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_logselect.pdf
+	/home/beniamino/Downloads/logselect.pdf
+t/home/beniamino/.local/share/vifm/Trash/002_bin
+	/home/beniamino/dotfiles/bspwm/bin
+t/home/beniamino/.local/share/vifm/Trash/000_Steam
+	/home/beniamino/dotfiles/bspwm/.local/share/Steam
+t/home/beniamino/.local/share/vifm/Trash/000_applications
+	/home/beniamino/dotfiles/bspwm/.local/share/applications
+t/home/beniamino/.local/share/vifm/Trash/000_keyrings
+	/home/beniamino/dotfiles/bspwm/.local/share/keyrings
+t/home/beniamino/.local/share/vifm/Trash/000_larbs
+	/home/beniamino/dotfiles/bspwm/.local/share/larbs
+t/home/beniamino/.local/share/vifm/Trash/000_mail
+	/home/beniamino/dotfiles/bspwm/.local/share/mail
+t/home/beniamino/.local/share/vifm/Trash/000_mime
+	/home/beniamino/dotfiles/bspwm/.local/share/mime
+t/home/beniamino/.local/share/vifm/Trash/010_nvim
+	/home/beniamino/dotfiles/bspwm/.local/share/nvim
+t/home/beniamino/.local/share/vifm/Trash/003_ranger
+	/home/beniamino/dotfiles/bspwm/.local/share/ranger
+t/home/beniamino/.local/share/vifm/Trash/000_xorg
+	/home/beniamino/dotfiles/bspwm/.local/share/xorg
+t/home/beniamino/.local/share/vifm/Trash/000_gsettings-data-convert
+	/home/beniamino/dotfiles/bspwm/.local/share/gsettings-data-convert
+t/home/beniamino/.local/share/vifm/Trash/000_recently-used.xbel
+	/home/beniamino/dotfiles/bspwm/.local/share/recently-used.xbel
+t/home/beniamino/.local/share/vifm/Trash/000_user-places.xbel.tbcache
+	/home/beniamino/dotfiles/bspwm/.local/share/user-places.xbel.tbcache
+t/home/beniamino/.local/share/vifm/Trash/000_weatherreport
+	/home/beniamino/dotfiles/bspwm/.local/share/weatherreport
+t/home/beniamino/.local/share/vifm/Trash/000___pycache__
+	/home/beniamino/dotfiles/bspwm/.local/bin/__pycache__
+t/home/beniamino/.local/share/vifm/Trash/000_cron
+	/home/beniamino/dotfiles/bspwm/.local/bin/cron
+t/home/beniamino/.local/share/vifm/Trash/000_i3cmds
+	/home/beniamino/dotfiles/bspwm/.local/bin/i3cmds
+t/home/beniamino/.local/share/vifm/Trash/000_statusbar
+	/home/beniamino/dotfiles/bspwm/.local/bin/statusbar
+t/home/beniamino/.local/share/vifm/Trash/000_tools
+	/home/beniamino/dotfiles/bspwm/.local/bin/tools
+t/home/beniamino/.local/share/vifm/Trash/001_SCRIPTS.md
+	/home/beniamino/dotfiles/bspwm/.local/bin/SCRIPTS.md
+t/home/beniamino/.local/share/vifm/Trash/001_django-admin
+	/home/beniamino/dotfiles/bspwm/.local/bin/django-admin
+t/home/beniamino/.local/share/vifm/Trash/001_django-admin.py
+	/home/beniamino/dotfiles/bspwm/.local/bin/django-admin.py
+t/home/beniamino/.local/share/vifm/Trash/001_ttymaps.kmap
+	/home/beniamino/dotfiles/bspwm/.local/bin/ttymaps.kmap
+t/home/beniamino/.local/share/vifm/Trash/001_unix
+	/home/beniamino/dotfiles/bspwm/.local/bin/unix
+t/home/beniamino/.local/share/vifm/Trash/003_.local
+	/home/beniamino/dotfiles/bspwm/.local
 
 # State:
 f
@@ -22212,6 +22457,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0

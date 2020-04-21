@@ -16,6 +16,6 @@
 *.color6:     #8BE9FD
 *.color14:    #9AEDFE
 *.color7:     #BFBFBF
-*.color15:    #E6E6E6
+*.color15:    #B6B6B6
 *.cursorColor: #FF79C6
 *.font:	Roboto Mono:size=25:antialias=true:autohint=true;

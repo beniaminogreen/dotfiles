@@ -9,6 +9,7 @@ map <C-o> <C-w>o
 map <C-s> <C-w>s
 map <C-v> <C-w>v
 
+set vicmd=nvim
 filetype *.pdf zathura 2>/dev/null &
 fileviewer *.pdf
   \ pdftotext %c -
