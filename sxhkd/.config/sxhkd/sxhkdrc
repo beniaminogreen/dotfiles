@@ -1,8 +1,11 @@
-# Basic binds
 super + Return
 	st
-super + r
+super + e
 	$TERMINAL -e $FILE
+super + p
+	$TERMINAL -e python
+super + r
+	$TERMINAL -e R
 super + M
 	$TERMINAL -e firefox --new-window www.messenger.com
 super + m
@@ -21,8 +24,6 @@ super + shift + w
 	$BROWSER
 super + shift + grave
 	clipqr
-
-# Et cetera...
 super + grave
 	dmenuunicode
 super + Scroll_Lock

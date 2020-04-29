@@ -46,153 +46,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	Practical Week 3_pols0010.pdf
-14
-d/home/beniamino
-	Downloads
-2
-d/home
-	beniamino
-2
-d/home/beniamino
-	Documents
-1
-d/home/beniamino/Documents
-	books
-6
-d/home/beniamino/Documents/books
-	gelman_hill2007_data_analysis_using_regression_and_multilevel-hierarchical_models.pdf
-7
-d/home/beniamino/Documents
-	backgrounds
-5
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino/UCL/POLS0010
-	final3
-4
-d/home/beniamino/UCL/POLS0010/final3
-	2020 Essay Part I POLS0010.pdf
-2
-d/home/beniamino/UCL/POLS0010
-	final3
-4
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	POLS0016
-8
-d/home/beniamino/UCL/POLS0016
-	..
-0
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino/UCL/POLS0010
-	R
-1
-d/home/beniamino/UCL/POLS0010/R
-	week13
-7
-d/home/beniamino/UCL/POLS0010/R/week13
-	script1.R
-3
-d/home/beniamino/UCL/POLS0010/R
-	week13
-7
-d/home/beniamino/UCL/POLS0010
-	R
-1
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino/UCL/POLS0010
-	final3
-4
-d/home/beniamino/UCL/POLS0010/final3
-	data
-1
-d/home/beniamino/UCL/POLS0010/final3/data
-	..
-0
-d/home/beniamino/UCL/POLS0010/final3
-	final.tex
-4
-d/home/beniamino/UCL/POLS0010
-	final3
-4
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	week16.r
-29
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	week16.r
-29
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino/UCL/POLS0010
-	final3
-4
-d/home/beniamino/UCL/POLS0010/final3
-	final.pdf
-4
-d/home/beniamino/UCL/POLS0010
-	final3
-4
-d/home/beniamino/UCL
-	POLS0010
-7
-d/home/beniamino
-	UCL
-5
-d/home
-	beniamino
-2
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	Friedrich_Nietzsche_-_On_Truth_and_Lies_in_a_Nonmoral_Sense[1].pdf
-3
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	stargazer(1).pdf
-6
-d/home/beniamino
-	Downloads
-2
-d/home
-	beniamino
-2
 d/home/beniamino
 	dotfiles
 7
@@ -346,9 +199,171 @@ d/home/beniamino/dotfiles/scripts/.local
 d/home/beniamino/dotfiles/scripts/.local/bin
 	bspwm
 1
+d/home/beniamino/dotfiles/scripts/.local
+	bin
+1
+d/home/beniamino/dotfiles/scripts
+	.local
+1
+d/home/beniamino/dotfiles
+	profile
+11
+d/home/beniamino
+	Downloads
+6
+d/home/beniamino/Downloads
+	stargazer(1).pdf
+8
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	acprof-9780199279692-chapter-3.pdf
+6
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	acprof-9780199279692-chapter-3(1).pdf
+5
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	ESPS0020
+1
+d/home/beniamino/UCL/ESPS0020
+	final
+1
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	Friedrich_Nietzsche_-_On_Truth_and_Lies_in_a_Nonmoral_Sense[1].pdf
+1
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020
+	final
+1
+d/home/beniamino/UCL
+	ESPS0020
+1
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	Kail on genealogy.pdf
+11
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	Kail on genealogy.pdf
+11
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	ESPS0020
+1
+d/home/beniamino/UCL/ESPS0020
+	final
+1
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	Friedrich_Nietzsche_-_On_Truth_and_Lies_in_a_Nonmoral_Sense[1].pdf
+1
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	oxford_genealogy.pdf
+15
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	History.pdf
+5
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	history_moral_phil.pdf
+13
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	Nietzsches Genealogy_ An Historical Investigation of the Conting.pdf
+7
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020/final/readings
+	History.pdf
+5
+d/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+d/home/beniamino/UCL/ESPS0020
+	final
+1
+d/home/beniamino/UCL
+	ESPS0020
+1
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	GeneologyofMorals(1).pdf
+2
+d/home/beniamino
+	Downloads
+2
+d/home
+	beniamino
+2
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	707211.pdf
+1
+d/home/beniamino
+	Downloads
+2
+d/home
+	beniamino
+2
+d/home/beniamino
+	programming
+9
+d/home/beniamino/programming
+	..
+0
 d
 
 # Right window history (oldest to newest):
+D/home/beniamino/UCL/POLS0030
+	final
+1
+D/home/beniamino/UCL/POLS0030/final
+	writing
+3
+D/home/beniamino/UCL/POLS0030/final/writing
+	..
+0
+D/home/beniamino/UCL/POLS0030/final
+	FRZZ7.pdf
+5
+D/home/beniamino/UCL/POLS0030
+	final
+1
 D/home/beniamino
 	UCL
 5
@@ -433,6 +448,108 @@ D/home/beniamino/.local/bin
 D/home/beniamino/.local
 	bin
 1
+D/home/beniamino
+	.local
+6
+D/home
+	beniamino
+2
+D/home/beniamino
+	UCL
+5
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020/final/readings
+	genealogy_geuss.pdf
+10
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020/final/readings
+	genealogy_geuss.pdf
+11
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL
+	POLS0010
+7
+D/home/beniamino/UCL/POLS0010
+	final2
+3
+D/home/beniamino/UCL/POLS0010/final2
+	final2.pdf
+7
+D/home/beniamino/UCL/POLS0010
+	final2
+3
+D/home/beniamino/UCL
+	POLS0010
+7
+D/home/beniamino
+	UCL
+5
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL/ESPS0020/final
+	final.tex
+3
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino
+	programming
+9
+D/home
+	beniamino
+2
+D/home/beniamino
+	auto-install
+6
+D/home/beniamino/auto-install
+	..
+0
+D/home/beniamino
+	UCL
+5
+D/home/beniamino/UCL
+	ESPS0020
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020/final/readings
+	Nietzsches Genealogy_ An Historical Investigation of the Conting.pdf
+7
+D/home/beniamino/UCL/ESPS0020/final
+	readings
+1
+D/home/beniamino/UCL/ESPS0020
+	final
+1
+D/home/beniamino/UCL
+	ESPS0020
+1
 D
 
 # Command line history (oldest to newest):
@@ -489,6 +606,7 @@ poxford_genealogy.pdf
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/beniamino/.local/share/vifm/Trash/000_pic-full-200429-1428-32.png
 
 # Directory stack (oldest to newest):
 
@@ -22449,14 +22567,96 @@ t/home/beniamino/.local/share/vifm/Trash/001_unix
 	/home/beniamino/dotfiles/bspwm/.local/bin/unix
 t/home/beniamino/.local/share/vifm/Trash/003_.local
 	/home/beniamino/dotfiles/bspwm/.local
+t/home/beniamino/.local/share/vifm/Trash/000_GeneologyofMorals.pdf
+	/home/beniamino/Downloads/GeneologyofMorals.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199279692-chapter-3.pdf
+	/home/beniamino/Downloads/acprof-9780199279692-chapter-3.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_biblatex-bath.pdf
+	/home/beniamino/Downloads/biblatex-bath.pdf
+t/home/beniamino/.local/share/vifm/Trash/007_;
+	/home/beniamino/UCL/ESPS0020/final/;
+t/home/beniamino/.local/share/vifm/Trash/000_Kail on genealogy.pdf
+	/home/beniamino/Downloads/Kail on genealogy.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_An explication of Nietzsches views on punishment..pdf
+	/home/beniamino/Downloads/An explication of Nietzsches views on punishment..pdf
+t/home/beniamino/.local/share/vifm/Trash/000_20717850.pdf
+	/home/beniamino/Downloads/20717850.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2020-18_tassomai.pdf
+	/home/beniamino/Downloads/2020-18_tassomai.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_English-Votes-for-English-Laws-diagram.pdf
+	/home/beniamino/Downloads/English-Votes-for-English-Laws-diagram.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_TLS-On-Analysis.pdf
+	/home/beniamino/Downloads/TLS-On-Analysis.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_penultimate-for-pdf-final(1).pdf
+	/home/beniamino/Downloads/penultimate-for-pdf-final(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Formative Essay group 1 (9am).pdf
+	/home/beniamino/Downloads/Formative Essay group 1 (9am).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Formative Essay for Seminar group 3.pdf
+	/home/beniamino/Downloads/Formative Essay for Seminar group 3.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Formative Essay for Seminar group 2.pdf
+	/home/beniamino/Downloads/Formative Essay for Seminar group 2.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200421-1225-53.png
+	/home/beniamino/pic-full-200421-1225-53.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200421-1225-54.png
+	/home/beniamino/pic-full-200421-1225-54.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200424-0004-03.png
+	/home/beniamino/pic-full-200424-0004-03.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200424-0005-28.png
+	/home/beniamino/pic-full-200424-0005-28.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200421-1322-46.png
+	/home/beniamino/pic-selected-200421-1322-46.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200422-1255-10.png
+	/home/beniamino/pic-selected-200422-1255-10.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200422-1255-26.png
+	/home/beniamino/pic-selected-200422-1255-26.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200422-1407-36.png
+	/home/beniamino/pic-selected-200422-1407-36.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200422-2214-51.png
+	/home/beniamino/pic-selected-200422-2214-51.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200423-0101-50.png
+	/home/beniamino/pic-selected-200423-0101-50.png
+t/home/beniamino/.local/share/vifm/Trash/000_cleo.html
+	/home/beniamino/cleo.html
+t/home/beniamino/.local/share/vifm/Trash/000_cleo.rmd
+	/home/beniamino/cleo.rmd
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200425-1535-06.png
+	/home/beniamino/pic-full-200425-1535-06.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200425-1532-01.png
+	/home/beniamino/pic-selected-200425-1532-01.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200425-2226-24.png
+	/home/beniamino/pic-selected-200425-2226-24.png
+t/home/beniamino/.local/share/vifm/Trash/000_TI Moral als Widernatur.pdf
+	/home/beniamino/UCL/ESPS0020/final/readings/TI Moral als Widernatur.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_epdf.pub_nietzsche-life-as-literature.pdf
+	/home/beniamino/Downloads/epdf.pub_nietzsche-life-as-literature.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Nietzsche-Life-as-Literature.pdf
+	/home/beniamino/Downloads/Nietzsche-Life-as-Literature.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Nietzsche.bibtex
+	/home/beniamino/Downloads/Nietzsche.bibtex
+t/home/beniamino/.local/share/vifm/Trash/000_Some-Third-Thing-Nietzsches-Words-and-the-Principle-of-Charity-JNS-47-2.pdf
+	/home/beniamino/Downloads/Some-Third-Thing-Nietzsches-Words-and-the-Principle-of-Charity-JNS-47-2.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_220-logistic-regression.pdf
+	/home/beniamino/Downloads/220-logistic-regression.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Essay Reading for students handout.pdf
+	/home/beniamino/Downloads/Essay Reading for students handout.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200427-0359-59.png
+	/home/beniamino/pic-selected-200427-0359-59.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200427-1701-48.png
+	/home/beniamino/pic-selected-200427-1701-48.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200427-1701-58.png
+	/home/beniamino/pic-selected-200427-1701-58.png
+t/home/beniamino/.local/share/vifm/Trash/000_wc
+	/home/beniamino/wc
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200429-1428-32.png
+	/home/beniamino/pic-full-200429-1428-32.png
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
-].0
+].1
 ]F
 s0

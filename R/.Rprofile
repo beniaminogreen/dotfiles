@@ -1,9 +1,9 @@
 # Cool quotes on startup:
-if(interactive()){
-	suppressMessages(require(devtools))
-	suppressMessages(require(tidyverse))
-	try(fortunes::fortune(), silent=TRUE)
-}
+#if(interactive()){
+	#suppressMessages(require(devtools))
+	#suppressMessages(require(tidyverse))
+	#try(fortunes::fortune(), silent=TRUE)
+#}
 
 # Set CRAN mirror:
 local({
