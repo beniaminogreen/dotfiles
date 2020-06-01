@@ -12,6 +12,7 @@ set complete+=kspell
 
 call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-surround'
+	Plug 'chrisbra/csv.vim'
 	Plug 'ap/vim-css-color'
 	Plug 'christoomey/vim-titlecase'
 	Plug 'terryma/vim-multiple-cursors'

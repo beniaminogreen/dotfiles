@@ -22,9 +22,9 @@
 	yoshi_underwater.jpg
 1577155694
 'k
-	/home/beniamino/.config
-	nvim
-1586663067
+	/home/beniamino/Documents/books
+	Singer_pov
+1588316345
 'm
 	/home/beniamino/programming/python
 	..
@@ -46,441 +46,564 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/beniamino
-	dotfiles
-7
-d/home/beniamino/dotfiles
-	bspwm
-4
-d/home/beniamino/dotfiles/bspwm
-	..
-0
-d/home/beniamino/dotfiles
-	bspwm
-4
-d/home/beniamino/dotfiles/bspwm
-	..
-0
-d/home/beniamino/dotfiles
-	bspwm
-4
-d/home/beniamino/dotfiles/bspwm
-	..
-0
-d/home/beniamino/dotfiles
-	bspwm
-4
-d/home/beniamino/dotfiles/bspwm
-	.local
-2
-d/home/beniamino/dotfiles/bspwm/.local
-	bin
-1
-d/home/beniamino/dotfiles/bspwm/.local/bin
-	bspwm
-2
-d/home/beniamino/dotfiles/bspwm/.local
-	bin
-1
-d/home/beniamino/dotfiles/bspwm
-	.local
-2
-d/home/beniamino/dotfiles
-	bspwm
-5
-d/home/beniamino/dotfiles/bspwm
-	.config
-1
-d/home/beniamino/dotfiles/bspwm/.config
-	bspwm
-1
-d/home/beniamino/dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/beniamino/dotfiles/bspwm/.config
-	bspwm
-1
-d/home/beniamino/dotfiles/bspwm
-	.local
-2
-d/home/beniamino/dotfiles/bspwm/.local
-	bin
-1
-d/home/beniamino/dotfiles/bspwm/.local/bin
-	bspwm
-2
-d/home/beniamino/dotfiles/bspwm/.local
-	share
-2
-d/home/beniamino/dotfiles/bspwm/.local/share
-	..
-0
-d/home/beniamino/dotfiles/bspwm/.local
-	bin
-1
-d/home/beniamino/dotfiles/bspwm/.local/bin
-	bspwm
-1
-d/home/beniamino/dotfiles/bspwm/.local
-	bin
-1
-d/home/beniamino/dotfiles/bspwm
-	.local
-2
-d/home/beniamino/dotfiles
-	scripts
+d/home/beniamino/UCL
+	latex_resources
 11
-d/home/beniamino/dotfiles/scripts
-	bspwm
-1
-d/home/beniamino/dotfiles/scripts/bspwm
-	bspcfullscreen
-1
-d/home/beniamino/dotfiles/scripts
-	tools
+d/home/beniamino
+	Downloads
 2
-d/home/beniamino/dotfiles/scripts/tools
+d/home/beniamino/Downloads
+	prior_2011.pdf
+26
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	latex_resources
+11
+d/home/beniamino/UCL/latex_resources
+	latexcoversheets
+2
+d/home/beniamino/UCL/latex_resources/latexcoversheets
+	POLS
+1
+d/home/beniamino/UCL/latex_resources/latexcoversheets/POLS
+	uclheader.png
+3
+d/home/beniamino/UCL/latex_resources/latexcoversheets
+	POLS
+1
+d/home/beniamino/UCL/latex_resources
+	latexcoversheets
+2
+d/home/beniamino/UCL
+	general_qstep
+10
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	general_qstep
+10
+d/home/beniamino/UCL/general_qstep
+	notes
+1
+d/home/beniamino/UCL
+	general_qstep
+10
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	prior_2005.pdf
+7
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
+6
+d/home/beniamino
+	finder.py
+10
+d/home
+	beniamino
+1
+d/
+	home
+4
+d/home
+	beniamino
+1
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	pop-os_20.04_amd64_nvidia_6.iso
+7
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	0891243210383419.pdf
+4
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	general_qstep
+10
+d/home/beniamino
+	auto-install
+6
+d/home/beniamino/auto-install
 	..
 0
-d/home/beniamino/dotfiles/scripts
-	tools
+d/home/beniamino
+	go
+8
+d/home/beniamino/go
+	..
+0
+d/home/beniamino
+	Documents
+1
+d/home/beniamino/Documents
+	books
+6
+d/home/beniamino/Documents/books
+	Singer_pov
+3
+d/home/beniamino/Documents/books/Singer_pov
+	Singer_pov_chapter7.pdf
+7
+d/home/beniamino/Documents/books
+	Singer_pov
+3
+d/home/beniamino/Documents
+	books
+6
+d/home/beniamino
+	Documents
+1
+d/home
+	beniamino
+1
+d/
+	etc
+3
+d/etc
+	openvpn
+25
+d/etc/openvpn
+	client
+1
+d/etc
+	..
+0
+d/
+	etc
+3
+d/etc
+	..
+0
+d/
+	home
+4
+d/home
+	beniamino
+1
+d/home/beniamino
+	.config
+4
+d/home/beniamino/.config
+	gtk-2.0
+20
+d/home/beniamino/.config/gtk-2.0
+	gtkrc-2.0
 2
-d/home/beniamino/dotfiles/scripts/tools
+d/home/beniamino/.config
+	gtk-3.0
+21
+d/home/beniamino/.config/gtk-3.0
+	settings.ini
+1
+d/home/beniamino/.config
+	gtk-3.0
+21
+d/home/beniamino
+	.config
+4
+d/home
+	beniamino
+1
+d/
+	home
+4
+d/home
+	beniamino
+1
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
+6
+d/home/beniamino
+	Downloads
+2
+d/home
+	beniamino
+1
+d/home/beniamino
+	R
+4
+d/home/beniamino/R
+	x86_64-pc-linux-gnu-library
+1
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	POLS0010
+7
+d/home/beniamino/UCL/POLS0010
+	R
+1
+d/home/beniamino/UCL/POLS0010/R
+	week6
+3
+d/home/beniamino/UCL/POLS0010/R/week6
+	week6.R
+1
+d/home/beniamino/UCL/POLS0010/R
+	week2
+2
+d/home/beniamino/UCL/POLS0010/R/week2
 	tests
 1
-d/home/beniamino/dotfiles/scripts
-	bspwm
-1
-d/home/beniamino/dotfiles
-	scripts
-11
-d/home/beniamino/dotfiles/scripts
-	bspwm
-1
-d/home/beniamino/dotfiles
-	scripts
-11
-d/home/beniamino/dotfiles/scripts
-	bspwm
-1
-d/home/beniamino/dotfiles
-	bspwm
+d/home/beniamino/UCL/POLS0010/R/week2/tests
+	..
+0
+d/home/beniamino/UCL/POLS0010/R/week2
+	final.R
 4
-d/home/beniamino/dotfiles/bspwm
-	.config
-1
-d/home/beniamino/dotfiles
-	scripts
-12
-d/home/beniamino/dotfiles/scripts
-	bspwm
-1
-d/home/beniamino/dotfiles/scripts/bspwm
-	bspcfullscreen
-1
-d/home/beniamino/dotfiles/scripts
-	tools
+d/home/beniamino/UCL/POLS0010/R
+	week2
 2
-d/home/beniamino/dotfiles
-	scripts
-12
-d/home/beniamino/dotfiles/scripts
-	.local
-1
-d/home/beniamino/dotfiles/scripts/.local
-	bin
-1
-d/home/beniamino/dotfiles/scripts
-	.local
-1
-d/home/beniamino/dotfiles/scripts/.local
-	bin
-1
-d/home/beniamino/dotfiles/scripts/.local/bin
-	bspwm
-1
-d/home/beniamino/dotfiles/scripts/.local
-	bin
-1
-d/home/beniamino/dotfiles/scripts
-	.local
-1
-d/home/beniamino/dotfiles
-	profile
-11
-d/home/beniamino
-	Downloads
-6
-d/home/beniamino/Downloads
-	stargazer(1).pdf
-8
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	acprof-9780199279692-chapter-3.pdf
-6
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	acprof-9780199279692-chapter-3(1).pdf
-5
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	ESPS0020
-1
-d/home/beniamino/UCL/ESPS0020
-	final
-1
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	Friedrich_Nietzsche_-_On_Truth_and_Lies_in_a_Nonmoral_Sense[1].pdf
-1
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020
-	final
+d/home/beniamino/UCL/POLS0010
+	R
 1
 d/home/beniamino/UCL
-	ESPS0020
-1
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	Kail on genealogy.pdf
-11
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	Kail on genealogy.pdf
-11
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	ESPS0020
-1
-d/home/beniamino/UCL/ESPS0020
-	final
-1
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	Friedrich_Nietzsche_-_On_Truth_and_Lies_in_a_Nonmoral_Sense[1].pdf
-1
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	oxford_genealogy.pdf
-15
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	History.pdf
-5
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	history_moral_phil.pdf
-13
-d/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	Nietzsches Genealogy_ An Historical Investigation of the Conting.pdf
+	POLS0010
 7
-d/home/beniamino/UCL/ESPS0020/final
-	readings
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
+6
+d/home/beniamino
+	Documents
 1
-d/home/beniamino/UCL/ESPS0020/final/readings
-	History.pdf
-5
-d/home/beniamino/UCL/ESPS0020/final
-	readings
+d/home/beniamino/Documents
+	housing
+7
+d/home/beniamino/Documents/housing
+	referencing_files_ben_green
+2
+d/home/beniamino/Documents
+	housing
+7
+d/home/beniamino/Documents/housing
+	referencing_files_ben_green
+2
+d/home/beniamino/Documents/housing/referencing_files_ben_green
+	..
+0
+d/home/beniamino/Documents/housing
+	referencing_files_ben_green
+2
+d/home/beniamino/Documents
+	housing
+7
+d/home/beniamino
+	Documents
 1
-d/home/beniamino/UCL/ESPS0020
-	final
-1
-d/home/beniamino/UCL
-	ESPS0020
+d/home/beniamino/Documents
+	books
+6
+d/home/beniamino/Documents/books
+	Singer_pov
+3
+d/home/beniamino/Documents/books/Singer_pov
+	Singer_pov_chapter7.pdf
+7
+d/home/beniamino/Documents/books
+	Singer_pov
+3
+d/home/beniamino/Documents
+	housing
+7
+d/home/beniamino
+	Downloads
+2
+d/home/beniamino/Downloads
+	4623785.pdf
+3
+d/home/beniamino
+	pic-selected-200529-0225-42.png
+10
+d/home
+	beniamino
 1
 d/home/beniamino
 	Downloads
 2
 d/home/beniamino/Downloads
-	GeneologyofMorals(1).pdf
-2
-d/home/beniamino
-	Downloads
-2
-d/home
-	beniamino
-2
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	707211.pdf
-1
-d/home/beniamino
-	Downloads
-2
-d/home
-	beniamino
-2
+	8219325.pdf
+4
 d/home/beniamino
 	programming
 9
-d/home/beniamino/programming
-	..
-0
 d
 
 # Right window history (oldest to newest):
-D/home/beniamino/UCL/POLS0030
-	final
+D/home/beniamino/programming/webdev/fakeshibboleth/fakeshibboleth
+	__pycache__
 1
-D/home/beniamino/UCL/POLS0030/final
-	writing
-3
-D/home/beniamino/UCL/POLS0030/final/writing
-	..
-0
-D/home/beniamino/UCL/POLS0030/final
-	FRZZ7.pdf
-5
-D/home/beniamino/UCL/POLS0030
-	final
+D/home/beniamino/programming/webdev/fakeshibboleth
+	core
 1
-D/home/beniamino
-	UCL
-5
-D/home/beniamino/UCL
-	PHIL0068
-3
-D/home/beniamino/UCL/PHIL0068
-	readings
-2
-D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-D/home/beniamino/UCL/ESPS0020/final/readings
-	oxford_genealogy.pdf
-12
-D/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino
-	Downloads
-2
-D/home/beniamino/Downloads
-	..
-0
-D/home/beniamino
-	Music
-3
-D/home/beniamino/Music
-	..
-0
-D/home/beniamino
-	R
-4
-D/home/beniamino/R
-	..
-0
-D/home/beniamino
-	UCL
-5
-D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino
-	.local
+D/home/beniamino/programming/webdev/fakeshibboleth/core
+	views.py
 6
-D/home/beniamino/.local
-	bin
-1
-D/home/beniamino/.local/bin
-	bspwm
+D/home/beniamino/programming/webdev/fakeshibboleth
+	README.md
+3
+D/home/beniamino/programming/webdev
+	fakeshibboleth
 2
-D/home/beniamino/.local/bin/bspwm
-	bspcfullscreen
-1
-D/home/beniamino/.local/bin
-	bspwm
-2
-D/home/beniamino/.local
-	bin
-1
-D/home/beniamino
-	.local
+D/home/beniamino/programming
+	webdev
 6
-D/home/beniamino/.local
-	bin
+D/home/beniamino/programming/webdev
+	strike
+3
+D/home/beniamino/programming/webdev/strike
+	strike_site
 1
-D/home/beniamino/.local/bin
-	bspwm
-2
-D/home/beniamino/.local
-	bin
+D/home/beniamino/programming/webdev/strike/strike_site
+	splash
 1
-D/home/beniamino
-	.local
-6
-D/home
-	beniamino
-2
-D/home/beniamino
-	UCL
-5
-D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-D/home/beniamino/UCL/ESPS0020/final/readings
-	genealogy_geuss.pdf
-10
-D/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-D/home/beniamino/UCL/ESPS0020/final/readings
-	genealogy_geuss.pdf
+D/home/beniamino/programming/webdev/strike/strike_site/splash
+	views.py
 11
-D/home/beniamino/UCL/ESPS0020/final
-	readings
+D/home/beniamino/programming/webdev/strike/strike_site
+	splash
 1
-D/home/beniamino/UCL/ESPS0020
-	final
+D/home/beniamino/programming/webdev/strike
+	strike_site
 1
+D/home/beniamino/programming/webdev
+	strike
+3
+D/home/beniamino/programming
+	webdev
+6
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino/pork-chop/modules
+	stonks.py
+3
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino/pork-chop/modules
+	kanye.py
+2
+D/home/beniamino/pork-chop
+	pork-chop.py
+7
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	README.md
+3
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino/pork-chop/modules
+	kanye.py
+2
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino/pork-chop/modules
+	kanye.py
+2
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino/pork-chop/modules
+	turn.py
+4
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino
+	pork2
+9
+D/home/beniamino/pork2
+	pork-chop
+1
+D/home/beniamino/pork2/pork-chop
+	modules
+1
+D/home/beniamino/pork2/pork-chop/modules
+	turn.py
+4
+D/home/beniamino/pork2/pork-chop
+	LICENSE
+2
+D/home/beniamino/pork2
+	pork-chop
+1
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	pork-chop.py
+7
+D/home/beniamino
+	pork2
+9
+D/home/beniamino/pork2
+	pork-chop
+1
+D/home/beniamino/pork2/pork-chop
+	groupme_screenshot.png
+6
+D/home/beniamino/pork2
+	pork-chop
+1
+D/home/beniamino
+	pork2
+8
+D/home/beniamino/pork2
+	..
+0
+D/home/beniamino
+	programming
+9
+D/home/beniamino/programming
+	webdev
+6
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+1
+D/home/beniamino/pork-chop/modules
+	turn.py
+4
+D/home/beniamino/pork-chop
+	modules
+2
+D/home/beniamino
+	UCL
+5
+D/home/beniamino/UCL
+	POLS0009
+6
+D/home/beniamino/UCL/POLS0009
+	final2
+2
+D/home/beniamino/UCL/POLS0009/final2
+	final2.tex
+2
+D/home/beniamino/UCL/POLS0009
+	final2
+2
+D/home/beniamino/UCL
+	POLS0010
+7
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+2
+D/home/beniamino/pork-chop/modules
+	recipies.py
+3
+D/home/beniamino/pork-chop
+	README.md
+4
+D/home/beniamino
+	programming
+9
+D/home/beniamino/programming
+	challenges
+2
+D/home/beniamino/programming/challenges
+	googlectf
+1
+D/home/beniamino/programming
+	python
+4
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+2
+D/home/beniamino/pork-chop/modules
+	recipes.py
+3
+D/home/beniamino/pork-chop
+	modules
+4
+D/home/beniamino/pork-chop/modules
+	recipes.py
+3
+D/home/beniamino/pork-chop
+	modules
+4
+D/home/beniamino
+	pork-chop
+8
+D/home/beniamino/pork-chop
+	modules
+4
+D/home/beniamino/pork-chop/modules
+	recipes.py
+3
+D/home/beniamino/pork-chop
+	.github
+2
+D/home/beniamino/pork-chop/.github
+	..
+0
+D/home/beniamino/pork-chop
+	data
+3
+D/home/beniamino/pork-chop/data
+	..
+0
+D/home/beniamino/pork-chop
+	modules
+4
+D/home/beniamino/pork-chop/modules
+	recipes.py
+3
+D/home/beniamino/pork-chop
+	modules
+4
+D/home/beniamino/pork-chop/modules
+	recipes.py
+3
+D/home/beniamino/pork-chop
+	modules
+4
+D/home/beniamino
+	UCL
+5
 D/home/beniamino/UCL
 	POLS0010
 7
@@ -488,71 +611,53 @@ D/home/beniamino/UCL/POLS0010
 	final2
 3
 D/home/beniamino/UCL/POLS0010/final2
-	final2.pdf
-7
+	..
+0
 D/home/beniamino/UCL/POLS0010
 	final2
 3
 D/home/beniamino/UCL
-	POLS0010
-7
+	POLS0009
+6
+D/home/beniamino/UCL/POLS0009
+	final2
+2
+D/home/beniamino/UCL/POLS0009/final2
+	final2.tex
+2
+D/home/beniamino/UCL/POLS0009
+	final2
+2
+D/home/beniamino/UCL
+	POLS0009
+6
 D/home/beniamino
 	UCL
 5
-D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL/ESPS0020/final
-	final.tex
-3
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino
-	programming
-9
 D/home
 	beniamino
-2
-D/home/beniamino
-	auto-install
-6
-D/home/beniamino/auto-install
-	..
-0
+1
 D/home/beniamino
 	UCL
 5
 D/home/beniamino/UCL
-	ESPS0020
-1
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-D/home/beniamino/UCL/ESPS0020/final/readings
-	Nietzsches Genealogy_ An Historical Investigation of the Conting.pdf
-7
-D/home/beniamino/UCL/ESPS0020/final
-	readings
-1
-D/home/beniamino/UCL/ESPS0020
-	final
-1
-D/home/beniamino/UCL
-	ESPS0020
-1
+	POLS0009
+6
+D/home/beniamino/UCL/POLS0009
+	final2
+2
+D/home/beniamino/UCL/POLS0009/final2
+	final2.tex
+2
 D
 
 # Command line history (oldest to newest):
+:marginal_effects_1.tex
+:vim marginal_effects_1.tex
+:!vim me1.tex
+:mkdir practicals
+:mkdir parfit_rnp
+:mkdir slides
 :!shell
 :mkdir 
 :mkdir backup
@@ -569,7 +674,6 @@ D
 :mkdir fontconfig
 :mkdir neovim
 :mkdir bash
-:w
 :mkdir profile
 :mkdir .config
 :mkdir hide
@@ -579,15 +683,43 @@ D
 :!stow vifm/
 :!stow wget/
 :!vim script2.R
-:mkdir
-:mkdir readings
 :mkdir .local
 :mkdir bin
+:zip
+:mkdir scripts
+:mkdir texfiles
+:mkdir images
+:mkdir readings
+:!gencover final2.pdf
+:mkdir final2
+:vim notes.tex
+:!vim notes.tex
+:mkdir bibmanage
+:w
+:!du .lib
+:mk
+:vim kanye.py
+:!vim kanye.py
+:mkdir
+:mkdir latexcoversheets
+:mkdir POLS
+:vim cover.tex
+:!vim cover.tex
 
 # Search history (oldest to newest):
 /.config
+/lbr
+/openv
 
 # Prompt history (oldest to newest):
+pprior_2011.pdf
+pprior_2005.pdf
+pDellavigna_2007.pdf
+pWeek_9.pdf
+pWeek_09.pdf
+pWeek_12.pdf
+pWeek_02.pdf
+pWeek_06.pdf
 pscript_1.r
 pscript_2.R
 phey.tex
@@ -602,11 +734,28 @@ phistory_moral_phil.pdf
 pgenealogy_geuss.pdf
 phistorical_individuals.pdf
 poxford_genealogy.pdf
+pmedia
+pR
+pMurphy_1973.pdf
+pmurphy_1973.pdf
+pBoomgarden.pdf
+pBoomgaarden.pdf
+pBoomgaarden_2007.pdf
+pbaum_2002.pdf
+pbin
+p.lib
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/beniamino/.local/share/vifm/Trash/000_pic-full-200429-1428-32.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-0225-42.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1107-02.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1108-22.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1322-57.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1657-12.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200530-1502-36.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1943-38.png
+""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1950-12.png
 
 # Directory stack (oldest to newest):
 
@@ -22649,6 +22798,490 @@ t/home/beniamino/.local/share/vifm/Trash/000_wc
 	/home/beniamino/wc
 t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200429-1428-32.png
 	/home/beniamino/pic-full-200429-1428-32.png
+t/home/beniamino/.local/share/vifm/Trash/000_rsc_article_template.zip.zip
+	/home/beniamino/Downloads/rsc_article_template.zip.zip
+t/home/beniamino/.local/share/vifm/Trash/000_rsc_article_template.pdf
+	/home/beniamino/Downloads/rsc_article_template.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_rsc_article_template.zip
+	/home/beniamino/Downloads/rsc_article_template.zip
+t/home/beniamino/.local/share/vifm/Trash/000_rsc_article_template
+	/home/beniamino/Downloads/rsc_article_template
+t/home/beniamino/.local/share/vifm/Trash/001_week2.pdf
+	/home/beniamino/UCL/PHIL0068/notes/week2.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week2.tex
+	/home/beniamino/UCL/PHIL0068/notes/week2.tex
+t/home/beniamino/.local/share/vifm/Trash/000_ex1.pdf
+	/home/beniamino/UCL/PHIL0068/notes/ex1.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week4.pdf
+	/home/beniamino/UCL/PHIL0068/notes/week4/week4.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_comparisons.tex
+	/home/beniamino/UCL/POLS0010/final3/scripts/comparisons.tex
+t/home/beniamino/.local/share/vifm/Trash/001_final.pdf
+	/home/beniamino/UCL/POLS0010/final3/final.pdf
+t/home/beniamino/.local/share/vifm/Trash/003_:w
+	/home/beniamino/UCL/POLS0010/final3/data/:w
+t/home/beniamino/.local/share/vifm/Trash/001_test.r
+	/home/beniamino/UCL/POLS0010/final3/data/test.r
+t/home/beniamino/.local/share/vifm/Trash/000_slides-ziegenhagen-python.pdf
+	/home/beniamino/Downloads/slides-ziegenhagen-python.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_stargazer(1).pdf
+	/home/beniamino/Downloads/stargazer(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_stargazer.pdf
+	/home/beniamino/Downloads/stargazer.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_rmarkdown-cheatsheet.pdf
+	/home/beniamino/Downloads/rmarkdown-cheatsheet.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_histogram.pdf
+	/home/beniamino/Downloads/histogram.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Practical Week 10_pols0010_sol.pdf
+	/home/beniamino/Downloads/Practical Week 10_pols0010_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Ishihara.24.Plate.TEST.Book.pdf
+	/home/beniamino/Downloads/Ishihara.24.Plate.TEST.Book.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Ishihara_1.svg
+	/home/beniamino/Downloads/Ishihara_1.svg
+t/home/beniamino/.local/share/vifm/Trash/000_Ishihara_2.svg
+	/home/beniamino/Downloads/Ishihara_2.svg
+t/home/beniamino/.local/share/vifm/Trash/000_NiceOutputR.pdf
+	/home/beniamino/Downloads/NiceOutputR.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_8.2-Digital-Commons-Release-Notes.pdf
+	/home/beniamino/Downloads/8.2-Digital-Commons-Release-Notes.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_GeneologyofMorals(1).pdf
+	/home/beniamino/Downloads/GeneologyofMorals(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Geuss.pdf
+	/home/beniamino/Downloads/Geuss.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Pay-As-You-Throw in Massachusetts.pdf
+	/home/beniamino/Downloads/Pay-As-You-Throw in Massachusetts.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_The Effects from Public Transportation on Property Values.pdf
+	/home/beniamino/Downloads/The Effects from Public Transportation on Property Values.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_UG career listings 27 april.pdf
+	/home/beniamino/Downloads/UG career listings 27 april.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_lec5_pols0010(1).pdf
+	/home/beniamino/UCL/POLS0010/slides/lec5_pols0010(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week6-slides-v3-NB.pdf
+	/home/beniamino/UCL/POLS0010/slides/week6-slides-v3-NB.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780198249085-chapter-1.pdf
+	/home/beniamino/Downloads/acprof-9780198249085-chapter-1.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780198249085-miscMatter-9(1).pdf
+	/home/beniamino/Downloads/acprof-9780198249085-miscMatter-9(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_11.pdf
+	/home/beniamino/Downloads/week_11.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_11_sol.pdf
+	/home/beniamino/Downloads/week_11_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_12.pdf
+	/home/beniamino/Downloads/week_12.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_12_sol.pdf
+	/home/beniamino/Downloads/week_12_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_13.pdf
+	/home/beniamino/Downloads/week_13.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_13_sol.pdf
+	/home/beniamino/Downloads/week_13_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_14.pdf
+	/home/beniamino/Downloads/week_14.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_14_sol.pdf
+	/home/beniamino/Downloads/week_14_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_15.pdf
+	/home/beniamino/Downloads/week_15.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_15_sol.pdf
+	/home/beniamino/Downloads/week_15_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_16_2020.pdf
+	/home/beniamino/Downloads/week_16_2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_16_2020_sol.pdf
+	/home/beniamino/Downloads/week_16_2020_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_17_2020.pdf
+	/home/beniamino/Downloads/week_17_2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_17_sol.pdf
+	/home/beniamino/Downloads/week_17_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_18.pdf
+	/home/beniamino/Downloads/week_18.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week_18_sol.pdf
+	/home/beniamino/Downloads/week_18_sol.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Montillo_RandomForests_4-2-2009.pdf
+	/home/beniamino/Downloads/Montillo_RandomForests_4-2-2009.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_707211.pdf
+	/home/beniamino/Downloads/707211.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_data-wrangling-cheatsheet.pdf
+	/home/beniamino/Downloads/data-wrangling-cheatsheet.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_ebs_450_sum_en.pdf
+	/home/beniamino/Downloads/ebs_450_sum_en.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_randomForest.pdf
+	/home/beniamino/Downloads/randomForest.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_zzippr-volume-13-no-1-edited.pdf
+	/home/beniamino/Downloads/zzippr-volume-13-no-1-edited.pdf
+t/home/beniamino/.local/share/vifm/Trash/003_FRZZ7.pdf
+	/home/beniamino/UCL/POLS0009/notes/FRZZ7.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_FRZZ7.txt
+	/home/beniamino/UCL/POLS0009/notes/FRZZ7.txt
+t/home/beniamino/.local/share/vifm/Trash/000_milan_climate_change_litigation_in_the_uk_v2.pdf
+	/home/beniamino/Downloads/milan_climate_change_litigation_in_the_uk_v2.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-judgment-on-planning-issues-27-February-2020.pdf
+	/home/beniamino/Downloads/Heathrow-judgment-on-planning-issues-27-February-2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-judgment-in-the-appeal-by-Hub-27-February-2020.pdf
+	/home/beniamino/Downloads/Heathrow-judgment-in-the-appeal-by-Hub-27-February-2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-main-judgment-1.5.19(1).pdf
+	/home/beniamino/Downloads/Heathrow-main-judgment-1.5.19(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-third-runway-litigation-judgment-press-summary.pdf
+	/home/beniamino/Downloads/Heathrow-third-runway-litigation-judgment-press-summary.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-summary-of-judgments-26-February-2020-online-version.pdf
+	/home/beniamino/Downloads/Heathrow-summary-of-judgments-26-February-2020-online-version.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-summary-of-judgments-26-February-2020-online-version(1).pdf
+	/home/beniamino/Downloads/Heathrow-summary-of-judgments-26-February-2020-online-version(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-main-judgment-1.5.19.pdf
+	/home/beniamino/Downloads/Heathrow-main-judgment-1.5.19.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Strategic Airport Capacity Management at Heathrow.pdf
+	/home/beniamino/Downloads/Strategic Airport Capacity Management at Heathrow.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_airports-nps-new-runway-capacity-and-infrastructure-at-airports-in-the-south-east-of-england-web-version.pdf
+	/home/beniamino/Downloads/airports-nps-new-runway-capacity-and-infrastructure-at-airports-in-the-south-east-of-england-web-version.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_200408_No_detriment_CLARIFICATION_all_student_email_final.pdf
+	/home/beniamino/Downloads/200408_No_detriment_CLARIFICATION_all_student_email_final.pdf
+t/home/beniamino/.local/share/vifm/Trash/001_predictions.tex
+	/home/beniamino/UCL/POLS0010/final3/media/predictions.tex
+t/home/beniamino/.local/share/vifm/Trash/000_p2.tex
+	/home/beniamino/UCL/POLS0010/final3/media/p2.tex
+t/home/beniamino/.local/share/vifm/Trash/001_comparisons.tex
+	/home/beniamino/UCL/POLS0010/final3/media/comparisons.tex
+t/home/beniamino/.local/share/vifm/Trash/000_summary_stats
+	/home/beniamino/UCL/POLS0010/final3/media/summary_stats
+t/home/beniamino/.local/share/vifm/Trash/000_Francis.pdf
+	/home/beniamino/Downloads/Francis.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-judgment-on-planning-issues-27-February-2020(1).pdf
+	/home/beniamino/Downloads/Heathrow-judgment-on-planning-issues-27-February-2020(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Heathrow-summary-of-judgments-26-February-2020-online-version(2).pdf
+	/home/beniamino/Downloads/Heathrow-summary-of-judgments-26-February-2020-online-version(2).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Legislated policy targets final.pdf
+	/home/beniamino/Downloads/Legislated policy targets final.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_LogitR101.pdf
+	/home/beniamino/Downloads/LogitR101.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Margins02.pdf
+	/home/beniamino/Downloads/Margins02.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_NiceOutputR(1).pdf
+	/home/beniamino/Downloads/NiceOutputR(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_NiceOutputR(2).pdf
+	/home/beniamino/Downloads/NiceOutputR(2).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_PHIL0068Resit-AlternativeAssessment.pdf
+	/home/beniamino/Downloads/PHIL0068Resit-AlternativeAssessment.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_POLS0030 The Ethics of Crime and Punishment 2019-2020 Outline_updated.pdf
+	/home/beniamino/Downloads/POLS0030 The Ethics of Crime and Punishment 2019-2020 Outline_updated.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Take-Home Assessment 2019-20 - front page.pdf
+	/home/beniamino/Downloads/Take-Home Assessment 2019-20 - front page.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_UG FAQs.pdf
+	/home/beniamino/Downloads/UG FAQs.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_bsa35_full-report.pdf
+	/home/beniamino/Downloads/bsa35_full-report.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_ijerph-16-01220.pdf
+	/home/beniamino/Downloads/ijerph-16-01220.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_mfxarticle(1).pdf
+	/home/beniamino/Downloads/mfxarticle(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_mfxarticle.pdf
+	/home/beniamino/Downloads/mfxarticle.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_oscola.pdf
+	/home/beniamino/Downloads/oscola.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_responding-human-rights-judgments-2017-18.pdf
+	/home/beniamino/Downloads/responding-human-rights-judgments-2017-18.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_texreg.pdf
+	/home/beniamino/Downloads/texreg.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200506-1148-58.png
+	/home/beniamino/pic-full-200506-1148-58.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200506-1214-18.png
+	/home/beniamino/pic-full-200506-1214-18.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200506-1214-19.png
+	/home/beniamino/pic-full-200506-1214-19.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200430-1439-14.png
+	/home/beniamino/pic-selected-200430-1439-14.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200502-0048-56.png
+	/home/beniamino/pic-selected-200502-0048-56.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200505-2136-10.png
+	/home/beniamino/pic-selected-200505-2136-10.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200506-1354-17.png
+	/home/beniamino/pic-selected-200506-1354-17.png
+t/home/beniamino/.local/share/vifm/Trash/000_cubicStyle_high.pdf
+	/home/beniamino/Downloads/cubicStyle_high.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_dvint.pdf
+	/home/beniamino/Downloads/dvint.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_mfx(1).pdf
+	/home/beniamino/Downloads/mfx(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_race_and_marriage_equality.pdf
+	/home/beniamino/Downloads/race_and_marriage_equality.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_slides.pdf
+	/home/beniamino/Downloads/slides.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_userguide.pdf
+	/home/beniamino/Downloads/userguide.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week 13 margins(1).pdf
+	/home/beniamino/Downloads/week 13 margins(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week 13 margins.pdf
+	/home/beniamino/Downloads/week 13 margins.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_POLS0009 Public Policy Take Home Assessment 2020(1).pdf
+	/home/beniamino/Downloads/POLS0009 Public Policy Take Home Assessment 2020(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_POLS0009 Public Policy Take Home Assessment 2020.pdf
+	/home/beniamino/Downloads/POLS0009 Public Policy Take Home Assessment 2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_1473095208090431.pdf
+	/home/beniamino/Downloads/1473095208090431.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_6e80521d36d7a7e9ddf39764c7df4d253247.pdf
+	/home/beniamino/Downloads/6e80521d36d7a7e9ddf39764c7df4d253247.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Tom OGrady final submission.pdf
+	/home/beniamino/Downloads/Tom OGrady final submission.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week16.r
+	/home/beniamino/Downloads/week16.r
+t/home/beniamino/.local/share/vifm/Trash/000_POLS0016_19-20_2_7.pdf
+	/home/beniamino/Downloads/POLS0016_19-20_2_7.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_essay.pdf
+	/home/beniamino/essay.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_essay.tex
+	/home/beniamino/essay.tex
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200509-0043-57.png
+	/home/beniamino/pic-selected-200509-0043-57.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200509-0047-17.png
+	/home/beniamino/pic-selected-200509-0047-17.png
+t/home/beniamino/.local/share/vifm/Trash/000_split_table.R
+	/home/beniamino/split_table.R
+t/home/beniamino/.local/share/vifm/Trash/001_autozoom2.mp4
+	/home/beniamino/Downloads/autozoom2.mp4
+t/home/beniamino/.local/share/vifm/Trash/001_autozoom.mp4
+	/home/beniamino/Downloads/autozoom.mp4
+t/home/beniamino/.local/share/vifm/Trash/000_jack1.jpg
+	/home/beniamino/Downloads/jack1.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_jack2.jpg
+	/home/beniamino/Downloads/jack2.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_jack3.jpg
+	/home/beniamino/Downloads/jack3.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_jack4.jpg
+	/home/beniamino/Downloads/jack4.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_jack5.jpg
+	/home/beniamino/Downloads/jack5.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_jack6.jpg
+	/home/beniamino/Downloads/jack6.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_autozoom3.mp4
+	/home/beniamino/Downloads/autozoom3.mp4
+t/home/beniamino/.local/share/vifm/Trash/000_test.h
+	/home/beniamino/test.h
+t/home/beniamino/.local/share/vifm/Trash/000_test.j
+	/home/beniamino/test.j
+t/home/beniamino/.local/share/vifm/Trash/000_recipes.R
+	/home/beniamino/recipes.R
+t/home/beniamino/.local/share/vifm/Trash/000_manbib
+	/home/beniamino/programming/rust/manbib
+t/home/beniamino/.local/share/vifm/Trash/000_Harvesting_Mountains.bibtex
+	/home/beniamino/Downloads/Harvesting_Mountains.bibtex
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200511-2124-27.png
+	/home/beniamino/pic-full-200511-2124-27.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200511-1651-05.png
+	/home/beniamino/pic-selected-200511-1651-05.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200511-1735-00.png
+	/home/beniamino/pic-selected-200511-1735-00.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200512-2115-58.png
+	/home/beniamino/pic-selected-200512-2115-58.png
+t/home/beniamino/.local/share/vifm/Trash/000_prior_mediapolarization.pdf
+	/home/beniamino/Downloads/prior_mediapolarization.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_qw1275.pdf
+	/home/beniamino/Downloads/qw1275.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_jack.jpg
+	/home/beniamino/Downloads/jack.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200513-1554-37.png
+	/home/beniamino/pic-selected-200513-1554-37.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200513-1817-47.png
+	/home/beniamino/pic-selected-200513-1817-47.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200513-1833-28.png
+	/home/beniamino/pic-selected-200513-1833-28.png
+t/home/beniamino/.local/share/vifm/Trash/000_20190319_221755493_iOS.jpg
+	/home/beniamino/Downloads/20190319_221755493_iOS.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_Boettke_Pub.pdf
+	/home/beniamino/Downloads/Boettke_Pub.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_1909.05483.pdf
+	/home/beniamino/Downloads/1909.05483.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_PublicPolicy_20190918(1).pdf
+	/home/beniamino/Downloads/PublicPolicy_20190918(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/001_:
+	/home/beniamino/programming/rust/bibmanage/src/:
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200515-1124-42.png
+	/home/beniamino/pic-selected-200515-1124-42.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200515-1126-09.png
+	/home/beniamino/pic-selected-200515-1126-09.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200515-1403-22.png
+	/home/beniamino/pic-selected-200515-1403-22.png
+t/home/beniamino/.local/share/vifm/Trash/000_Dellavigna_2007.txt
+	/home/beniamino/Downloads/Dellavigna_2007.txt
+t/home/beniamino/.local/share/vifm/Trash/000_xkcd.png
+	/home/beniamino/Documents/xkcd.png
+t/home/beniamino/.local/share/vifm/Trash/000_.steam
+	/home/beniamino/.steam
+t/home/beniamino/.local/share/vifm/Trash/000_.steampath
+	/home/beniamino/.steampath
+t/home/beniamino/.local/share/vifm/Trash/000_.steampid
+	/home/beniamino/.steampid
+t/home/beniamino/.local/share/vifm/Trash/001_Steam
+	/home/beniamino/.local/share/Steam
+t/home/beniamino/.local/share/vifm/Trash/000_practicals
+	/home/beniamino/UCL/POLS0010/practicals
+t/home/beniamino/.local/share/vifm/Trash/000_slides
+	/home/beniamino/UCL/POLS0010/slides
+t/home/beniamino/.local/share/vifm/Trash/001_data
+	/home/beniamino/UCL/POLS0010/R/week2/data
+t/home/beniamino/.local/share/vifm/Trash/000_election17aps17.csv
+	/home/beniamino/UCL/POLS0010/R/week6/election17aps17.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2012_hse_and_shes_combined.dta
+	/home/beniamino/UCL/POLS0010/R/week9/2012_hse_and_shes_combined.dta
+t/home/beniamino/.local/share/vifm/Trash/000_practical1.Rda
+	/home/beniamino/UCL/POLS0010/R/week11/practical1.Rda
+t/home/beniamino/.local/share/vifm/Trash/000_practical2.Rda
+	/home/beniamino/UCL/POLS0010/R/week12/practical2.Rda
+t/home/beniamino/.local/share/vifm/Trash/000_practical3_1.Rda
+	/home/beniamino/UCL/POLS0010/R/week13/practical3_1.Rda
+t/home/beniamino/.local/share/vifm/Trash/000_practical3_2.Rda
+	/home/beniamino/UCL/POLS0010/R/week13/practical3_2.Rda
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200515-2245-34.png
+	/home/beniamino/pic-full-200515-2245-34.png
+t/home/beniamino/.local/share/vifm/Trash/001_.bash_profile
+	/home/beniamino/.bash_profile
+t/home/beniamino/.local/share/vifm/Trash/000_lbry-app-bin
+	/home/beniamino/lbry-app-bin
+t/home/beniamino/.local/share/vifm/Trash/000_lbry
+	/home/beniamino/.local/share/lbry
+t/home/beniamino/.local/share/vifm/Trash/000_Hoffman_Thesis.pdf
+	/home/beniamino/Downloads/Hoffman_Thesis.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_week4.txt
+	/home/beniamino/UCL/POLS0009/notes/week4.txt
+t/home/beniamino/.local/share/vifm/Trash/000_Final_Project_Script_With_Text.rmd
+	/home/beniamino/Downloads/Final_Project_Script_With_Text.rmd
+t/home/beniamino/.local/share/vifm/Trash/000_pork-chop
+	/home/beniamino/pork-chop
+t/home/beniamino/.local/share/vifm/Trash/000_pork2
+	/home/beniamino/pork2
+t/home/beniamino/.local/share/vifm/Trash/000_kanye.py
+	/home/beniamino/kanye.py
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200517-1112-03.png
+	/home/beniamino/pic-selected-200517-1112-03.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200517-1332-23.png
+	/home/beniamino/pic-selected-200517-1332-23.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200517-1408-16.png
+	/home/beniamino/pic-selected-200517-1408-16.png
+t/home/beniamino/.local/share/vifm/Trash/000_Boomgaarden_2007.pdf
+	/home/beniamino/Downloads/Boomgaarden_2007.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_CambridgeCore_CitationExport_20May2020.txt
+	/home/beniamino/Downloads/CambridgeCore_CitationExport_20May2020.txt
+t/home/beniamino/.local/share/vifm/Trash/000_Dellavigna_2007.pdf
+	/home/beniamino/Downloads/Dellavigna_2007.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_j.1540-5907.2005.00143.x.pdf
+	/home/beniamino/Downloads/j.1540-5907.2005.00143.x.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Resume_CHFalvey_2019_2020.pdf
+	/home/beniamino/Downloads/Resume_CHFalvey_2019_2020.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_bureaucrats_budgets_and_the_growth_of_the_state_reconstructing_an_instrumental_model.pdf
+	/home/beniamino/Downloads/bureaucrats_budgets_and_the_growth_of_the_state_reconstructing_an_instrumental_model.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_json_for_cleo.json
+	/home/beniamino/json_for_cleo.json
+t/home/beniamino/.local/share/vifm/Trash/000_reading_jsons.py
+	/home/beniamino/reading_jsons.py
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200521-2048-41.png
+	/home/beniamino/pic-full-200521-2048-41.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200519-0959-48.png
+	/home/beniamino/pic-selected-200519-0959-48.png
+t/home/beniamino/.local/share/vifm/Trash/000_98114660_280493559750495_1798167403696226304_n.jpg
+	/home/beniamino/Downloads/98114660_280493559750495_1798167403696226304_n.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_cap1.jpg
+	/home/beniamino/Downloads/cap1.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_cap2.jpg
+	/home/beniamino/Downloads/cap2.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_cap2.webp
+	/home/beniamino/Downloads/cap2.webp
+t/home/beniamino/.local/share/vifm/Trash/000_cap3.jpg
+	/home/beniamino/Downloads/cap3.jpg
+t/home/beniamino/.local/share/vifm/Trash/000_cap3.webp
+	/home/beniamino/Downloads/cap3.webp
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200523-1252-55.png
+	/home/beniamino/pic-full-200523-1252-55.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200525-0053-40.png
+	/home/beniamino/pic-full-200525-0053-40.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200523-1324-10.png
+	/home/beniamino/pic-selected-200523-1324-10.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200523-2311-39.png
+	/home/beniamino/pic-selected-200523-2311-39.png
+t/home/beniamino/.local/share/vifm/Trash/000_lbry_downloads
+	/home/beniamino/Downloads/lbry_downloads
+t/home/beniamino/.local/share/vifm/Trash/000_Index-7979.mp4
+	/home/beniamino/Downloads/Index-7979.mp4
+t/home/beniamino/.local/share/vifm/Trash/000_01 01 Me Voy.mp3
+	/home/beniamino/Downloads/01 01 Me Voy.mp3
+t/home/beniamino/.local/share/vifm/Trash/000_725050.pdf
+	/home/beniamino/Downloads/725050.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_1831817.pdf
+	/home/beniamino/Downloads/1831817.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_0038038512448562(1).pdf
+	/home/beniamino/Downloads/0038038512448562(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Future Past Life.zip
+	/home/beniamino/Downloads/Future Past Life.zip
+t/home/beniamino/.local/share/vifm/Trash/000_Guitar Sensation_ I.Albeniz, M.Giuliani,E.Granados,J.Malats,F.Sor.zip
+	/home/beniamino/Downloads/Guitar Sensation_ I.Albeniz, M.Giuliani,E.Granados,J.Malats,F.Sor.zip
+t/home/beniamino/.local/share/vifm/Trash/000_Take-Home Assessment 2019-20 - front page.docx
+	/home/beniamino/Downloads/Take-Home Assessment 2019-20 - front page.docx
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199603695-chapter-7.pdf
+	/home/beniamino/Downloads/acprof-9780199603695-chapter-7.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_baum_2002.pdf
+	/home/beniamino/Downloads/baum_2002.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_bureaucrats_budgets_and_the_growth_of_the_state_reconstructing_an_instrumental_model(1).pdf
+	/home/beniamino/Downloads/bureaucrats_budgets_and_the_growth_of_the_state_reconstructing_an_instrumental_model(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_final2.pdf
+	/home/beniamino/Downloads/final2.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_fp.pdf
+	/home/beniamino/Downloads/fp.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_lecture09_Bureaucrats_20191210.pdf
+	/home/beniamino/Downloads/lecture09_Bureaucrats_20191210.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_my-first-conk_malcolm-x_essay-excerpt-from-his-autobiography-mood-tone-voice-pov.pdf
+	/home/beniamino/Downloads/my-first-conk_malcolm-x_essay-excerpt-from-his-autobiography-mood-tone-voice-pov.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_prior_2005.pdf
+	/home/beniamino/Downloads/prior_2005.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_prior_2011.pdf
+	/home/beniamino/Downloads/prior_2011.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_tails-amd64-4.6.iso
+	/home/beniamino/Downloads/tails-amd64-4.6.iso
+t/home/beniamino/.local/share/vifm/Trash/000_tails-amd64-4.6.iso.sig
+	/home/beniamino/Downloads/tails-amd64-4.6.iso.sig
+t/home/beniamino/.local/share/vifm/Trash/000_pop-os_20.04_amd64_intel_6.iso
+	/home/beniamino/Downloads/pop-os_20.04_amd64_intel_6.iso
+t/home/beniamino/.local/share/vifm/Trash/000_tails-signing.key
+	/home/beniamino/Downloads/tails-signing.key
+t/home/beniamino/.local/share/vifm/Trash/000_ubuntu-20.04-desktop-amd64.iso
+	/home/beniamino/Downloads/ubuntu-20.04-desktop-amd64.iso
+t/home/beniamino/.local/share/vifm/Trash/000_pop-os_20.04_amd64_nvidia_6.iso
+	/home/beniamino/Downloads/pop-os_20.04_amd64_nvidia_6.iso
+t/home/beniamino/.local/share/vifm/Trash/000_parabola-dual-openrc-cli-2020.01.18-netinstall.iso
+	/home/beniamino/Downloads/parabola-dual-openrc-cli-2020.01.18-netinstall.iso
+t/home/beniamino/.local/share/vifm/Trash/000_archlinux-2020.05.01-x86_64.iso
+	/home/beniamino/Downloads/archlinux-2020.05.01-x86_64.iso
+t/home/beniamino/.local/share/vifm/Trash/000_go
+	/home/beniamino/go
+t/home/beniamino/.local/share/vifm/Trash/000_finder.py
+	/home/beniamino/finder.py
+t/home/beniamino/.local/share/vifm/Trash/000_leeter.py
+	/home/beniamino/leeter.py
+t/home/beniamino/.local/share/vifm/Trash/000_results
+	/home/beniamino/results
+t/home/beniamino/.local/share/vifm/Trash/000_short
+	/home/beniamino/short
+t/home/beniamino/.local/share/vifm/Trash/000_sortedlist
+	/home/beniamino/sortedlist
+t/home/beniamino/.local/share/vifm/Trash/000_statelist
+	/home/beniamino/statelist
+t/home/beniamino/.local/share/vifm/Trash/000_wordlist
+	/home/beniamino/wordlist
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200528-1644-32.png
+	/home/beniamino/pic-full-200528-1644-32.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200527-2331-48.png
+	/home/beniamino/pic-selected-200527-2331-48.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200528-1701-00.png
+	/home/beniamino/pic-selected-200528-1701-00.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-0225-42.png
+	/home/beniamino/pic-selected-200529-0225-42.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1107-02.png
+	/home/beniamino/pic-selected-200529-1107-02.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1108-22.png
+	/home/beniamino/pic-selected-200529-1108-22.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1322-57.png
+	/home/beniamino/pic-selected-200529-1322-57.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1657-12.png
+	/home/beniamino/pic-selected-200529-1657-12.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200530-1502-36.png
+	/home/beniamino/pic-selected-200530-1502-36.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1943-38.png
+	/home/beniamino/pic-selected-200531-1943-38.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1950-12.png
+	/home/beniamino/pic-selected-200531-1950-12.png
 
 # State:
 f
