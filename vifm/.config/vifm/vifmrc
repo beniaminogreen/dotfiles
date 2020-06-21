@@ -11,6 +11,7 @@ map <C-v> <C-w>v
 
 set vicmd=nvim
 filetype *.pdf zathura 2>/dev/null &
+filetype *.epub zathura 2>/dev/null &
 filetype *.zip extract
 fileviewer *.pdf
   \ pdftotext %c -

@@ -46,200 +46,197 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/beniamino/UCL
-	latex_resources
-11
 d/home/beniamino
 	Downloads
 2
 d/home/beniamino/Downloads
-	prior_2011.pdf
-26
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	latex_resources
-11
-d/home/beniamino/UCL/latex_resources
-	latexcoversheets
-2
-d/home/beniamino/UCL/latex_resources/latexcoversheets
-	POLS
+	CampaignFin18
 1
-d/home/beniamino/UCL/latex_resources/latexcoversheets/POLS
-	uclheader.png
-3
-d/home/beniamino/UCL/latex_resources/latexcoversheets
-	POLS
-1
-d/home/beniamino/UCL/latex_resources
-	latexcoversheets
-2
-d/home/beniamino/UCL
-	general_qstep
-10
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	general_qstep
-10
-d/home/beniamino/UCL/general_qstep
-	notes
-1
-d/home/beniamino/UCL
-	general_qstep
-10
-d/home/beniamino
-	Downloads
+d/home/beniamino/Downloads/CampaignFin18
+	Rplots.pdf
 2
 d/home/beniamino/Downloads
-	prior_2005.pdf
-7
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
-6
-d/home/beniamino
-	finder.py
-10
-d/home
-	beniamino
+	CampaignFin18
 1
-d/
-	home
-4
-d/home
-	beniamino
-1
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	pop-os_20.04_amd64_nvidia_6.iso
-7
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	0891243210383419.pdf
-4
-d/home/beniamino
-	UCL
-5
-d/home/beniamino/UCL
-	general_qstep
-10
 d/home/beniamino
 	auto-install
 6
 d/home/beniamino/auto-install
-	..
-0
-d/home/beniamino
-	go
-8
-d/home/beniamino/go
-	..
-0
-d/home/beniamino
-	Documents
-1
-d/home/beniamino/Documents
-	books
-6
-d/home/beniamino/Documents/books
-	Singer_pov
+	packages.csv
 3
-d/home/beniamino/Documents/books/Singer_pov
-	Singer_pov_chapter7.pdf
+d/home/beniamino
+	UCL
+5
+d/home/beniamino/UCL
+	POLS0010
 7
-d/home/beniamino/Documents/books
-	Singer_pov
-3
-d/home/beniamino/Documents
-	books
-6
 d/home/beniamino
-	Documents
-1
-d/home
-	beniamino
-1
-d/
-	etc
-3
-d/etc
-	openvpn
-25
-d/etc/openvpn
-	client
-1
-d/etc
-	..
-0
-d/
-	etc
-3
-d/etc
-	..
-0
-d/
-	home
-4
-d/home
-	beniamino
-1
-d/home/beniamino
-	.config
-4
-d/home/beniamino/.config
-	gtk-2.0
-20
-d/home/beniamino/.config/gtk-2.0
-	gtkrc-2.0
+	Downloads
 2
-d/home/beniamino/.config
-	gtk-3.0
-21
-d/home/beniamino/.config/gtk-3.0
-	settings.ini
+d/home/beniamino/Downloads
+	dataverse_files
+2
+d/home/beniamino/Downloads/dataverse_files
+	codebook-us-senate-1976ÔÇô2018.md
+3
+d/home/beniamino/Downloads
+	dataverse_files
+2
+d/home/beniamino/Downloads/dataverse_files
+	codebook-us-senate-1976ÔÇô2018.md
+3
+d/home/beniamino/Downloads
+	firstan
+6
+d/home/beniamino/Downloads/firstan
+	..
+0
+d/home/beniamino/Downloads
+	fbdonations
 1
-d/home/beniamino/.config
-	gtk-3.0
-21
-d/home/beniamino
-	.config
-4
-d/home
-	beniamino
+d/home/beniamino/Downloads/fbdonations
+	data
 1
-d/
-	home
-4
-d/home
-	beniamino
+d/home/beniamino/Downloads/fbdonations/data
+	campaignfin12
+1
+d/home/beniamino/Downloads/fbdonations/data/campaignfin12
+	cands12.txt
+2
+d/home/beniamino/Downloads/fbdonations/data
+	campaignfin12
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	..
+0
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin14
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	..
+0
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin12
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads
+	fbdonations
 1
 d/home/beniamino
 	Downloads
 2
 d/home/beniamino/Downloads
-	gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
-6
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	..
+0
+d/home/beniamino/Downloads
+	fbdonations
+1
 d/home/beniamino
 	Downloads
 2
-d/home
-	beniamino
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin12
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin14
+2
+d/home/beniamino/Downloads/fbdonations/data/CampaignFin14
+	..
+0
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin14
+2
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+1
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin12
+1
+d/home/beniamino/Downloads/fbdonations/data/CampaignFin12
+	CF_2012_Read_Me.txt
+1
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin14
+2
+d/home/beniamino/Downloads/fbdonations/data/CampaignFin14
+	pacs14.txt
+6
+d/home/beniamino/Downloads/fbdonations/data
+	CampaignFin14
+2
+d/home/beniamino/Downloads/fbdonations
+	compressed
+1
+d/home/beniamino/Downloads/fbdonations/compressed
+	CampaignFin12.zip
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads
+	fbdonations
 1
 d/home/beniamino
 	R
 4
 d/home/beniamino/R
-	x86_64-pc-linux-gnu-library
+	..
+0
+d/home/beniamino
+	R
+4
+d/home
+	beniamino
 1
 d/home/beniamino
 	UCL
@@ -260,17 +257,17 @@ d/home/beniamino/UCL/POLS0010/R
 	week2
 2
 d/home/beniamino/UCL/POLS0010/R/week2
-	tests
-1
-d/home/beniamino/UCL/POLS0010/R/week2/tests
-	..
-0
-d/home/beniamino/UCL/POLS0010/R/week2
-	final.R
-4
+	example.R
+3
 d/home/beniamino/UCL/POLS0010/R
 	week2
 2
+d/home/beniamino/UCL/POLS0010
+	R
+1
+d/home/beniamino/UCL
+	POLS0010
+7
 d/home/beniamino/UCL/POLS0010
 	R
 1
@@ -281,80 +278,77 @@ d/home/beniamino
 	Downloads
 2
 d/home/beniamino/Downloads
-	gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
-6
-d/home/beniamino
-	Documents
+	fbdonations
 1
-d/home/beniamino/Documents
-	housing
-7
-d/home/beniamino/Documents/housing
-	referencing_files_ben_green
+d/home/beniamino
+	Downloads
 2
-d/home/beniamino/Documents
-	housing
-7
-d/home/beniamino/Documents/housing
-	referencing_files_ben_green
+d/home/beniamino/Downloads
+	firstan
 2
-d/home/beniamino/Documents/housing/referencing_files_ben_green
+d/home/beniamino/Downloads/firstan
+	analyze.R
+3
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads/fbdonations/data
 	..
 0
-d/home/beniamino/Documents/housing
-	referencing_files_ben_green
+d/home/beniamino/Downloads/fbdonations
+	data
 2
-d/home/beniamino/Documents
-	housing
-7
-d/home/beniamino
-	Documents
+d/home/beniamino/Downloads/fbdonations/data
+	2016_senate.csv
+5
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads/fbdonations/data
+	..
+0
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads
+	fbdonations
 1
-d/home/beniamino/Documents
-	books
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads/fbdonations/data
+	2012_h_s.csv
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads
+	fbdonations
+1
+d/home/beniamino/Downloads/fbdonations
+	data
+2
+d/home/beniamino/Downloads/fbdonations/data
+	2018_h.csv
 6
-d/home/beniamino/Documents/books
-	Singer_pov
-3
-d/home/beniamino/Documents/books/Singer_pov
-	Singer_pov_chapter7.pdf
-7
-d/home/beniamino/Documents/books
-	Singer_pov
-3
-d/home/beniamino/Documents
-	housing
-7
-d/home/beniamino
-	Downloads
+d/home/beniamino/Downloads/fbdonations
+	data
 2
 d/home/beniamino/Downloads
-	4623785.pdf
-3
-d/home/beniamino
-	pic-selected-200529-0225-42.png
-10
-d/home
-	beniamino
+	fbdonations
 1
 d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	8219325.pdf
-4
-d/home/beniamino
-	programming
-9
+	Music
+3
+d/home/beniamino/Music
+	01 - Birthday Suit ( Drake Demo Reference ).mp3
+1
 d
 
 # Right window history (oldest to newest):
-D/home/beniamino/programming/webdev/fakeshibboleth/fakeshibboleth
-	__pycache__
-1
-D/home/beniamino/programming/webdev/fakeshibboleth
-	core
-1
 D/home/beniamino/programming/webdev/fakeshibboleth/core
 	views.py
 6
@@ -649,9 +643,18 @@ D/home/beniamino/UCL/POLS0009
 D/home/beniamino/UCL/POLS0009/final2
 	final2.tex
 2
+D/home/beniamino/UCL/POLS0009
+	final2
+2
+D/home/beniamino/UCL
+	POLS0009
+6
 D
 
 # Command line history (oldest to newest):
+:mkdir zathura
+:q
+:!mkdir ethics
 :marginal_effects_1.tex
 :vim marginal_effects_1.tex
 :!vim me1.tex
@@ -695,7 +698,6 @@ D
 :vim notes.tex
 :!vim notes.tex
 :mkdir bibmanage
-:w
 :!du .lib
 :mk
 :vim kanye.py
@@ -705,6 +707,11 @@ D
 :mkdir POLS
 :vim cover.tex
 :!vim cover.tex
+:!vim Safe\ Personal\ Alarm.html
+:mkdir fbdonations
+:mkdir data
+:mkdir compressed
+:w
 
 # Search history (oldest to newest):
 /.config
@@ -712,6 +719,23 @@ D
 /openv
 
 # Prompt history (oldest to newest):
+p2012_house_senate.csvno
+p2012_house_senate.csv
+p2014_senate.csv
+phuxley_brave_new_world.epub
+phdt_walden.epub
+phdt_civil_disobedience.epub
+ppaine_common_sense.epub
+pmachievelli_the_prince.epub
+prouchefoucald_maxims.epub
+prouchefoucauld_maxims.epub
+pNietzsche_genealogy.epub
+pmill_on_liberty.epub
+pgelman_hill_2007.pdf
+ppratchett_good_omens.pdf
+psinger_pov
+psage_green_book_APC
+pmikhail_cognition
 pprior_2011.pdf
 pprior_2005.pdf
 pDellavigna_2007.pdf
@@ -744,18 +768,16 @@ pBoomgaarden_2007.pdf
 pbaum_2002.pdf
 pbin
 p.lib
+pin_defense_of_fti.pdf
+pfirstan
+pcampaignfin12
+pcampaignfin18
+pcampaignfin16
+pcampaignfin14
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-0225-42.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1107-02.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1108-22.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1322-57.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200529-1657-12.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200530-1502-36.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1943-38.png
-""/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1950-12.png
 
 # Directory stack (oldest to newest):
 
@@ -23282,6 +23304,272 @@ t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1943-38.png
 	/home/beniamino/pic-selected-200531-1943-38.png
 t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200531-1950-12.png
 	/home/beniamino/pic-selected-200531-1950-12.png
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780198709299-chapter-4(1).pdf
+	/home/beniamino/Downloads/acprof-9780198709299-chapter-4(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_riot-medicine.pdf.sig
+	/home/beniamino/riot-medicine.pdf.sig
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200602-1244-04.png
+	/home/beniamino/pic-full-200602-1244-04.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200601-1511-51.png
+	/home/beniamino/pic-selected-200601-1511-51.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200601-1842-35.png
+	/home/beniamino/pic-selected-200601-1842-35.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200601-2239-31.png
+	/home/beniamino/pic-selected-200601-2239-31.png
+t/home/beniamino/.local/share/vifm/Trash/000_video-200602-1245-04.avi
+	/home/beniamino/video-200602-1245-04.avi
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-1553-10.png
+	/home/beniamino/pic-selected-200602-1553-10.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200602-1635-32.png
+	/home/beniamino/pic-full-200602-1635-32.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-1245-16.png
+	/home/beniamino/pic-selected-200602-1245-16.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-1612-17.png
+	/home/beniamino/pic-selected-200602-1612-17.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-1612-36.png
+	/home/beniamino/pic-selected-200602-1612-36.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-1613-01.png
+	/home/beniamino/pic-selected-200602-1613-01.png
+t/home/beniamino/.local/share/vifm/Trash/000_riot-medicine.pdf
+	/home/beniamino/riot-medicine.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2018election.pdf
+	/home/beniamino/Downloads/2018election.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_j.1533-6077.2009.00170.x.pdf
+	/home/beniamino/Downloads/j.1533-6077.2009.00170.x.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_The idea of the liberal media and its roots in the civil rights movement.pdf
+	/home/beniamino/Downloads/The idea of the liberal media and its roots in the civil rights movement.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200602-2212-42.png
+	/home/beniamino/pic-full-200602-2212-42.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200603-1011-23.png
+	/home/beniamino/pic-full-200603-1011-23.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-1957-46.png
+	/home/beniamino/pic-selected-200602-1957-46.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-2349-29.png
+	/home/beniamino/pic-selected-200602-2349-29.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200602-2351-34.png
+	/home/beniamino/pic-selected-200602-2351-34.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200603-1028-08.png
+	/home/beniamino/pic-selected-200603-1028-08.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200605-1359-53.png
+	/home/beniamino/pic-selected-200605-1359-53.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200605-1404-41.png
+	/home/beniamino/pic-selected-200605-1404-41.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-1017-45.png
+	/home/beniamino/pic-selected-200608-1017-45.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-1034-30.png
+	/home/beniamino/pic-selected-200608-1034-30.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2006-46.png
+	/home/beniamino/pic-selected-200608-2006-46.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2007-51.png
+	/home/beniamino/pic-selected-200608-2007-51.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2014-06.png
+	/home/beniamino/pic-selected-200608-2014-06.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2128-06.png
+	/home/beniamino/pic-selected-200608-2128-06.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2128-23.png
+	/home/beniamino/pic-selected-200608-2128-23.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2315-27.png
+	/home/beniamino/pic-selected-200608-2315-27.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2315-40.png
+	/home/beniamino/pic-selected-200608-2315-40.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200608-2334-37.png
+	/home/beniamino/pic-selected-200608-2334-37.png
+t/home/beniamino/.local/share/vifm/Trash/000_r_0_edited_with_pop_size.r
+	/home/beniamino/Downloads/r_0_edited_with_pop_size.r
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200609-1738-32.png
+	/home/beniamino/pic-selected-200609-1738-32.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200609-1738-37.png
+	/home/beniamino/pic-selected-200609-1738-37.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200610-0110-51.png
+	/home/beniamino/pic-selected-200610-0110-51.png
+t/home/beniamino/.local/share/vifm/Trash/000_PHIL0068MAMPhilEssays19-20.pdf
+	/home/beniamino/Downloads/PHIL0068MAMPhilEssays19-20.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_W04MetaethicsHandout.pdf
+	/home/beniamino/Downloads/W04MetaethicsHandout.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200611-2132-18.png
+	/home/beniamino/pic-full-200611-2132-18.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200612-1548-35.png
+	/home/beniamino/pic-full-200612-1548-35.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200614-2013-15.png
+	/home/beniamino/pic-full-200614-2013-15.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200614-2016-04.png
+	/home/beniamino/pic-full-200614-2016-04.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200614-1508-51.png
+	/home/beniamino/pic-selected-200614-1508-51.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200614-2046-16.png
+	/home/beniamino/pic-selected-200614-2046-16.png
+t/home/beniamino/.local/share/vifm/Trash/000_Skarsaune2011_Article_DarwinAndMoralRealismSurvivalO(1).pdf
+	/home/beniamino/Downloads/Skarsaune2011_Article_DarwinAndMoralRealismSurvivalO(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_The_Descent_of_man.bibtex
+	/home/beniamino/Downloads/The_Descent_of_man.bibtex
+t/home/beniamino/.local/share/vifm/Trash/000_701478(1).pdf
+	/home/beniamino/Downloads/701478(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199572816-chapter-21(1).pdf
+	/home/beniamino/Downloads/acprof-9780199572816-chapter-21(1).pdf
+t/home/beniamino/.local/share/vifm/Trash/000_::w
+	/home/beniamino/UCL/PHIL0068/final/::w
+t/home/beniamino/.local/share/vifm/Trash/000_;:w:w
+	/home/beniamino/UCL/PHIL0068/final/;:w:w
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200615-1423-32.png
+	/home/beniamino/pic-full-200615-1423-32.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200616-0948-12.png
+	/home/beniamino/pic-full-200616-0948-12.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200616-1318-16.png
+	/home/beniamino/pic-full-200616-1318-16.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200616-1257-43.png
+	/home/beniamino/pic-selected-200616-1257-43.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200616-1303-46.png
+	/home/beniamino/pic-selected-200616-1303-46.png
+t/home/beniamino/.local/share/vifm/Trash/005_FRZZ7.pdf
+	/home/beniamino/UCL/PHIL0068/final/FRZZ7.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin18
+	/home/beniamino/Downloads/CampaignFin18
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin18.zip
+	/home/beniamino/Downloads/CampaignFin18.zip
+t/home/beniamino/.local/share/vifm/Trash/000_huxley_brave_new_world.epub
+	/home/beniamino/Downloads/huxley_brave_new_world.epub
+t/home/beniamino/.local/share/vifm/Trash/000_oxfordhb-9780199657889-e-16.pdf
+	/home/beniamino/Downloads/oxfordhb-9780199657889-e-16.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_oxfordhb-9780199657889-e-42.pdf
+	/home/beniamino/Downloads/oxfordhb-9780199657889-e-42.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199572809-chapter-3.pdf
+	/home/beniamino/Downloads/acprof-9780199572809-chapter-3.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199572816-chapter-20.pdf
+	/home/beniamino/Downloads/acprof-9780199572816-chapter-20.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199572816-chapter-21.pdf
+	/home/beniamino/Downloads/acprof-9780199572816-chapter-21.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199653836-chapter-6.pdf
+	/home/beniamino/Downloads/acprof-9780199653836-chapter-6.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_acprof-9780199653836-chapter-13.pdf
+	/home/beniamino/Downloads/acprof-9780199653836-chapter-13.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
+	/home/beniamino/Downloads/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_papa.12132.pdf
+	/home/beniamino/Downloads/papa.12132.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_sidgwicks_dualism_of_practical_reason_evolutionary_debunking_and_moral_psychology.pdf
+	/home/beniamino/Downloads/sidgwicks_dualism_of_practical_reason_evolutionary_debunking_and_moral_psychology.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_7JEthicsSocPhili.pdf
+	/home/beniamino/Downloads/7JEthicsSocPhili.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_12652-Article Text-25283-1-6-20191110.pdf
+	/home/beniamino/Downloads/12652-Article Text-25283-1-6-20191110.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_673433.pdf
+	/home/beniamino/Downloads/673433.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_701478.pdf
+	/home/beniamino/Downloads/701478.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_4623785.pdf
+	/home/beniamino/Downloads/4623785.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_0038038512448562.pdf
+	/home/beniamino/Downloads/0038038512448562.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_0891243210383419.pdf
+	/home/beniamino/Downloads/0891243210383419.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Curry-2016.pdf
+	/home/beniamino/Downloads/Curry-2016.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Debunking - HandoutVideo.pdf
+	/home/beniamino/Downloads/Debunking - HandoutVideo.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Food and masculinity in dual career couples.pdf
+	/home/beniamino/Downloads/Food and masculinity in dual career couples.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_London_(1932)_Ending_the_depression_through_planned_obsolescence.pdf
+	/home/beniamino/Downloads/London_(1932)_Ending_the_depression_through_planned_obsolescence.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_Skarsaune2011_Article_DarwinAndMoralRealismSurvivalO.pdf
+	/home/beniamino/Downloads/Skarsaune2011_Article_DarwinAndMoralRealismSurvivalO.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_ethics
+	/home/beniamino/Downloads/ethics
+t/home/beniamino/.local/share/vifm/Trash/000_Guitar Sensation_ I.Albeniz, M.Giuliani,E.Granados,J.Malats,F.Sor
+	/home/beniamino/Downloads/Guitar Sensation_ I.Albeniz, M.Giuliani,E.Granados,J.Malats,F.Sor
+t/home/beniamino/.local/share/vifm/Trash/000_Future Past Life
+	/home/beniamino/Downloads/Future Past Life
+t/home/beniamino/.local/share/vifm/Trash/000_Expend18
+	/home/beniamino/Downloads/Expend18
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200617-1709-59.png
+	/home/beniamino/pic-full-200617-1709-59.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200617-1710-05.png
+	/home/beniamino/pic-full-200617-1710-05.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200618-1123-02.png
+	/home/beniamino/pic-selected-200618-1123-02.png
+t/home/beniamino/.local/share/vifm/Trash/002_zathura
+	/home/beniamino/.config/zathura
+t/home/beniamino/.local/share/vifm/Trash/000_zathurarc
+	/home/beniamino/.config/zathura/zathurarc
+t/home/beniamino/.local/share/vifm/Trash/004_zathura
+	/home/beniamino/dotfiles/zathura
+t/home/beniamino/.local/share/vifm/Trash/000_Expend18.zip
+	/home/beniamino/Downloads/Expend18.zip
+t/home/beniamino/.local/share/vifm/Trash/000_https _safepersonalalarm.com_.html
+	/home/beniamino/Downloads/https _safepersonalalarm.com_.html
+t/home/beniamino/.local/share/vifm/Trash/000_Safe Personal Alarm.html
+	/home/beniamino/Downloads/Safe Personal Alarm.html
+t/home/beniamino/.local/share/vifm/Trash/000_Safe Personal Alarm_files
+	/home/beniamino/Downloads/Safe Personal Alarm_files
+t/home/beniamino/.local/share/vifm/Trash/004_:w
+	/home/beniamino/Downloads/:w
+t/home/beniamino/.local/share/vifm/Trash/014_Rplots.pdf
+	/home/beniamino/Downloads/CampaignFin18/Rplots.pdf
+t/home/beniamino/.local/share/vifm/Trash/000_2nd_Installment___12-07-2018
+	/home/beniamino/Downloads/2nd_Installment___12-07-2018
+t/home/beniamino/.local/share/vifm/Trash/000_2nd_Installment___12-07-2018.zip
+	/home/beniamino/Downloads/2nd_Installment___12-07-2018.zip
+t/home/beniamino/.local/share/vifm/Trash/000_pic-full-200618-1813-40.png
+	/home/beniamino/pic-full-200618-1813-40.png
+t/home/beniamino/.local/share/vifm/Trash/000_pic-selected-200618-2252-10.png
+	/home/beniamino/pic-selected-200618-2252-10.png
+t/home/beniamino/.local/share/vifm/Trash/000_dataverse_files
+	/home/beniamino/Downloads/dataverse_files
+t/home/beniamino/.local/share/vifm/Trash/000_dataverse_files(1).zip
+	/home/beniamino/Downloads/dataverse_files(1).zip
+t/home/beniamino/.local/share/vifm/Trash/000_dataverse_files.zip
+	/home/beniamino/Downloads/dataverse_files.zip
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin12.zip
+	/home/beniamino/Downloads/CampaignFin12.zip
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin14.zip
+	/home/beniamino/Downloads/CampaignFin14.zip
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin16.zip
+	/home/beniamino/Downloads/CampaignFin16.zip
+t/home/beniamino/.local/share/vifm/Trash/001_sed
+	/home/beniamino/Downloads/fbdonations/sed
+t/home/beniamino/.local/share/vifm/Trash/000_campaignfin12
+	/home/beniamino/Downloads/fbdonations/data/campaignfin12
+t/home/beniamino/.local/share/vifm/Trash/000_campaignfin14
+	/home/beniamino/Downloads/fbdonations/data/campaignfin14
+t/home/beniamino/.local/share/vifm/Trash/000_campaignfin16
+	/home/beniamino/Downloads/fbdonations/data/campaignfin16
+t/home/beniamino/.local/share/vifm/Trash/000_campaignfin18
+	/home/beniamino/Downloads/fbdonations/data/campaignfin18
+t/home/beniamino/.local/share/vifm/Trash/000_ingest.sh
+	/home/beniamino/Downloads/fbdonations/ingest.sh
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin16.zip.part
+	/home/beniamino/Downloads/CampaignFin16.zip.part
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin12.zip.part
+	/home/beniamino/Downloads/CampaignFin12.zip.part
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin18.zip.part
+	/home/beniamino/Downloads/CampaignFin18.zip.part
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin14
+	/home/beniamino/Downloads/fbdonations/data/CampaignFin14
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin12
+	/home/beniamino/Downloads/fbdonations/CampaignFin12
+t/home/beniamino/.local/share/vifm/Trash/007_test.R
+	/home/beniamino/Downloads/fbdonations/data/CampaignFin14/test.R
+t/home/beniamino/.local/share/vifm/Trash/001_CampaignFin12
+	/home/beniamino/Downloads/fbdonations/data/CampaignFin12
+t/home/beniamino/.local/share/vifm/Trash/000_CampaignFin16
+	/home/beniamino/Downloads/fbdonations/data/CampaignFin16
+t/home/beniamino/.local/share/vifm/Trash/001_CampaignFin18
+	/home/beniamino/Downloads/fbdonations/data/CampaignFin18
+t/home/beniamino/.local/share/vifm/Trash/000_federalelections2018.csv
+	/home/beniamino/Downloads/federalelections2018.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2012_house_senate.csv
+	/home/beniamino/Downloads/fbdonations/data/2012_house_senate.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2014_house.csv
+	/home/beniamino/Downloads/fbdonations/data/2014_house.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2014_senate.csv
+	/home/beniamino/Downloads/fbdonations/data/2014_senate.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2016_house.csv
+	/home/beniamino/Downloads/fbdonations/data/2016_house.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2016_senate.csv
+	/home/beniamino/Downloads/fbdonations/data/2016_senate.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2018_house.csv
+	/home/beniamino/Downloads/fbdonations/data/2018_house.csv
+t/home/beniamino/.local/share/vifm/Trash/000_2018_senate.csv
+	/home/beniamino/Downloads/fbdonations/data/2018_senate.csv
 
 # State:
 f

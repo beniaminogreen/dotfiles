@@ -40,7 +40,12 @@ super + x
 	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force off
 XF86Launch1
 	xset dpms force off
-
+# Select to clipboard
+super + shift + s
+	notify-send -t 500 selecting "esc to cancel" && maim -s | xclip -selection clipboard -t image/png
+# Fullscreen to clipboard
+super + shift + f
+	maim | xclip -selection clipboard -t image/png && notify-send -t 500 "Screenshot Taken"
 # Recording
 # Take screenshot
 Print
@@ -97,7 +102,7 @@ super + F12
 
 #quit/restart bspwm
 super + alt + {q,r}
-	bspc {quit,wm -r}
+	bspc {quit,wm -r; killall polybar}
 
 # close and kill
 super + {_,shift + }q

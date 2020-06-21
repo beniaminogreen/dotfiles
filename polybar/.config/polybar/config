@@ -57,7 +57,7 @@ font-2 = siji:pixelsize=20;1
 
 modules-left = bspwm i3
 modules-center = mpd
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = filesystem xbacklight alsa pulseaudio wlan eth memory cpu battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -195,7 +195,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #f90000
-label = %percentage:2%%
+label = CPU: %percentage:2%%
 
 [module/memory]
 type = internal/memory
@@ -203,7 +203,7 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #4bffdc
-label = %percentage_used%%
+label = Mem: %percentage_used%%
 
 [module/wlan]
 type = internal/network
@@ -247,11 +247,11 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = %d-%m-%Y
+date = %A, %d-%m-%Y
 date-alt = %m-%d-%Y
 
 time = %H:%M
-time-alt = %H:%M:%S
+time-alt = %H:%M
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -263,7 +263,7 @@ label = %time% | %date%
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
+label-volume = Vol %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
@@ -347,6 +347,10 @@ animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
+label-charging = Bat: %percentage%%
+label-discharging = Bat: %percentage%%
+label-full = Bat: Full
+
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
@@ -357,7 +361,7 @@ format-underline = #05FF0d
 format-warn = <ramp> <label-warn>
 format-warn-underline = #f50a4d
 
-label = %temperature-c%
+label = Temp: %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
