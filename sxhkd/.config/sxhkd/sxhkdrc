@@ -8,21 +8,21 @@ super + b
 	$TERMINAL -e nvim $BIB
 super + r
 	$TERMINAL -e R
-super + M
-	$TERMINAL -e firefox --new-window www.messenger.com
-super + m
-	qutebrowser www.messenger.com
 super + n
 	$TERMINAL -e newsboat
 super + t
 	$TERMINAL -e htop
 super + shift + a
 	$TERMINAL -e pulsemixer; pkill -RTMIN+10 i3blocks
-super + shift + c
+super + shift + r
+	redtoggle
+super + c
 	camtoggle
-super + w
-	qutebrowser
-super + shift + w
+super +shift + w
+	firefox
+super +  o
+	$BROWSER
+super +  w
 	$BROWSER
 super + shift + grave
 	clipqr
@@ -37,7 +37,7 @@ super + shift + x
 super + shift + BackSpace
 	prompt "Reboot computer?" "sudo -A shutdown -r now"
 super + x
-	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force off
+	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; pkill -f /dev/video2; xset dpms force off
 XF86Launch1
 	xset dpms force off
 # Select to clipboard
@@ -65,7 +65,6 @@ super + {equal,plus}
 # Decrease volume
 super {_,shift +} + minus
 	pulsemixer --change-volume -{5,10}
-
 # Change display
 super + F3
 	displayselect
@@ -169,7 +168,7 @@ super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #Move a window to a given desktop and follow it
-alt + {1-9,0}
+ctrl + {1-9,0}
 	MONITOR='^{1-9,10}';bspc node -d $MONITOR; bspc desktop -f $MONITOR
 #
 # preselect

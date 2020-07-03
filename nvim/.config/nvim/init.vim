@@ -123,6 +123,7 @@ set clipboard+=unnamedplus
 	autocmd BufRead,BufNewFile *.r,*.R  set filetype=r
 	autocmd BufRead,BufNewFile *.rs set filetype=rust
 	autocmd BufRead,BufNewFile *.sh set filetype=sh
+	autocmd BufRead,BufNewFile *.notes set filetype=notes
 
 " Enable Goyo by default for mutt writting
 " Goyo's width will be the line limit in mutt.
@@ -217,6 +218,9 @@ set clipboard+=unnamedplus
 	autocmd FileType tex vnoremap ,ol :norm I<Tab>\item<Space><Enter>'<O\begin{enumerate}<Esc>'>o\end{enumerate}<Esc>
 	autocmd FileType tex vnoremap ,ul :norm I<Tab>\item<Space><Enter>'<O\begin{itemize}<Esc>'>o\end{itemize}<Esc>
 	autocmd FileType tex vnoremap ,it c\textit{}<esc>P
+	autocmd FileType tex vnoremap ,sec c\section{}<esc>P
+	autocmd FileType tex vnoremap ,ssec c\subsection{}<esc>P
+	autocmd FileType tex vnoremap ,sssec c\subsubsection{}<esc>P
 	autocmd FileType tex vnoremap ,ms c$$<esc>P
 	autocmd FileType tex vnoremap ,bf c\textbf{}<esc>P
 	autocmd FileType tex vnoremap ,em c\emph{}<Esc>P
@@ -302,6 +306,9 @@ set clipboard+=unnamedplus
 """.xml
 	autocmd filetype xml inoremap ,e <item><Enter><title><++></title><Enter><guid<space>isPermaLink="false"><++></guid><Enter><pubDate><Esc>:put<Space>=strftime('%a, %d %b %Y %H:%M:%S %z')<Enter>kJA</pubDate><Enter><link><++></link><Enter><description><![CDATA[<++>]]></description><Enter></item><Esc>?<title><enter>cit
 	autocmd filetype xml inoremap ,a <a href="<++>"><++></a><++><Esc>F"ci"
+
+""".notes
+	autocmd filetype notes nnoremap ,n :put =strftime('%D')<enter>A ()<enter><++><esc>k$i
 
 """ remaps for indentation
 	vnoremap < <gv

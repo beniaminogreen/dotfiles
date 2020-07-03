@@ -7,4 +7,4 @@ alias grep="grep --color=auto"
 alias ls="ls --color=auto"
 alias please="sudo"
 alias vfz='fzf | xargs -o vim'
-
+alias fonttest="curl https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html"
