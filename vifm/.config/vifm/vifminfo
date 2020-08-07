@@ -46,144 +46,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/beniamino/Downloads/podcasts
-	2020-08-03-Wrongfully Accused by an Algorithm.mp3
-4
-d/home/beniamino/Downloads
-	podcasts
-2
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	Label-501739031.pdf
-7
-d/home/beniamino
-	dotfiles
-5
-d/home
-	beniamino
-1
-d/home/beniamino
-	Downloads
-2
-d/home
-	beniamino
-1
-d/
-	mnt
-8
-d/mnt
-	..
-0
-d/
-	home
-4
-d/home
-	beniamino
-1
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	1912.04255.pdf
-3
-d/home/beniamino
-	Documents
-1
-d/home/beniamino/Documents
-	articles
-2
-d/home/beniamino/Documents/articles
-	Wright_2015_men_meat_and_hegan_identity.pdf
-20
-d/home/beniamino/Documents
-	UCLtuition
-1
-d/home/beniamino/Documents/UCLtuition
-	..
-0
-d/home/beniamino/Documents
-	books
-3
-d/home/beniamino/Documents/books
-	..
-0
-d/home/beniamino/Documents
-	books
-3
-d/home/beniamino/Documents/books
-	hdt_walden.epub
-11
-d/home/beniamino/Documents
-	books
-3
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	fbdonations
-1
-d/home/beniamino/Downloads/fbdonations
-	data
-2
-d/home/beniamino/Downloads
-	annurev-polisci-051517-012343.pdf
-8
-d/home/beniamino
-	brother-mfc8860dn-lpr-bin
-6
-d/home/beniamino/brother-mfc8860dn-lpr-bin
-	pkg
-1
-d/home/beniamino
-	brother-mfc8860dn-cups-bin
-5
-d/home/beniamino/brother-mfc8860dn-cups-bin
-	..
-0
-d/home/beniamino
-	brother-mfc8860dn-lpr-bin
-6
-d/home/beniamino/brother-mfc8860dn-lpr-bin
-	..
-0
-d/home/beniamino
-	Downloads
-2
-d/home/beniamino/Downloads
-	brmfc8860dnlpr-2.0.1-1.i386.deb
-10
-d/home/beniamino
-	brother-mfc8860dn-cups-bin
-5
-d/home/beniamino/brother-mfc8860dn-cups-bin
-	PKGBUILD
-3
-d/home/beniamino
-	brother-mfc8860dn-lpr-bin
-6
-d/home/beniamino/brother-mfc8860dn-lpr-bin
-	PKGBUILD
-3
-d/home/beniamino
-	brother-mfc8860dn-cups-bin
-5
-d/home
-	beniamino
-1
-d/
-	etc
-3
-d/etc
-	cupshelpers
-21
-d/etc/cupshelpers
-	preferreddrivers.xml
-1
-d/etc
-	cups
-20
 d/etc/cups
 	printers.conf
 11
@@ -344,8 +206,146 @@ d/home/beniamino
 	programming
 9
 d/home/beniamino/programming
+	misc
+4
+d/home/beniamino
+	.fontconfig
+5
+d/home/beniamino/.fontconfig
 	..
 0
+d/home/beniamino
+	.config
+4
+d/home/beniamino/.config
+	qutebrowser
+5
+d/home/beniamino/.config/qutebrowser
+	bookmarks
+1
+d/home/beniamino/.config/qutebrowser/bookmarks
+	urls
+1
+d/home/beniamino/.config/qutebrowser
+	qsettings
+2
+d/home/beniamino/.config/qutebrowser/qsettings
+	QtProject.conf
+1
+d/home/beniamino/.config/qutebrowser
+	quickmarks
+4
+d/home/beniamino/.config
+	qutebrowser
+5
+d/home/beniamino
+	.config
+4
+d/home
+	beniamino
+2
+d/
+	home
+4
+d/home
+	beniamino
+2
+d/home/beniamino
+	.config
+4
+d/home/beniamino/.config
+	qutebrowser
+5
+d/home/beniamino
+	dotfiles
+8
+d/home/beniamino/dotfiles
+	qutebrowser
+12
+d/home/beniamino/dotfiles/qutebrowser
+	quickmarks
+4
+d/home/beniamino/dotfiles
+	qutebrowser
+12
+d/home/beniamino/dotfiles/qutebrowser
+	.config
+1
+d/home/beniamino/dotfiles/qutebrowser/.config
+	qutebrowser
+1
+d/home/beniamino/dotfiles/qutebrowser/.config/qutebrowser
+	bookmarks
+1
+d/home/beniamino/dotfiles/qutebrowser/.config/qutebrowser/bookmarks
+	urls
+1
+d/home/beniamino/dotfiles/qutebrowser/.config/qutebrowser
+	qsettings
+2
+d/home/beniamino/dotfiles/qutebrowser/.config/qutebrowser/qsettings
+	QtProject.conf
+1
+d/home/beniamino/dotfiles/qutebrowser/.config/qutebrowser
+	quickmarks
+4
+d/home/beniamino/dotfiles/qutebrowser/.config
+	qutebrowser
+1
+d/home/beniamino/dotfiles/qutebrowser
+	.config
+1
+d/home/beniamino/dotfiles
+	qutebrowser
+12
+d/home/beniamino/dotfiles/qutebrowser
+	.config
+1
+d/home/beniamino/dotfiles
+	qutebrowser
+12
+d/home/beniamino
+	.config
+4
+d/home/beniamino/.config
+	ranger
+3
+d/home/beniamino
+	.config
+3
+d/home
+	beniamino
+2
+d/home/beniamino
+	.icons
+3
+d/home
+	beniamino
+2
+d/home/beniamino
+	.local
+3
+d/home/beniamino/.local
+	bin
+1
+d/home/beniamino/.local/bin
+	tools
+3
+d/home/beniamino/.local/bin/tools
+	timeset
+4
+d/home/beniamino/.local/bin
+	bspwm
+2
+d/home/beniamino/.local/bin/bspwm
+	..
+0
+d/home/beniamino/.local/bin
+	tools
+3
+d/home/beniamino/.local/bin/tools
+	.git
+1
 d
 
 # Right window history (oldest to newest):
@@ -371,17 +371,22 @@ D/mnt/maggio-settembre 2016
 	IMG_0012.jpg
 2
 D/mnt
-	maggio-settembre 2016
-1
+	..
+0
 D
 
 # Command line history (oldest to newest):
 :w
+:mkdir qutebrowser
+:mkdir .config
 
 # Search history (oldest to newest):
 /video
 /pod
 /cups
+/RE
+/sortb
+/.bats
 
 # Prompt history (oldest to newest):
 pbrother-mfc8860dn-lpr-bin
@@ -389,7 +394,7 @@ pbrother-mfc8860dn-lpr-bin
 # Local filter history (oldest to newest):
 
 # Registers:
-""/mnt/maggio-settembre 2016
+""/home/beniamino/.local/share/vifm/Trash/002_tests
 
 # Directory stack (oldest to newest):
 
@@ -476,11 +481,31 @@ t/home/beniamino/.local/share/vifm/Trash/000_003902oo-1 Olson Mask V07.pdf
 	/home/beniamino/Downloads/003902oo-1 Olson Mask V07.pdf
 t/home/beniamino/.local/share/vifm/Trash/000_MaskProductionGuidelines03282020v6.pdf
 	/home/beniamino/Downloads/MaskProductionGuidelines03282020v6.pdf
+t/home/beniamino/.local/share/vifm/Trash/002_qutebrowser
+	/home/beniamino/.config/qutebrowser
+t/home/beniamino/.local/share/vifm/Trash/000_arch_pi
+	/home/beniamino/.local/bin/tools/arch_pi
+t/home/beniamino/.local/share/vifm/Trash/001_clipqr
+	/home/beniamino/.local/bin/tools/clipqr
+t/home/beniamino/.local/share/vifm/Trash/000_compiler
+	/home/beniamino/.local/bin/tools/compiler
+t/home/beniamino/.local/share/vifm/Trash/000_getbib
+	/home/beniamino/.local/bin/tools/getbib
+t/home/beniamino/.local/share/vifm/Trash/001_sortbib
+	/home/beniamino/.local/bin/tools/sortbib
+t/home/beniamino/.local/share/vifm/Trash/000_bspcfullscreen
+	/home/beniamino/.local/bin/bspwm/bspcfullscreen
+t/home/beniamino/.local/share/vifm/Trash/001_bspcreduce
+	/home/beniamino/.local/bin/bspwm/bspcreduce
+t/home/beniamino/.local/share/vifm/Trash/001_README.md
+	/home/beniamino/.local/bin/tools/README.md
+t/home/beniamino/.local/share/vifm/Trash/002_tests
+	/home/beniamino/.local/bin/tools/tests
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
