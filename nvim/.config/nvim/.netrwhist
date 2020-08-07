@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/beniamino/.config/sxhkd'
+let g:netrw_dirhist_2='/home/beniamino/.config/newsboat'
 let g:netrw_dirhist_1='/home/beniamino/.local/bin/i3cmds'
 let g:netrw_dirhist_0='/home/beniamino/.config/sxhkd'
 let g:netrw_dirhist_9='/home/beniamino/.config/zathura'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_7='/home/beniamino/programming/python/namer'
 let g:netrw_dirhist_6='/home/beniamino/programming/python/whiskey_scraper'
 let g:netrw_dirhist_5='/home/beniamino/programming/python'
 let g:netrw_dirhist_4='/home/beniamino/programming/python/namer'
-let g:netrw_dirhist_3='/home/beniamino'
-let g:netrw_dirhist_2='/home/beniamino/auto-install'

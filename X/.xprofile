@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#if [ ! -e /dev/video0.original ]; then
+	#sudo mv /dev/video0 /dev/video0.original &
+	#sudo ln -s /dev/video2 /dev/video0 &
+#fi
 sxhkd &	# Bind keys
 # Switch to US international with Caps as Mod/Escape
 setxkbmap -option caps:super -variant altgr-intl && #switches caps and super

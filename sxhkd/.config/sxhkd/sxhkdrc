@@ -1,7 +1,11 @@
 super + Return
 	st
+super + shift + e
+	$TERMINAL -e neomutt
 super + e
 	$TERMINAL -e $FILE
+super + shift +  p
+	$TERMINAL -e podboat -a
 super + p
 	$TERMINAL -e python
 super + b

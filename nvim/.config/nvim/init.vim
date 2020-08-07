@@ -314,6 +314,9 @@ set clipboard+=unnamedplus
 	vnoremap < <gv
 	vnoremap > >gv
 
+"""
+	""" nnoremap z "1yiW:!goto.sh "<C-R>1"<enter>
+
 """ use external terminal emulator for R
 	let R_in_buffer=0
 	let R_term=$TERMINAL

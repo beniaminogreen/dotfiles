@@ -13,6 +13,7 @@ set vicmd=nvim
 filetype *.pdf zathura 2>/dev/null &
 filetype *.epub zathura 2>/dev/null &
 filetype *.zip extract
+filetype *.dxf librecad 2>/dev/null &
 fileviewer *.pdf
   \ pdftotext %c -
 
@@ -310,3 +311,5 @@ nnoremap ,C :!gvim --remote-tab-silent $MYVIFMRC &<cr>
 " Toggle wrap setting on ,w key
 nnoremap ,w :set wrap!<cr>
 
+nnoremap ma :!mv %c /home/beniamino/Documents/articles/%c<cr>
+nnoremap mb :!mv %c /home/beniamino/Documents/books/%c<cr>
