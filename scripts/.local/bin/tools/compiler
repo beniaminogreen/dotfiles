@@ -36,7 +36,7 @@ case "$file" in
         *\.c) cc "$file" -o "$base" && "$base" ;;
 	*\.py) python "$file" ;;
 	*\.go) go run "$file" ;;
-	*\.sent) setsid sent "$file" 2>/dev/null & ;;
+	*\.sent) sent "$file" 2>/dev/null & ;;
 	*\.bats) bats "$file" ;;
 	*) sed 1q "$file" | grep "^#!/" | sed "s/^#!//" | xargs -r -I % "$file" ;;
 esac

@@ -29,6 +29,9 @@ echo "$0" | grep "bash$" >/dev/null && [ -f ~/.bashrc ] && source "$HOME/.bashrc
 # Switch escape and caps if tty:
 sudo -n loadkeys ~/.local/bin/ttymaps.kmap 2>/dev/null
 
+[[ -f /dev/video0.original ]] || sudo mv /dev/video0 /dev/video0.original && sudo ln -s /dev/video2 /dev/video0
+
+
 #set webcam to default camera
 
 #export GREP_OPTIONS='--color=auto'

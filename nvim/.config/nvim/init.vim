@@ -22,16 +22,26 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'vim-scripts/bats.vim'
 	Plug 'junegunn/goyo.vim'
 	Plug 'jreybert/vimagit'
+	Plug 'honza/vim-snippets'
 	Plug 'bling/vim-airline'
 	Plug 'vifm/vifm.vim'
+	Plug 'sirver/ultisnips'
 	Plug 'kovetskiy/sxhkd-vim'
 call plug#end()
+
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 set bg=light
 set go=a
 set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
+
+
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 " enforcing good habits
 	inoremap <up> <nop>
@@ -81,6 +91,7 @@ set clipboard+=unnamedplus
 " Nerd tree
 	map <leader>n :NERDTreeToggle<CR>
 	autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 
 " Shortcutting split navigation, saving a keypress:
 	map <C-h> <C-w>h
@@ -157,72 +168,51 @@ set clipboard+=unnamedplus
 	" Word count:
 	" Code snippets
 """LATEX
-	autocmd FileType tex inoremap ,a \href{}{<++>}<Space><++><Esc>2T{i
-	autocmd FileType tex inoremap ,li <Esc>o\item<Space>
-	autocmd FileType tex inoremap ,beg \begin{DELRN}<Enter><++><Enter>\end{DELRN}<Enter><Enter><++><Esc>4k0fR:MultipleCursorsFind<Space>DELRN<Enter>c
-	autocmd FileType tex inoremap ,bf \textbf{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,bn <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/notes_template.tex<Enter>ggdd:MultipleCursorsFind<Space><TITLE><Enter>c
+	"autocmd FileType tex inoremap ,a \href{}{<++>}<Space><++><Esc>2T{i
+	"autocmd FileType tex inoremap ,ac <esc>f}a[][<++>]{<++>}<Space><++><Esc>2T[i
+	"autocmd FileType tex inoremap ,beg \begin{DELRN}<Enter><++><Enter>\end{DELRN}<Enter><Enter><++><Esc>4k0fR:MultipleCursorsFind<Space>DELRN<Enter>c
+	"autocmd FileType tex inoremap ,bf \textbf{}<Space><++><Esc>T{i
+	"autocmd FileType tex inoremap ,cf \footcites[][<++>]{<++>}<Space><++><Esc>2T[i
+	"autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><++><Esc>2kf}i
+	"autocmd FileType tex inoremap ,cp \parencites[][<++>]{<++>}<Space><++><Esc>2T[i
+	"autocmd FileType tex inoremap ,ct \textcites[][<++>]{<++>}<Space><++><Esc>2T[i
+	"autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
+	"autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
+	"autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><++><Esc>2kf}i
+	"autocmd FileType tex inoremap ,ssec \subsection{}<Enter><Enter><++><Esc>2kf}i
+	"autocmd FileType tex inoremap ,sssec \subsubsection{}<Enter><Enter><++><Esc>2kf}i
 	autocmd FileType tex inoremap ,bd <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/data_sci_template.tex<Enter>ggdd,,
 	autocmd FileType tex inoremap ,be <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/essay_template.tex<Enter>ggdd:MultipleCursorsFind<Space><TITLE><Enter>c
-	autocmd FileType tex inoremap ,bt {\blindtext}
-	autocmd FileType tex inoremap ,can \cand{}<Tab><++><Esc>T{i
-	autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><++><Esc>2kf}i
+	autocmd FileType tex inoremap ,bn <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/notes_template.tex<Enter>ggdd:MultipleCursorsFind<Space><TITLE><Enter>c
+	autocmd FileType tex inoremap ,cc \cites[][<++>]{<++>}<Space><++><Esc>2T[i
 	autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
 	autocmd FileType tex inoremap ,con \const{}<Tab><++><Esc>T{i
-	autocmd FileType tex inoremap ,cp \parencites[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex inoremap ,cc \cites[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex inoremap ,cf \footcites[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex inoremap ,ct \textcites[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex inoremap ,ac <esc>f}a[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex noremap ,ac f}a[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
-	autocmd FileType tex inoremap ,ms  $$<esc>i
 	autocmd FileType tex inoremap ,exe \begin{exe}<Enter>\ex<Space><Enter>\end{exe}<Enter><Enter><++><Esc>3kA
 	autocmd FileType tex inoremap ,fi \begin{fitch}<Enter><Enter>\end{fitch}<Enter><Enter><++><Esc>3kA
 	autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
+	autocmd FileType tex inoremap ,gc \{<++>}<++><esc>T\i
+	autocmd FileType tex inoremap ,ggn \{<++>}{<++>}<++><esc>2F{i
 	autocmd FileType tex inoremap ,glos {\gll<Space><++><Space>\\<Enter><++><Space>\\<Enter>\trans{``<++>''}}<Esc>2k2bcw
-	autocmd FileType tex inoremap ,im \item
-	autocmd FileType tex inoremap ,it \textit{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,lat {\LaTeX}
-	autocmd FileType tex inoremap ,nu $\varnothing$
-	autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
+	autocmd FileType tex inoremap ,gn \{<++>}<++><esc>F{i
 	autocmd FileType tex inoremap ,ot \begin{tableau}<Enter>\inp{<++>}<Tab>\const{<++>}<Tab><++><Enter><++><Enter>\end{tableau}<Enter><Enter><++><Esc>5kA{}<Esc>i
 	autocmd FileType tex inoremap ,ref \ref{}<Space><++><Esc>T{i
 	autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
 	autocmd FileType tex inoremap ,sc \textsc{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,ssec \subsection{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,sssec \subsubsection{}<Enter><Enter><++><Esc>2kf}i
 	autocmd FileType tex inoremap ,st <Esc>F{i*<Esc>f}i
 	autocmd FileType tex inoremap ,tab \begin{tabular}<Enter><++><Enter>\end{tabular}<Enter><Enter><++><Esc>4kA{}<Esc>i
 	autocmd FileType tex inoremap ,tt \texttt{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,ul \begin{itemize}<Enter><Enter>\end{itemize}<Enter><Enter><++><Esc>3kA\item<Space>
-	autocmd FileType tex inoremap ,mat \begin{equation}<Enter><Enter>\end{equation}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,il $$<++><esc>F$i
-	autocmd FileType tex inoremap ,mfr \frac{}{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,mli \lim{}<++><esc>T{i
-	autocmd FileType tex inoremap ,gc \{<++>}<++><esc>T\i
-	autocmd FileType tex inoremap ,msq \sqrt[]{<++>}{<++>}<++><esc>T[i
-	autocmd FileType tex inoremap ,msum \sum_{}^{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,mint \int_{}^{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,miint \iint_{}^{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,miiint \iiint_{}^{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,miiiint \iiiint_{}^{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,mprod \prod_{}^{<++>}<++><esc>2T{i
-	autocmd FileType tex inoremap ,gn \{<++>}<++><esc>F{i
-	autocmd FileType tex inoremap ,ggn \{<++>}{<++>}<++><esc>2F{i
 	autocmd FileType tex inoremap ,up <Esc>/usepackage<Enter>o\usepackage{}<Esc>i
-	autocmd FileType tex inoremap ,v \vio{}<Tab><++><Esc>T{i
-	autocmd FileType tex inoremap ,x \begin{xlist}<Enter>\ex<Space><Enter>\end{xlist}<Esc>kA<Space>
+
+	autocmd FileType tex inoremap ,ga \alpha
+	autocmd FileType tex inoremap ,gb \beta
+	autocmd FileType tex inoremap ,gg \gamma
+	autocmd FileType tex inoremap ,gr \rho
+	autocmd FileType tex inoremap ,gt \tau
+
+	autocmd FileType tex noremap ,ac f}a[][<++>]{<++>}<Space><++><Esc>2T[i
 	autocmd FileType tex vnoremap ,a <ESC>`<i\{<ESC>`>2la}<ESC>?\\{<Enter>a
 	autocmd FileType tex vnoremap ,ol :norm I<Tab>\item<Space><Enter>'<O\begin{enumerate}<Esc>'>o\end{enumerate}<Esc>
 	autocmd FileType tex vnoremap ,ul :norm I<Tab>\item<Space><Enter>'<O\begin{itemize}<Esc>'>o\end{itemize}<Esc>
-	autocmd FileType tex vnoremap ,it c\textit{}<esc>P
-	autocmd FileType tex vnoremap ,sec c\section{}<esc>P
-	autocmd FileType tex vnoremap ,ssec c\subsection{}<esc>P
-	autocmd FileType tex vnoremap ,sssec c\subsubsection{}<esc>P
-	autocmd FileType tex vnoremap ,ms c$$<esc>P
-	autocmd FileType tex vnoremap ,bf c\textbf{}<esc>P
 	autocmd FileType tex vnoremap ,em c\emph{}<Esc>P
 
 """HTML
@@ -248,6 +238,59 @@ set clipboard+=unnamedplus
 	autocmd FileType html inoremap ,dt <dt></dt><Enter><dd><++></dd><Enter><++><esc>2kcit
 	autocmd FileType html inoremap ,dl <dl><Enter><Enter></dl><enter><enter><++><esc>3kcc
 	autocmd FileType html inoremap &<space> &amp;<space>
+
+	autocmd FileType tex inoremap ;a \alpha
+	autocmd FileType tex inoremap ;b \beta
+	autocmd FileType tex inoremap ;c \chi
+	autocmd FileType tex inoremap ;d \delta
+	autocmd FileType tex inoremap ;e \varepsilon
+	autocmd FileType tex inoremap ;f \varphi
+	autocmd FileType tex inoremap ;g \gamma
+	autocmd FileType tex inoremap ;h \eta
+	autocmd FileType tex inoremap ;i \iota
+	autocmd FileType tex inoremap ;k \kappa
+	autocmd FileType tex inoremap ;l \lambda
+	autocmd FileType tex inoremap ;m \mu
+	autocmd FileType tex inoremap ;n \nu
+	autocmd FileType tex inoremap ;o \omicron
+	autocmd FileType tex inoremap ;p \pi
+	autocmd FileType tex inoremap ;q \theta
+	autocmd FileType tex inoremap ;r \rho
+	autocmd FileType tex inoremap ;s \sigma
+	autocmd FileType tex inoremap ;t \tau
+	autocmd FileType tex inoremap ;u \upsilon
+	autocmd FileType tex inoremap ;v \varsigma
+	autocmd FileType tex inoremap ;w \omega
+	autocmd FileType tex inoremap ;x \xi
+	autocmd FileType tex inoremap ;y \psi
+	autocmd FileType tex inoremap ;z \zeta
+	autocmd FileType tex inoremap ;A \Alpha
+	autocmd FileType tex inoremap ;B \Beta
+	autocmd FileType tex inoremap ;C \Chi
+	autocmd FileType tex inoremap ;D \Delta
+	autocmd FileType tex inoremap ;E \Varepsilon
+	autocmd FileType tex inoremap ;F \Varphi
+	autocmd FileType tex inoremap ;G \Gamma
+	autocmd FileType tex inoremap ;H \Eta
+	autocmd FileType tex inoremap ;I \Iota
+	autocmd FileType tex inoremap ;K \Kappa
+	autocmd FileType tex inoremap ;L \Lambda
+	autocmd FileType tex inoremap ;M \Mu
+	autocmd FileType tex inoremap ;N \Nu
+	autocmd FileType tex inoremap ;O \Omicron
+	autocmd FileType tex inoremap ;P \Pi
+	autocmd FileType tex inoremap ;Q \Theta
+	autocmd FileType tex inoremap ;R \Rho
+	autocmd FileType tex inoremap ;S \Sigma
+	autocmd FileType tex inoremap ;T \Tau
+	autocmd FileType tex inoremap ;U \Upsilon
+	autocmd FileType tex inoremap ;V \Varsigma
+	autocmd FileType tex inoremap ;W \Omega
+	autocmd FileType tex inoremap ;X \Xi
+	autocmd FileType tex inoremap ;Y \Psi
+	autocmd FileType tex inoremap ;Z \Zeta
+	autocmd FileType tex inoremap ;( \left(
+	autocmd FileType tex inoremap ;) \right)
 
 """BIB
 	autocmd FileType bib inoremap ,a @article{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>journal<Space>=<Space>{<++>},<Enter>volume<Space>=<Space>{<++>},<Enter>pages<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
@@ -288,6 +331,7 @@ set clipboard+=unnamedplus
 	autocmd filetype r nnoremap ,D <esc>w<enter>:!rpkg<enter>
 	autocmd filetype r nnoremap ,l ggOlibrary("")<esc>T(a
 	autocmd filetype r,rmd inoremap ,if if(){<enter><++><enter>}<++><enter><enter><++><esc>4k0f)i
+	autocmd filetype r,rmd inoremap ,m mean()<esc>T(i
 	autocmd filetype r,rmd inoremap ,ie if(){<enter><++><enter>}<space>else<space>{<enter><++><enter>}<++><enter><enter><++><esc>6k0f)i
 	autocmd filetype r,rmd inoremap ,el <space>else<space>{<enter><enter>}<++><esc>kI<tab>
 	autocmd filetype r,rmd inoremap ,ei <space>else<space>if<space>()<space>{<enter><++><enter>}<++><esc>2kf)i
@@ -314,9 +358,6 @@ set clipboard+=unnamedplus
 	vnoremap < <gv
 	vnoremap > >gv
 
-"""
-	""" nnoremap z "1yiW:!goto.sh "<C-R>1"<enter>
-
 """ use external terminal emulator for R
 	let R_in_buffer=0
 	let R_term=$TERMINAL
@@ -328,3 +369,4 @@ set clipboard+=unnamedplus
 	highlight QuickScopePrimary guifg='#ff1493' gui=underline ctermbg=236 ctermfg=226 cterm=underline
 	highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=171 cterm=underline
 	let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+

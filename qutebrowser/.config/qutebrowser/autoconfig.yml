@@ -17,6 +17,8 @@ settings:
     global:
       normal:
         ',p': spawn --userscript qute-pass
+        <Ctrl+Shift+l>: hint links spawn --userscript /home/beniamino/.local/share/qutebrowser/userscripts/libproxy.py
+        <Ctrl+Shift+y>: hint links spawn --detach mpv --force-window yes {hint-url}
         <Ctrl+v>: null
   colors.tabs.bar.bg:
     global: grey
@@ -42,7 +44,11 @@ settings:
   content.host_blocking.lists:
     global:
     - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-  content.media_capture:
+  content.media.audio_capture:
+    https://www.messenger.com: true
+  content.media.audio_video_capture:
+    https://www.messenger.com: true
+  content.media.video_capture:
     https://www.messenger.com: true
   content.notifications:
     https://www.producthunt.com: false
@@ -77,7 +83,9 @@ settings:
     global: 20pt sans-serif
   fonts.statusbar:
     global: 35pt default_family
-  fonts.tabs:
+  fonts.tabs.selected:
+    global: 20pt default_family
+  fonts.tabs.unselected:
     global: 20pt default_family
   fonts.web.family.cursive:
     global: null
@@ -112,6 +120,7 @@ settings:
       st: https://stackoverflow.com/search?q={}
       tr: https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text={}
       tw: https://twitter.com/search?q={}
+      ucl: https://ucl-new-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{}&tab=local&search_scope=CSCOP_UCL&vid=UCL_VU2&offset=0
       w: https://en.wikipedia.org/w/index.php?search={}
       wes: https://es.wikipedia.org/w/index.php?search={}
       yt: https://www.youtube.com/results?search_query={}
