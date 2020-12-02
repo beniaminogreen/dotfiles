@@ -2,10 +2,14 @@ super + Return
 	st
 super + shift + e
 	$TERMINAL -e neomutt
+super + shift + T
+	steam
 super + e
 	$TERMINAL -e $FILE
 super + shift +  p
 	$TERMINAL -e podboat -a
+super + d
+	discord
 super + p
 	$TERMINAL -e python
 super + b
@@ -34,6 +38,8 @@ super +  w
 	$BROWSER
 super + shift + grave
 	clipqr
+super + v
+	passmenu
 super + grave
 	dmenuunicode
 super + Scroll_Lock
