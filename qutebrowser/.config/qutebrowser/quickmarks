@@ -5,7 +5,7 @@ ny https://nytimes.com
 v https://vox.com
 tg https://www.theguardian.com/uk?INTCMP=CE_UK
 ti https://theintercept.com/
-g https://web.groupme.com/chats
+g https://www.google.com/
 b https://www.bbc.com/
 vi https://www.vice.com/en_us
 rs https://stallman.org/
@@ -29,7 +29,7 @@ gmw https://hryanjones.com/guess-my-word/
 gm https://mail.google.com/mail/u/0/#inbox
 dj https://daily.jstor.org/
 cron https://crontab.guru/
-track https://www.dhl.com/content/g0/en/express/tracking.shtml?AWB=6850651345&brand=DHL
+track https://tools.usps.com/go/TrackConfirmAction?qtc_tLabels1=9505510547910346429645
 mau https://outlook.office365.com/mail/inbox
 po https://evision.ucl.ac.uk/urd/sits.urd/run/siw_lgn
 w https://en.wikipedia.org/wiki/Main_Page
@@ -42,7 +42,7 @@ qna https://docs.google.com/spreadsheets/d/1Pv90LfS6ojJ4DmmoZxNTW39OFdr9I4m46yns
 tt https://timetable.ucl.ac.uk/tt/homePage.do?caller=01
 book https://www.vauxwest.co.uk/prebook-climb/#booknow
 POLS0012 https://uclspp.github.io/POLS0012/1-1-seminar.html
-13 https://uclspp.github.io/POLS0013/
+13 https://uclspp.github.io/POLS0013/assessment-1-essay.html
 15 https://drive.google.com/drive/folders/1gTkltlQYZbOjnVY9W3x_PuSN6hvPTk9_
 12 https://uclspp.github.io/POLS0012/1-1-seminar.html
 cd https://www.commondreams.org/
@@ -55,3 +55,4 @@ m15 https://moodle.ucl.ac.uk/course/view.php?id=6852
 m79 https://moodle.ucl.ac.uk/course/view.php?id=6597
 14 https://moodle.ucl.ac.uk/course/view.php?id=6851
 m14 https://moodle.ucl.ac.uk/course/view.php?id=6851
+hugo http://localhost:1313/

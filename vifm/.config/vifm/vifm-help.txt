@@ -1,7 +1,6 @@
 VIFM(1)			    General Commands Manual		       VIFM(1)
 
 
-
 NAME
        vifm - vi file manager
 

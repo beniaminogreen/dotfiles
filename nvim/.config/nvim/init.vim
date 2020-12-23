@@ -11,17 +11,16 @@ filetype plugin indent on
 set complete+=kspell
 
 call plug#begin('~/.config/nvim/plugged')
+	Plug 'tmsvg/pear-tree'
 	Plug 'tpope/vim-surround'
 	Plug 'chrisbra/csv.vim'
 	Plug 'ap/vim-css-color'
 	Plug 'christoomey/vim-titlecase'
-	Plug 'terryma/vim-multiple-cursors'
 	Plug 'unblevable/quick-scope'
-	Plug 'rust-lang/rust.vim'
 	Plug 'jalvesaq/Nvim-R'
 	Plug 'vim-scripts/bats.vim'
-	Plug 'junegunn/goyo.vim'
-	Plug 'jreybert/vimagit'
+	Plug 'preservim/nerdtree'
+	Plug 'cespare/vim-toml'
 	Plug 'honza/vim-snippets'
 	Plug 'bling/vim-airline'
 	Plug 'vifm/vifm.vim'
@@ -79,9 +78,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 " Disables automatic commenting on newline:
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-" Goyo plugin makes text more readable when writing prose:
-	map <leader>f :Goyo \| set bg=light \| set linebreak<CR>
-
 " Spell-check set to <leader>o, 'o' for 'orthography':
 	map <leader>o :setlocal spell! spelllang=en_us<CR>
 	map <leader>e :setlocal spell! spelllang=es<CR>
@@ -92,7 +88,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	map <leader>n :NERDTreeToggle<CR>
 	autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-
 " Shortcutting split navigation, saving a keypress:
 	map <C-h> <C-w>h
 	map <C-j> <C-w>j
@@ -101,10 +96,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 " Check file in shellcheck:
 	map <leader>s :!clear && shellcheck %<CR>
-
-" Open my bibliography file in split
-	map <leader>b :vsp<space>$BIB<CR>
-	map <leader>r :vsp<space>$REFER<CR>
 
 " Replace all is aliased to S.
 	nnoremap S :%s//g<Left><Left>
@@ -136,17 +127,8 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	autocmd BufRead,BufNewFile *.sh set filetype=sh
 	autocmd BufRead,BufNewFile *.notes set filetype=notes
 
-" Enable Goyo by default for mutt writting
-" Goyo's width will be the line limit in mutt.
-"	autocmd BufRead,BufNewFile /tmp/neomutt* let g:goyo_width=80
-
-
-
 " Automatically deletes all trailing whitespace on save.
 	autocmd BufWritePre * %s/\s\+$//e
-
-" When shortcut files are updated, renew bash and vifm configs with new material:
-"	autocmd BufWritePost ~/.config/bmdirs,~/.config/bmfiles !shortcuts
 
 " Update binds when sxhkdrc is updated.
 	autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
@@ -168,76 +150,12 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	" Word count:
 	" Code snippets
 """LATEX
-	"autocmd FileType tex inoremap ,a \href{}{<++>}<Space><++><Esc>2T{i
-	"autocmd FileType tex inoremap ,ac <esc>f}a[][<++>]{<++>}<Space><++><Esc>2T[i
-	"autocmd FileType tex inoremap ,beg \begin{DELRN}<Enter><++><Enter>\end{DELRN}<Enter><Enter><++><Esc>4k0fR:MultipleCursorsFind<Space>DELRN<Enter>c
-	"autocmd FileType tex inoremap ,bf \textbf{}<Space><++><Esc>T{i
-	"autocmd FileType tex inoremap ,cf \footcites[][<++>]{<++>}<Space><++><Esc>2T[i
-	"autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><++><Esc>2kf}i
-	"autocmd FileType tex inoremap ,cp \parencites[][<++>]{<++>}<Space><++><Esc>2T[i
-	"autocmd FileType tex inoremap ,ct \textcites[][<++>]{<++>}<Space><++><Esc>2T[i
-	"autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
-	"autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
-	"autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><++><Esc>2kf}i
-	"autocmd FileType tex inoremap ,ssec \subsection{}<Enter><Enter><++><Esc>2kf}i
-	"autocmd FileType tex inoremap ,sssec \subsubsection{}<Enter><Enter><++><Esc>2kf}i
 	autocmd FileType tex inoremap ,bd <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/data_sci_template.tex<Enter>ggdd,,
 	autocmd FileType tex inoremap ,be <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/essay_template.tex<Enter>ggdd:MultipleCursorsFind<Space><TITLE><Enter>c
 	autocmd FileType tex inoremap ,bn <Esc>:read<Space>!cat<Space>$HOME/UCL/latex_resources/notes_template.tex<Enter>ggdd:MultipleCursorsFind<Space><TITLE><Enter>c
-	autocmd FileType tex inoremap ,cc \cites[][<++>]{<++>}<Space><++><Esc>2T[i
 	autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
 	autocmd FileType tex inoremap ,con \const{}<Tab><++><Esc>T{i
 	autocmd FileType tex inoremap ,exe \begin{exe}<Enter>\ex<Space><Enter>\end{exe}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,fi \begin{fitch}<Enter><Enter>\end{fitch}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
-	autocmd FileType tex inoremap ,gc \{<++>}<++><esc>T\i
-	autocmd FileType tex inoremap ,ggn \{<++>}{<++>}<++><esc>2F{i
-	autocmd FileType tex inoremap ,glos {\gll<Space><++><Space>\\<Enter><++><Space>\\<Enter>\trans{``<++>''}}<Esc>2k2bcw
-	autocmd FileType tex inoremap ,gn \{<++>}<++><esc>F{i
-	autocmd FileType tex inoremap ,ot \begin{tableau}<Enter>\inp{<++>}<Tab>\const{<++>}<Tab><++><Enter><++><Enter>\end{tableau}<Enter><Enter><++><Esc>5kA{}<Esc>i
-	autocmd FileType tex inoremap ,ref \ref{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
-	autocmd FileType tex inoremap ,sc \textsc{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,st <Esc>F{i*<Esc>f}i
-	autocmd FileType tex inoremap ,tab \begin{tabular}<Enter><++><Enter>\end{tabular}<Enter><Enter><++><Esc>4kA{}<Esc>i
-	autocmd FileType tex inoremap ,tt \texttt{}<Space><++><Esc>T{i
-	autocmd FileType tex inoremap ,up <Esc>/usepackage<Enter>o\usepackage{}<Esc>i
-
-	autocmd FileType tex inoremap ,ga \alpha
-	autocmd FileType tex inoremap ,gb \beta
-	autocmd FileType tex inoremap ,gg \gamma
-	autocmd FileType tex inoremap ,gr \rho
-	autocmd FileType tex inoremap ,gt \tau
-
-	autocmd FileType tex noremap ,ac f}a[][<++>]{<++>}<Space><++><Esc>2T[i
-	autocmd FileType tex vnoremap ,a <ESC>`<i\{<ESC>`>2la}<ESC>?\\{<Enter>a
-	autocmd FileType tex vnoremap ,ol :norm I<Tab>\item<Space><Enter>'<O\begin{enumerate}<Esc>'>o\end{enumerate}<Esc>
-	autocmd FileType tex vnoremap ,ul :norm I<Tab>\item<Space><Enter>'<O\begin{itemize}<Esc>'>o\end{itemize}<Esc>
-	autocmd FileType tex vnoremap ,em c\emph{}<Esc>P
-
-"""HTML
-	autocmd FileType html inoremap ,b <b></b><Space><++><Esc>FbT>i
-	autocmd FileType html inoremap ,it <em></em><Space><++><Esc>FeT>i
-	autocmd FileType html inoremap ,1 <h1></h1><Enter><Enter><++><Esc>2kf<i
-	autocmd FileType html inoremap ,2 <h2></h2><Enter><Enter><++><Esc>2kf<i
-	autocmd FileType html inoremap ,3 <h3></h3><Enter><Enter><++><Esc>2kf<i
-	autocmd FileType html inoremap ,p <p></p><Enter><Enter><++><Esc>02kf>a
-	autocmd FileType html inoremap ,a <a<Space>href=""><++></a><Space><++><Esc>14hi
-	autocmd FileType html inoremap ,e <a<Space>target="_blank"<Space>href=""><++></a><Space><++><Esc>14hi
-	autocmd FileType html inoremap ,ul <ul><Enter><li></li><Enter></ul><Enter><Enter><++><Esc>03kf<i
-	autocmd FileType html inoremap ,li <Esc>o<li></li><Esc>F>a
-	autocmd FileType html inoremap ,ol <ol><Enter><li></li><Enter></ol><Enter><Enter><++><Esc>03kf<i
-	autocmd FileType html inoremap ,im <img src="" alt="<++>"><++><esc>Fcf"a
-	autocmd FileType html inoremap ,td <td></td><++><Esc>Fdcit
-	autocmd FileType html inoremap ,tr <tr></tr><Enter><++><Esc>kf<i
-	autocmd FileType html inoremap ,th <th></th><++><Esc>Fhcit
-	autocmd FileType html inoremap ,tab <table><Enter></table><Esc>O
-	autocmd FileType html inoremap ,gr <font color="green"></font><Esc>F>a
-	autocmd FileType html inoremap ,rd <font color="red"></font><Esc>F>a
-	autocmd FileType html inoremap ,yl <font color="yellow"></font><Esc>F>a
-	autocmd FileType html inoremap ,dt <dt></dt><Enter><dd><++></dd><Enter><++><esc>2kcit
-	autocmd FileType html inoremap ,dl <dl><Enter><Enter></dl><enter><enter><++><esc>3kcc
-	autocmd FileType html inoremap &<space> &amp;<space>
 
 	autocmd FileType tex inoremap ;a \alpha
 	autocmd FileType tex inoremap ;b \beta
@@ -318,11 +236,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	autocmd Filetype rmd vnoremap ,p ><esc>'>o```<esc><<'<O```{python}<esc><<f}i
 
 """Genral Code
-	autocmd filetype r,python nnoremap ,A ggV}k:sort<enter>''
-	autocmd filetype r,python inoremap ,a <esc>wa,""<esc>T"i
-	autocmd filetype r,python inoremap ,k <esc>wa,<Space><+*+><Space>=<Space>"<++>"<esc>T*ciW
-	autocmd filetype r,python inoremap ,nk {+*+}<Space>="<++>"<esc>T*ca}
-	autocmd filetype r,python noremap ,p <esc>0Iprint(<esc>A)<esc>
 	autocmd Filetype r,python vnoremap ,c :norm<space>I#<enter>
 	autocmd Filetype r,python vnoremap ,uc :norm<space>I#<enter>
 
@@ -330,15 +243,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	autocmd filetype r,rmd inoremap ,fun <-<Space>function(<++>){<enter><++><enter>return(<++>)<enter>}<enter><enter><++><esc>5kI
 	autocmd filetype r nnoremap ,D <esc>w<enter>:!rpkg<enter>
 	autocmd filetype r nnoremap ,l ggOlibrary("")<esc>T(a
-	autocmd filetype r,rmd inoremap ,if if(){<enter><++><enter>}<++><enter><enter><++><esc>4k0f)i
-	autocmd filetype r,rmd inoremap ,m mean()<esc>T(i
-	autocmd filetype r,rmd inoremap ,ie if(){<enter><++><enter>}<space>else<space>{<enter><++><enter>}<++><enter><enter><++><esc>6k0f)i
-	autocmd filetype r,rmd inoremap ,el <space>else<space>{<enter><enter>}<++><esc>kI<tab>
-	autocmd filetype r,rmd inoremap ,ei <space>else<space>if<space>()<space>{<enter><++><enter>}<++><esc>2kf)i
-	autocmd filetype r,rmd inoremap ,p <esc>A<Space>%>%<enter>
-	autocmd filetype r,rmd inoremap ,sp <Space><-<Space><++><Space>%>%<enter><tab><++><esc>kI
-	autocmd filetype r,rmd inoremap ,for for(){<enter><++><enter>}<enter><enter><++><esc>4k0f)i
-	autocmd filetype r,rmd inoremap ,wh while(){<enter><++><enter>}<enter><enter><++><esc>4k0f)i
 	autocmd filetype r,rmd inoremap ,test context("<++>")<enter>test_that('<++>',{<enter>expect_<++>(<++>)<esc><<A<enter>})<esc>3k0ci"
 
 """.sh
@@ -370,3 +274,7 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=171 cterm=underline
 	let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>

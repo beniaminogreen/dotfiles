@@ -191,12 +191,8 @@ fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
          \ ffprobe -pretty %c 2>&1
 
 " Web
-filextype *.html,*.htm
-        \ {Open with firefox}
-        \ firefox %f &,
-        \ {Open with uzbl}
-        \ uzbl-browser %f %i &,
-filetype *.html,*.htm links, lynx
+filextype *.html,*.htm nvim %f
+
 
 " Object
 filetype *.o nm %f | less

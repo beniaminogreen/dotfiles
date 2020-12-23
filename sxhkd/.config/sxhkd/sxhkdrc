@@ -2,6 +2,8 @@ super + Return
 	st
 super + shift + e
 	$TERMINAL -e neomutt
+super + shift + v
+	$TERMINAL -e nvim
 super + shift + T
 	steam
 super + e
@@ -33,7 +35,7 @@ super + c
 super +shift + w
 	firefox
 super +  m
-	$BROWSER www.messenger.com
+	$BROWSER messenger.com
 super +  w
 	$BROWSER
 super + shift + grave
