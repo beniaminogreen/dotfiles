@@ -1,0 +1,6 @@
+#!/bin/sh
+pkill teams
+pkill zoom
+pkill discord
+
+

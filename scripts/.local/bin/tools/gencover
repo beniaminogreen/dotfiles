@@ -1,0 +1,35 @@
+#!/bin/sh
+
+ESSAY=$1
+echo "What Department Template Should Be Used (POLS,PHIL)"
+read TEMPCODE
+echo "What is the Module Code?"
+read CODE
+echo "What is The Word Count?"
+read WC
+echo "What is the Module Title?"
+read MODTITLE
+echo "What is the Essay Number?"
+read ESSAYNUMBER
+echo "What is the Essay Title?"
+read ESSAYTITLE
+
+DATE=`date`
+
+mkdir /tmp/coversheets
+cd /tmp/coversheets/
+echo "/home/beniamino/UCL/latex_resources/coversheets/${TEMPCODE}" template.zip
+cp "/home/beniamino/UCL/latex_resources/coversheets/${TEMPCODE}" template.zip
+unzip template.zip
+rm template.zip
+sed -i "s/MODULECODE/${CODE}/g;
+	s/MODULETITLE/${MODTITLE}/g;
+	s/WORDCOUNT/${WC}/g;
+	s/ESSAYNUMBER/${ESSAYNUMBER}/g;
+	s/SUBMISSIONDATE/${DATE}/g;
+	s/ESSAYTITLE/${ESSAYTITLE}/g" word/document.xml
+zip -r cover.docx *
+libreoffice --headless --convert-to pdf cover.docx
+cd -
+pdfunite /tmp/coversheets/cover.pdf ${ESSAY} KTJN8.pdf
+rm -rf /tmp/coversheets

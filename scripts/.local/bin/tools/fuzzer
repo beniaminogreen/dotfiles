@@ -1,0 +1,26 @@
+#!/usr/bin/python
+import sys
+import argparse
+import random
+
+parser = argparse.ArgumentParser(description='A command line interface to create fuzzy text')
+
+parser.add_argument('text',
+        type=str,
+        nargs='+',
+        help='The text to be made fuzzy',
+        )
+parser.add_argument('-n','--nsymbols',
+        help='The Number of accents to be added to each character',
+        type=int)
+
+args = parser.parse_args()
+
+input_list = ' '.join(args.text)
+
+marks = list(map(chr, range(768, 879)))
+
+output = []
+for ch in input_list:
+    output.append(ch + ''.join(random.sample(marks,4)))
+print(''.join(output))

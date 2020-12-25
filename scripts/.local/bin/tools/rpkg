@@ -1,0 +1,2 @@
+#!/bin/sh
+echo 'require(devtools); require(roxygen2); setwd(".."); document();test();' | R -q --vanilla

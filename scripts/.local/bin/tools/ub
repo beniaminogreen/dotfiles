@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo echo Please Wait 5 Mins
+sleep 600
+sudo vim /etc/hosts
