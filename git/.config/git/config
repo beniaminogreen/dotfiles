@@ -1,3 +1,5 @@
 [user]
 	email = ben@greendalba.com
 	name = Beniamino Green
+[credential]
+	helper = cache

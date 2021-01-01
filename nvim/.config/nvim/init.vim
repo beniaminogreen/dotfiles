@@ -12,12 +12,12 @@ set complete+=kspell
 
 call plug#begin('~/.config/nvim/plugged')
 	Plug 'tmsvg/pear-tree'
+	Plug 'danilo-augusto/vim-afterglow'
 	Plug 'tpope/vim-surround'
 	Plug 'chrisbra/csv.vim'
 	Plug 'ap/vim-css-color'
 	Plug 'christoomey/vim-titlecase'
 	Plug 'unblevable/quick-scope'
-	Plug 'jalvesaq/Nvim-R'
 	Plug 'vim-scripts/bats.vim'
 	Plug 'preservim/nerdtree'
 	Plug 'cespare/vim-toml'
@@ -28,6 +28,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'kovetskiy/sxhkd-vim'
 call plug#end()
 
+colorscheme afterglow
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
@@ -101,7 +102,6 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	nnoremap S :%s//g<Left><Left>
 
 """ wordcount
-	map <leader>wc :w !wc -w<enter>
 " Compile document, be it groff/LaTeX/markdown/etc.
 	map <leader>c :w! \| !compiler <c-r>%<CR>
 
@@ -112,8 +112,11 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	map <leader>j i<++><esc>
 	inoremap <leader>j <++>
 
+	map <leader>wc :w !sed '/<<.*>>=/,/^@$/d' %:p \| detex \| wc -w <enter>
+
 " Runs a script that cleans out tex build files whenever I close out of a .tex file.
-	autocmd VimLeave *.tex !texclear %
+	autocmd VimLeave *.tex, !texclear %
+	autocmd VimLeave *.rnw, !texclear %
 
 " Ensure files are read as what I want:
 	let g:vimwiki_ext2syntax = {'.Rmd': 'markdown','.sh': 'sh','.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
@@ -122,7 +125,7 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 	autocmd BufRead,BufNewFile *.ms,*.me,*.mom,*.man set filetype=groff
 	autocmd BufRead,BufNewFile *.tex set filetype=tex
 	autocmd BufRead,BufNewFile *.py set filetype=python
-	autocmd BufRead,BufNewFile *.r,*.R  set filetype=r
+	autocmd BufRead,BufNewFile *.r,*.R,*.rnw  set filetype=r
 	autocmd BufRead,BufNewFile *.rs set filetype=rust
 	autocmd BufRead,BufNewFile *.sh set filetype=sh
 	autocmd BufRead,BufNewFile *.notes set filetype=notes
@@ -265,7 +268,9 @@ inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 """ use external terminal emulator for R
 	let R_in_buffer=0
 	let R_term=$TERMINAL
+	let g:R_external_term=$TERMINAL
 	let R_assign=2
+	let g:R_rnowebchunk=0
 
 """ w!! trick
 	cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!

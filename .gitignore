@@ -1,5 +1,5 @@
 **/autoload
 **/plugged
-spell/
+*/spell/*
 vifminfo
 share/

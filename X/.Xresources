@@ -1,21 +1,46 @@
-! Dracula Xresources palette
-*.foreground: #F8F8F2
-*.background: #282A36
-*.color0:     #000000
-*.color8:     #4D4D4D
-*.color1:     #FF5555
-*.color9:     #FF6E67
-*.color2:     #50FA7B
-*.color10:    #5AF78E
-*.color3:     #F1FA8C
-*.color11:    #F4F99D
-*.color4:     #CAA9FA
-*.color12:    #CAA9FA
-*.color5:     #FF79C6
-*.color13:    #FF92D0
-*.color6:     #8BE9FD
-*.color14:    #9AEDFE
-*.color7:     #BFBFBF
-*.color15:    #E6E6E6
+!
+! Generated with :
+! XRDB2Xreources.py
+!
+*.foreground:  #d0d0d0
+*.background:  #212121
+*.cursorColor: #d0d0d0
+!
+! Black
+*.color0:      #151515
+*.color8:      #505050
+!
+! Red
+*.color1:      #ac4142
+*.color9:      #ac4142
+!
+! Green
+*.color2:      #7e8e50
+*.color10:     #7e8e50
+!
+! Yellow
+*.color3:      #e5b567
+*.color11:     #e5b567
+!
+! Blue
+*.color4:      #6c99bb
+*.color12:     #6c99bb
+!
+! Magenta
+*.color5:      #9f4e85
+*.color13:     #9f4e85
+!
+! Cyan
+*.color6:      #7dd6cf
+*.color14:     #7dd6cf
+!
+! White
+*.color7:      #d0d0d0
+*.color15:     #f5f5f5
+!
+! Bold, Italic, Underline
+*.colorBD:     #d0d0d0
+!*.colorIT:
+!*.colorUL:
 
 *.font:	Roboto Mono:size=18:antialias=true:autohint=true;

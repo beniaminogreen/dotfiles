@@ -1,0 +1,22 @@
+extends r
+extends tex
+
+snippet s@ "start chunk" bA
+<<echo=FALSE, warn=FALSE, include=FALSE>>=
+knitr::opts_chunk$set(message=F,echo=F, warn=F, include=F)
+@
+endsnippet
+
+snippet l@ "label chunk" bA
+<<label="$1">>=
+$2
+@
+$0
+endsnippet
+
+snippet @ "normal chunk" bA
+<<$1>>=
+$2
+@
+$0
+endsnippet

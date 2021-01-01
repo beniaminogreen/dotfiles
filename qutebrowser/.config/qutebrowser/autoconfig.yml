@@ -99,7 +99,7 @@ settings:
     global: 10
   spellcheck.languages:
     global:
-    - en-GB
+    - en-US
   tabs.background:
     global: true
   url.default_page:

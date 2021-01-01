@@ -6,7 +6,8 @@ alias config='git --git-dir=/home/beniamino/dotfiles --work-tree=/home/beniamino
 alias grep="grep --color=auto"
 alias ls="ls --color=auto"
 alias please="sudo"
-alias vfz='fzf | xargs -o vim'
+alias fv='fzf | xargs -o nvim'
+alias sv='which | xargs nvim'
 alias fonttest="curl https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html"
 alias uclvpn="sudo openconnect vpn.ucl.ac.uk --csd-wrapper /path/to/csd-wrapper.sh"
 alias "sudo vim /etc/hosts"="echo no"
