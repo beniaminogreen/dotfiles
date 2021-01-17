@@ -1,0 +1,7 @@
+#!/bin/sh
+
+title=$(cat ~/Documents/articles/index | sed "s/[^ ]*$//g" | dmenu -l 30)
+
+filename=$(grep "${title}" ~/Documents/articles/index | awk 'NF>1{print $NF}')
+
+zathura ~/Documents/articles/$filename
