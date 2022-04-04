@@ -10,18 +10,22 @@ super + e
 	$TERMINAL -e $FILE
 super + shift +  p
 	$TERMINAL -e podboat -a
+super + y
+	curl -F"file=@$(find $HOME -type f | fzf)" 0x0.st | xclip -selection c
+super + a
+	lookup
 super + d
 	discord
 super + p
 	$TERMINAL -e python
 super + b
 	$TERMINAL -e nvim $BIB
+super + ctrl + s
+	pkill screenkey || screenkey -t .25
 super + s
 	spotify
 super + r
 	$TERMINAL -e R
-super + y
-	$TERMINAL -e calcurse
 super + n
 	$TERMINAL -e newsboat
 super + t

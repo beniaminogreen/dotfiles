@@ -1,0 +1,44 @@
+snippet sec "Section" bA
+# ${1:Section Name} #
+$0
+endsnippet
+
+snippet ssec "Sub Section" bA
+## ${1:Section Name} ##
+$0
+endsnippet
+
+snippet sssec "SubSub Section" bA
+### ${1:Section Name} ###
+$0
+endsnippet
+
+snippet par "Paragraph" bA
+#### ${1:Paragraph Name} ####
+$0
+endsnippet
+
+snippet spar "Paragraph" bA
+##### ${1:Paragraph Name} #####
+$0
+endsnippet
+
+###################
+# Text formatting #
+###################
+
+snippet * "italics"
+*${1:${VISUAL}}*$0
+endsnippet
+
+snippet ** "bold"
+**${1:${VISUAL}}**$0
+endsnippet
+
+snippet *** "bold italics"
+***${1:${VISUAL}}***$0
+endsnippet
+
+snippet /* "Comment"
+<!-- ${1:${VISUAL}} -->$0
+endsnippet

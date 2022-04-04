@@ -1,1 +1,161 @@
 extends .md
+
+snippet bn "begin notes" w
+---
+title: "${1:title}"
+subtitle: "${2:subtitle}"
+author: "Beniamino Green"
+output:
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: "/home/beniamino/Documents/UCL/latexresources/uni.bib"
+link-citations: yes
+---
+$0
+endsnippet
+
+snippet m "margin figure" b
+\`\`\`{marginfigure}
+$1
+\`\`\`
+
+$0
+endsnippet
+
+
+snippet r "r chunk" b
+\`\`\`{r}
+$1
+\`\`\`
+
+$0
+endsnippet
+
+
+snippet py "python chunk" b
+\`\`\`{python}
+$1
+\`\`\`
+
+$0
+endsnippet
+
+
+snippet cp "parenthetical citation" w
+[ @${1:citation key} ] $0
+endsnippet
+
+snippet m2 "matrix" w
+\begin{bmatrix}
+${1:\\alpha} & ${2:\\beta} \\\\
+$3 & $4 \\\\
+\end{bmatrix}$0
+endsnippet
+
+snippet m3 "matrix" w
+\begin{bmatrix}
+$1 & $2 & $3 \\\\
+$4 & $5 & $6 \\\\
+$7 & $8 & $9 \\\\
+\end{bmatrix} $0
+endsnippet
+
+priority 10
+snippet exp "Expected Value" w
+E[$1]$0
+endsnippet
+
+priority 10
+snippet sq "square root" w
+\\sqrt{$1}$0
+endsnippet
+
+priority 10
+snippet br "Belongs to Real" w
+\in \mathcal{R}^{$1} $0
+endsnippet
+
+priority 10
+snippet dist "is distributed according to" w
+~ $0
+endsnippet
+
+
+snippet ln "link" w
+[${1:link text}](${2: link url}) $0
+endsnippet
+
+snippet set "set" w
+\\{$1, ${2:\\dots}, $3\\}$0
+endsnippet
+
+snippet T "Superscript" i
+^{T}$0
+endsnippet
+
+#Tildes
+snippet ^ "Superscript" i
+^{$1}$0
+endsnippet
+
+snippet _ "Subscript" i
+_{$1}$0
+endsnippet
+
+#Fractions and big maths
+snippet // "Fraction" iA
+\\frac{$1}{$2}$0
+endsnippet
+
+snippet ;a "greek alpha" iA
+\\alpha$0
+endsnippet
+
+snippet ;b "greek beta" iA
+\\beta$0
+endsnippet
+
+snippet ;d "greek delta" iA
+\\delta$0
+endsnippet
+
+snippet ;g "greek gamma" iA
+\\gamma$0
+endsnippet
+
+#hats
+priority 10
+snippet "tilde" "hat" r
+\tilde{$1}$0
+endsnippet
+
+priority 10
+snippet "hat" "hat" r
+\hat{$1}$0
+endsnippet
+
+priority 10
+snippet "ovr" "hat" r
+\overrightarrow{$1}$0
+endsnippet
+
+priority 10
+snippet "nn" "2-norm" r
+||$1||_{2}$0
+endsnippet
+
+priority 10
+snippet "inv" "inverse" r
+^{-1}$0
+endsnippet
+
+#Inline Math
+snippet mk "Math" wA
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet

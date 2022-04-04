@@ -36,14 +36,14 @@ ffmpeg -y \
 	-f alsa -i default \
 	-r 30 \
  	-c:v h264 -crf 0 -preset ultrafast -c:a aac \
-	"$HOME/screencast-$(date '+%y%m%d-%H%M-%S').mp4" &
+	"$HOME/screencast-$(date '+%y%m%d-%H%M-%S').avi" &
 	echo $! > /tmp/recordingpid
 	updateicon "⏺️🎙️"
        	}
 
 video() { \
 	ffmpeg \
-	-video_size 2550x1430 \
+	-video_size 1920x1080 \
 	-framerate 25 \
 	-f x11grab \
 	-i :0.0+1,1 \
@@ -56,7 +56,7 @@ video() { \
 
 sharing() { \
 	ffmpeg \
-	-video_size 2550x1430 \
+	-video_size  1919x1079  \
 	-framerate 25 \
 	-f x11grab \
 	-i :0.0+1,1 \

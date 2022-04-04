@@ -21,6 +21,7 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 export TERMINAL=st
+export browser=qutebrowser
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char

@@ -1,0 +1,84 @@
+# 2D operations
+snippet c "circle"
+circle(${1:radius}|d=${2:diameter})$0
+endsnippet
+
+snippet sq "square"
+square(${1:[${2:width},${3:height}]},${4:center})$0
+endsnippet
+
+snippet pg "polygon"
+polygon([${1:points}]${2:,[${3:paths}]})$0
+endsnippet
+
+snippet pj "projection"
+projection(${1:points})$0
+endsnippet
+
+#3D Operations
+snippet sp "sphere"
+sphere(${1:radius}|d=${2:diameter})$0
+endsnippet
+
+snippet cu "cube"
+cube(${1:[${2:width},${3:height},${4:depth}]},${5:center})$0
+endsnippet
+
+snippet cy "cylinder"
+cylinder(${1:height},${2:radius_1}|${3:diameter_1},${4:${5:radius_2}|${6:diameter_2},}${7:center})$0
+endsnippet
+
+snippet ph "polyhedron"
+polyhedron(${1:points},${2:faces},${3:convexity})$0
+endsnippet
+
+snippet le "linear extrude"
+linear_extrude(${1:height},${2:center},${3:convexity},${4:twist},${5:slices})$0
+endsnippet
+
+snippet re "rotate extrude"
+linear_extrude(${1:angle},${2:convexity})$0
+endsnippet
+
+#Transformations
+snippet tr "translate"
+translate([${1:x},${2:y},${3:z}])$0
+endsnippet
+
+snippet rot "rotate"
+rotate(${1:${2:angle},}[${2:x},${3:y},${4:z}])$0
+endsnippet
+
+snippet sc "scale"
+scale([${1:x},${2:y},${3:z}])$0
+endsnippet
+
+snippet rs "resize"
+resize([${1:x},${2:y},${3:z}],${4:auto})$0
+endsnippet
+
+snippet mr "mirror"
+mirror([${1:x},${2:y},${3:z}],${4:auto})$0
+endsnippet
+
+# Boolean Operations
+snippet u "union"
+union(){
+	${1:body_1}
+	${2:body_2}
+} $0
+endsnippet
+
+snippet i "intersection"
+intersection(){
+	${1:body_1}
+	${2:body_2}
+} $0
+endsnippet
+
+snippet d "difference"
+difference(){
+	${1:body_1}
+	${2:body_2}
+} $0
+endsnippet

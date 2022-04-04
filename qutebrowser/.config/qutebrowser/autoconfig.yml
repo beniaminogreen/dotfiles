@@ -103,10 +103,10 @@ settings:
   tabs.background:
     global: true
   url.default_page:
-    global: https://searx.ninja/
+    global: https://google.com
   url.searchengines:
     global:
-      DEFAULT: https://searx.ninja/?q={}
+      DEFAULT: www.google.com/search?q={}
       aur: https://aur.archlinux.org/packages/?O=0&SeB=nd&K={}&outdated=&SB=n&SO=a&PP=50&do_Search=Go
       aw: https://wiki.archlinux.org/?search={}
       g: www.google.com/search?q={}
