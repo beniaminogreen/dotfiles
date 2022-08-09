@@ -1,4 +1,3 @@
-!
 ! Generated with :
 ! XRDB2Xreources.py
 !
@@ -43,4 +42,4 @@
 !*.colorIT:
 !*.colorUL:
 
-*.font:	Ubuntu Mono:size=30:antialias=true:autohint=true;
+*.font:	Ubuntu Mono:size=15:antialias=true:autohint=true;
