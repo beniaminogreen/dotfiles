@@ -5,7 +5,7 @@ if ! filereadable(expand('~/.config/nvim/autoload/plug.vim'))
 	silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ~/.config/nvim/autoload/plug.vim
 endif
 
-execute pathogen#infect()
+" execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set complete+=kspell
@@ -17,11 +17,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'tmsvg/pear-tree'
 Plug 'triglav/vim-visual-increment'
-
-Plug 'mbbill/undotree'
-
-Plug 'xiyaowong/nvim-transparent'
-
 
 Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-titlecase'
@@ -37,14 +32,14 @@ Plug 'cespare/vim-toml'
 Plug 'kovetskiy/sxhkd-vim'
 Plug 'chrisbra/csv.vim'
 Plug 'vifm/vifm.vim'
-Plug 'sirtaj/vim-openscad'
+" Plug 'sirtaj/vim-openscad'
 
 " appearance
 Plug 'bling/vim-airline'
-Plug 'junegunn/goyo.vim'
+" Plug 'junegunn/goyo.vim'
 
 " completion and snippets
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
 Plug 'sirver/ultisnips'
 Plug 'rhysd/vim-grammarous'

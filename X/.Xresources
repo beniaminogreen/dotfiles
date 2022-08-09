@@ -43,4 +43,4 @@
 !*.colorIT:
 !*.colorUL:
 
-*.font:	Roboto Mono:size=18:antialias=true:autohint=true;
+*.font:	Ubuntu Mono:size=30:antialias=true:autohint=true;
