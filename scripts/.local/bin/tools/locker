@@ -1,0 +1,11 @@
+#!/bin/bash
+TMPBG=/tmp/screen.png
+RES=$(xrandr | grep 'current' | sed -E 's/.*current\s([0-9]+)\sx\s([0-9]+).*/\1x\2/')
+
+ffmpeg -f x11grab -video_size $RES -y -i $DISPLAY -frames:v 1 -filter_complex \
+  "[0:v]boxblur=luma_radius=10:chroma_radius=10:luma_power=1[blurred]" \
+  -map "[blurred]" -loglevel quiet $TMPBG
+
+i3lock -i $TMPBG
+
+rm $TMPBG

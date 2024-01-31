@@ -6,6 +6,8 @@ super + shift + v
 	$TERMINAL -e nvim
 super + shift + T
 	steam
+super + d
+	dmenu_run
 super + e
 	$TERMINAL -e $FILE
 super + shift +  p
@@ -14,8 +16,6 @@ super + y
 	curl -F"file=@$(find $HOME -type f | fzf)" 0x0.st | xclip -selection c
 super + a
 	lookup
-super + d
-	discord
 super + p
 	$TERMINAL -e python
 super + b
@@ -27,7 +27,7 @@ super + s
 super + r
 	$TERMINAL -e R
 super + n
-	$TERMINAL -e newsboat
+	fluent-reader
 super + t
 	$TERMINAL -e htop
 super + shift + a

@@ -1,7 +1,7 @@
 # Enable colors and change prompt:
-autoload -U colors && colors
-setopt PROMPT_SUBST
-PROMPT='[%F{blue}$USER%f in %F{yellow}%1~%f ]: '
+# autoload -U colors && colors
+# setopt PROMPT_SUBST
+# PROMPT='[%F{blue}$USER%f in %F{yellow}%1~%f ]: '
 
 # History in cache directory:
 HISTSIZE=10000
@@ -20,7 +20,7 @@ _comp_options+=(globdots)		# Include hidden files.
 # vi mode
 bindkey -v
 export KEYTIMEOUT=1
-export TERMINAL=st
+export TERMINAL=alacritty
 export browser=qutebrowser
 
 # Use vim keys in tab complete menu:
@@ -28,6 +28,7 @@ bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey '^R' history-incremental-search-backward
 #bindkey -v '^?' backward-delete-char
 
 # Change cursor shape for different vi modes.
@@ -61,3 +62,4 @@ bindkey '^e' edit-command-line
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 disable r
+eval "$(starship init zsh)"

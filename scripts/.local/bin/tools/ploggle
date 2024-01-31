@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+pkill plover && notify-send -t 300 "Plover" "Plover Disabled" || notify-send -t 300 "Plover" "Plover Enabled" && plover

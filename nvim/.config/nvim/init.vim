@@ -18,40 +18,38 @@ Plug 'tpope/vim-surround'
 Plug 'tmsvg/pear-tree'
 Plug 'triglav/vim-visual-increment'
 
+Plug 'trusktr/seti.vim'
+Plug 'eigenfoo/stan-vim'
+
 Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-titlecase'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
 
 " syntax highlighting / colors
-""Plug 'joshdick/onedark.vim'
 Plug 'dense-analysis/ale'
-Plug 'morhetz/gruvbox'
-Plug 'vim-scripts/bats.vim'
 Plug 'cespare/vim-toml'
 Plug 'kovetskiy/sxhkd-vim'
-Plug 'chrisbra/csv.vim'
 Plug 'vifm/vifm.vim'
-" Plug 'sirtaj/vim-openscad'
+Plug 'folke/tokyonight.nvim'
 
 " appearance
 Plug 'bling/vim-airline'
-" Plug 'junegunn/goyo.vim'
+Plug 'junegunn/goyo.vim'
 
 " completion and snippets
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
 Plug 'sirver/ultisnips'
-Plug 'rhysd/vim-grammarous'
 call plug#end()
 
 " Define Color Scheme
-colorscheme gruvbox
+colorscheme tokyonight
 set bg=dark
 
-" UltiSnips Jumps
-let g:UltiSnipsExpandTrigger="<tab>" let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+UltiSnips Jumps
+let g:UltiSnipsExpandTrigger="<s-tab>"
+let g:UltiSnipsJumpForwardTrigger = '<s-tab>'
 
 " Some basics:
 set go=a
@@ -135,8 +133,8 @@ set undodir=$HOME/.vimdid
 " Run xrdb whenever Xdefaults or Xresources are updated.
 	autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 
-" Sort bib file whenever saved
-	autocmd BufWritePost *.bib execute "silent !sortbib <amatch>" | edit!
+" " Sort bib file whenever saved
+" 	autocmd BufWritePost *.bib execute "silent !sortbib <amatch>" | edit!
 
 """ remaps for indentation
 	vnoremap < <gv
@@ -162,8 +160,8 @@ inoremap %% %>%<enter>
 nnoremap <space><space> :b#<enter>
 
 " linter settings
-let b:ale_fixers = {'python': ['yapf', 'autopep8'], 'r' :["lintr"]}
-let g:ale_r_lintr_options = "with_defaults(line_length_linter(120))"
+let b:ale_fixers = {'python': ['yapf', 'autopep8'], 'rust':["rustfmt"]}
+#let g:ale_r_lintr_options = "with_defaults(line_length_linter(120))"
 
 " run linter on pressing leader f.
 nnoremap ,f :ALEFix<enter>
@@ -190,4 +188,46 @@ vnoremap ,v :norm I"<enter>gv:norm A",<enter>xo)<esc>{i(<esc>
 nnoremap ,j :m .+1<CR>==
 nnoremap ,k :m .-2<CR>==
 
-let g:transparent_enabled = v:true
+
+" Some servers have issues with backup files, see #649.
+set nobackup
+set nowritebackup
+
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=300
+
+" Always show the signcolumn, otherwise it would shift the text each time
+" diagnostics appear/become resolved.
+set signcolumn=yes
+
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ CheckBackSpace() ? "\<TAB>" :
+      \ coc#refresh()
+
+function! CheckBackSpace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_snippet_next = '<tab>'
+
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice.
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+" Use <c-space> to trigger completion.
+if has('nvim')
+  inoremap <silent><expr> <c-space> coc#refresh()
+else
+  inoremap <silent><expr> <c-@> coc#refresh()
+endif
+
+let g:UltiSnipsExpandTrigger="<c-tab>"
+
+
+
+

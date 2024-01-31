@@ -1,0 +1,10 @@
+#!/bin/sh
+
+for var in "$@"
+do
+    libraries=$(grep "library" $var | sed "s/library(/'/g;s/).*/'/g")
+    libraries=$(echo $libraries | sed "s/ /,/g")
+
+    R -e "install.packages(c("$libraries"))"
+done
+

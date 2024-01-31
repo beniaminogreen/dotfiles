@@ -36,21 +36,22 @@ settings:
     - quickmarks
     - bookmarks
     - history
+  content.blocking.hosts.lists:
+    global:
+    - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
   content.geolocation:
+    https://education.github.com: true
     https://www.ditchwitch.com: false
     https://www.homedepot.com: false
   content.headers.user_agent:
     global: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
-  content.host_blocking.lists:
-    global:
-    - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
   content.media.audio_capture:
     https://www.messenger.com: true
   content.media.audio_video_capture:
     https://www.messenger.com: true
   content.media.video_capture:
     https://www.messenger.com: true
-  content.notifications:
+  content.notifications.enabled:
     https://www.producthunt.com: false
     https://www.reddit.com: false
   downloads.open_dispatcher:
@@ -127,4 +128,4 @@ settings:
   url.start_pages:
     global: https://searx.ninja
   zoom.default:
-    global: 170%
+    global: 110%

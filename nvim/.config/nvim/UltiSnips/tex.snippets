@@ -58,21 +58,11 @@ snippet beg "begin{} / end{}" bA
 $0
 endsnippet
 
-snippet it "item" bA
-\item $0
-endsnippet
 
 snippet ul "Unordered List" bA
 \begin{itemize}
 	\item $1
 \end{itemize}
-$0
-endsnippet
-
-snippet box "box" bA
-\begin{tcolorbox}
-	$1
-\end{tcolorbox}
 $0
 endsnippet
 
@@ -83,25 +73,6 @@ snippet ol "Ordered List" bA
 $0
 endsnippet
 
-#Math
-snippet sympy "sympy block " w
-sympy $1 sympy$0
-endsnippet
-
-priority 10000
-snippet 'sympy(.*)sympy' "evaluate sympy" wr
-`!p
-from sympy import *
-x, y, z, t = symbols('x y z t')
-k, m, n = symbols('k m n', integer=True)
-f, g, h = symbols('f g h', cls=Function)
-init_printing()
-snip.rv = eval('latex(' + match.group(1).replace('\\', '') \
-    .replace('^', '**') \
-    .replace('{', '(') \
-    .replace('}', ')') + ')')
-`
-endsnippet
 
 #Inline Math
 snippet mk "Math" w
@@ -112,7 +83,6 @@ else:
     snip.rv = ''
 `$2
 endsnippet
-
 
 #Probability
 snippet ev "expected value" w
@@ -133,8 +103,8 @@ _{$1}$0
 endsnippet
 
 #Fractions and big maths
-snippet // "Fraction" iA
-\\frac{$1}{$2}$0
+snippet fr "Fraction" i
+\\frac{$1}{$2} $0
 endsnippet
 
 #hats

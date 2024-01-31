@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sed -i "s/\"//g" $1
+sc-im $1

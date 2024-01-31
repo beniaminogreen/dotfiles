@@ -5,9 +5,9 @@ export PATH="$PATH:$(du "$HOME/dotfiles/scripts/" | cut -f2 | tr '\n' ':' | sed 
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="qutebrowser"
+export R_BROWSER="qutebrowser"
 export READER="zathura"
 export FILE="vifm"
-export BIB="$HOME/UCL/latex_resources/uni.bib"
 export SUDO_ASKPASS="$HOME/.local/bin/tools/dmenupass"
 export GTK2_RC_FILES="$HOME/.config/gtk-2.0/gtkrc-2.0"
 export WGETRC="$HOME/.config/wget/wgetrc"
@@ -36,4 +36,4 @@ sudo -n loadkeys ~/.local/bin/ttymaps.kmap 2>/dev/null
 
 #export GREP_OPTIONS='--color=auto'
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x Xorg >/dev/null && exec startx
-
+. "$HOME/.cargo/env"

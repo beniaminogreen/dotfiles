@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+import requests
+import random
+import hashlib
+from datetime import date
+
+response = requests.get("http://192.168.0.19/relay/0?turn=off")
+assert response.status_code == 200
+
+treat = random.choice([0, 1])
+
+today = str(date.today())
+
+secret = today + str(treat)
+
+h = hashlib.new('sha256')
+h.update(secret.encode())
+
+
+if treat == 1:
+    response = requests.get("http://192.168.0.19/relay/0?turn=on")
+    assert response.status_code == 200
+
+print(f"{today}, {h.hexdigest()[-4:]}")

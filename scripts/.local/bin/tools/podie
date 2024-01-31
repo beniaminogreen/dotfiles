@@ -1,0 +1,51 @@
+#!/usr/bin/python
+
+import requests
+import itertools as it
+import re
+from bs4 import BeautifulSoup
+import tqdm
+import yaml
+
+def get_podcasts(url):
+    r = requests.get(url)
+
+    bs_data = BeautifulSoup(r.content, 'xml')
+
+    for item in bs_data.find_all("item"):
+
+        title = item.find("title").string
+        safe_title = "".join(tuple(c for c in title if re.match(r'[\w ]', c)))
+
+        url = item.find("enclosure")["url"]
+
+        date = " ".join(item.find("pubDate").string.split()[:4])
+
+        safe_title = date + ": " + safe_title
+
+        yield (safe_title, url)
+
+def download_podcast(url, title, dest):
+    r = requests.get(url)
+    with open(f"{dest}/{title}.mp3", 'wb') as f:
+        f.write(r.content)
+
+def parse_yml(file):
+    with open(file, 'r') as stream:
+        content = yaml.safe_load(stream)
+        for podcast_name, feed in zip(content.keys(), content.values()):
+            yield (podcast_name, feed)
+
+for podcast in parse_yml(".pods.yaml"):
+
+    podcast_name = podcast[0]
+    feed = podcast[1]
+
+    latest = it.islice(get_podcasts(feed), 5)
+
+    for podcast in latest:
+        safe_title = podcast[0]
+        url = podcast[1]
+
+        download_podcast(url, f"{podcast_name} {safe_title}", "./podcasts")
+
