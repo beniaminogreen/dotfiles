@@ -1,0 +1,13 @@
+#!/bin/sh
+
+out_folder=~/Documents/letters/${1}-$(date -I)
+
+mkdir ${out_folder}
+
+cp -r ~/Documents/templates/letter/* ${out_folder}
+
+cd ${out_folder}
+
+nvim "letter.Rmd"
+
+exec bash

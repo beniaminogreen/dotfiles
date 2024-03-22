@@ -1,0 +1,11 @@
+#!/bin/sh
+
+out_folder=~/Documents/r_sketchbooks/${1}-$(date -I)
+
+mkdir ${out_folder}
+
+cd ${out_folder}
+
+nvim "script.R"
+
+exec bash
