@@ -21,7 +21,7 @@ Plug 'triglav/vim-visual-increment'
 Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-titlecase'
 Plug 'michaeljsmith/vim-indent-object'
-Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
+Plug 'R-nvim/R.nvim'
 
 " syntax highlighting / colors
 ""Plug 'joshdick/onedark.vim'
