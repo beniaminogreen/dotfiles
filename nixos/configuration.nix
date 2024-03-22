@@ -76,7 +76,7 @@ environment.systemPackages = with pkgs;
     alacritty htop vifm polybar python3 qutebrowser firefox
     gcc rustup quarto slack zoom-us dmenu gnumake libxml2.dev
     pandoc i3lock pulseaudio pulsemixer R zathura sxiv
-    poppler_utils texliveFull xclip cowsay
+    poppler_utils texliveFull xclip
   ];
 
   fonts.packages = with pkgs; [roboto-mono];

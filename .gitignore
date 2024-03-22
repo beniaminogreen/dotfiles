@@ -3,3 +3,5 @@
 */spell/*
 vifminfo
 share/
+nixos/nixos-switch.log
+scripts/.local/state/
